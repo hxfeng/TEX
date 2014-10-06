@@ -9,7 +9,8 @@ mfbook:mfbook.tex
 texbook:texbook.tex
 	tex texbook.tex
 	dvipdf texbook.dvi
-
+zihao:zihaotex.tex
+	pdflatex zihaotex.tex
 
 clean:
 	
