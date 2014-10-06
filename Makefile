@@ -11,7 +11,8 @@ texbook:texbook.tex
 	dvipdf texbook.dvi
 zihao:zihaotex.tex
 	pdflatex zihaotex.tex
-
+cjkutf8:cjkutf8.tex
+	pdflatex cjkutf8.tex
 clean:
 	
 	rm *.log *.dvi
