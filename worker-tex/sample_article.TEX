@@ -1,0 +1,112 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,latexsym}
+
+% Page length commands go here in the preamble
+\setlength{\oddsidemargin}{-0.25in} % Left margin of 1 in + 0 in = 1 in
+\setlength{\textwidth}{7in}   % Right margin of 8.5 in - 1 in - 6.5 in = 1 in
+\setlength{\topmargin}{-.75in}  % Top margin of 2 in -0.75 in = 1 in
+\setlength{\textheight}{9.2in}  % Lower margin of 11 in - 9 in - 1 in = 1 in
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+
+\renewcommand{\baselinestretch}{1.5} % 1.5 denotes double spacing. Changing it will change the spacing
+
+\setlength{\parindent}{0in} 
+\begin{document}
+\title{A Sample \LaTeX \;Article}
+\author{John Doe}
+\date{\today}
+\maketitle
+\abstract{This a sample \LaTeX document that explains some of the \LaTeX commands}
+
+\section{Introduction}
+\LaTeX \; is a markup language designed and implemented by \textbf{Leslie Lamport}, based on \textbf{Donald E. Knuth}'s typesetting language \TeX.  The markup in the source file of a \LaTeX \; document my appear somewhat challenging, but the compiled result of the document is certainly a pleasing rendering of the mark-up material.\\
+
+\LaTeX \; was built on \TeX 's foundation.  An article is divided into \emph{logical units}, including an abstract, various sections and subsections, theorems, and a bibliography.  The logical units are typed independently of one another.  Once all the units have been typed, \LaTeX \, controls the \emph{placement} and \emph{formating} of these elements. \LaTeX \; automatically numbers the sections, theorems, and equations in your article, and builds the cross-references.  If any changes is made to the article, it automatically renumbers its various parts and rebuilds the cross-references.\\
+
+\emph{Packages} are extensions of \LaTeX.  \LaTeX \; commands, as a rule, start with a backslash (\textbackslash) and tells \LaTeX  to do something special. For example, in the instruction\\
+\verb+\emph{instructions to \LaTeX} +, \verb+\emph+ is a \LaTeX \; command. Another kind of instruction is called an \emph{environment}. For example, the commands \verb+\begin{flushright}+ and \verb+\end{flushright}+ enclose a \verb+flushright+ environment---texts that are typed inside this environment are right justified (lined up against the right margin) when typeset.
+
+\section{Typing Text}
+The following keys are used to type text in a \LaTeX \; source file: 
+\begin{center}
+   \begin{verbatim}
+         a-z  A-Z  0-9
+         +  =  *  /  ( )  [ ]
+   \end{verbatim}
+\end{center}
+You may also use the following punctuation marks:
+\begin{center}
+   \begin{verbatim}
+     ,  ;  .  ?  !  :  `  '  -
+   \end{verbatim}
+\end{center}
+and the spacebar, and the Return (or Enter) key.\\
+
+There are thirteen special keys that are mostly used in \LaTeX \; instructions:
+\begin{center}
+   \begin{verbatim}
+      #  $  %  &  ~  _  ^  \  { }  @  "  |
+   \end{verbatim}
+\end{center}
+If you need to use them in your document, there  are commands available for typesetting these special characters. For example, \$ is typed as \verb+\$+, the underscore (\_) is typed as \verb+\_+, and \% is typed as \verb+\%+, whereas \"{a} is typed as \verb+\"{a}+, and @ is simply typed \verb+@+.\\
+
+In a \LaTeX \; source file, each \emph{comment} line begins with \%. \LaTeX \;  will ignore everything on the line after the \% character. \\
+
+The \emph{document class}, declared by the command \verb+\documentclass{..}+, in a \LaTeX \; source file controls how the document will be formatted. \LaTeX, by default, fully justifies the text by placing a certain size space between words---the \emph{interword space}---and a somewhat larger space between sentences--the \emph{intersentence space}.  To force an interword space, you can use the \verb+\+$_{\sqcup}$ command (the $_{\sqcup}$ symbol indicates a blank space). The \~ \, (tilde) command also forces an interword space, but with a difference: it keeps words together on the same line.  It is called a ``tie'' or ``non-breakable space.''\\
+
+When \LaTeX \; encounters a period, it must decide whether or not it indicates the end of a sentence. It uses the following rule: A period following a capital letter (e.g., A.) is interpreted as being part of an abbreviation or an initial and will be followed by an interword space; otherwise, it signifies the end of a sentence and will be followed by an intersentence space.  If this rule causes problems in your document, you can follow the period with  \verb+\+$_{\sqcup}$ to force an interword space, or precede the period with \verb+\@+ to force an intersetence space.\\
+
+In a \LaTeX \; document source file, left double quotes are typed a \verb+` `+ (two left single quotes) and right double quotes are type as \verb+' '+ (two right single quotes). The left single quote key is usually in the upper-left or upper-right corner of the keyboard, and shares a key with the tilde (\verb+~+) key.\\
+
+In a \LaTeX \; command that requires an argument, the argument follows the name of the command and is placed between \{ and \}. Command names are \emph{case sensitive}. The command \verb+\\+ (\verb+\newline+ is another form) breaks a line. You can use the \verb+\\+ command and specify an appropriate amount of vertical space, for example \verb+\\[1in]+. Note that this command uses \emph{square brackets} rather than braces because the argument  is \emph{optional}. The distance/spacing may be given in points(pt), centimenters(cm), or inches(in).  To force a page break, use \verb+\newpage+. 
+
+\section{Typing Math}
+In addition to the keys listed above, you need the keys \verb+|, <+, and \verb+>+ to type mathematical formulas. (\verb+|+ is the shifted \verb+\+ key on many keyboards). \\
+
+There are two kinds of math formulas and environments:
+\begin{enumerate}
+   \item \emph{Inline math environments} open and close with \$ or open with \verb+\(+ and close with \verb+\)+.
+   \item \emph{Displayed math environments} open with \verb+\[+ and close with \verb+\]+.  Other forms of the displayed 
+         environment are \verb+\begin{equation*} ... \end{equation*}+ and\\
+          \verb+\begin{equation} ... \end{equation}+. 
+\end{enumerate}
+Within the math environment, \LaTeX uses its own spacing rules and completely ignores the number of white spaces typed with two exceptions:
+\begin{enumerate}
+  \item Spaces that delimit commands (e.g., in \verb+$\infty a$+, the space is not ignored; in fact, \verb+\inftya$+ is 
+        an error)
+  \item Spaces in the arguments of commands that temporarily revert to text mode (\verb+\mbox+ and \verb+\text+ are such commands).
+\end{enumerate}
+In text mode, many spaces equal one space; whereas, in math mode, spaces are ignored (unless they terminate a command). To asjust the spacing in a typeset document, use a spacing command. The same formula may be typeset differently depending on whether it is inline or display. For example, $\sum_{i=1}^{n} i^{2}$ is inline math.  The following is the same expression as displayed math
+\[
+  \sum_{i=1}^{n} i^{2}.
+\]
+Math symbols are invoked by commands inside a math formula or environment. The math symbols are organized into tables in Appendix A of textbook. Some commands (e.g. \verb+\sqrt+) need arguments enclosed in braces (\{ and \}).  For example, to typeset $\sqrt{x^{2} y^{2}}$, type \verb+$\sqrt{x^{2} y^{2}}$+. To typeset $\sqrt[n]{x^{2} y^{2}}$, type \verb+$\sqrt[n]{x^{2} y^{2}}$+. Some commends need more than one arguments.  For example to typeset 
+\[
+   \frac{\sin x}{\cos^{2} x + \tan x}
+\]
+type 
+\begin{verbatim}
+\[
+   \frac{\sin x}{\cos^{2} x + \tan x}
+\]
+\end{verbatim}
+\verb+\frac+ is the command; $\sin x$ and $\cos^{2} x + \tan x$ are the arguments.\\
+
+\begin{theorem}
+  This is the Pythagorean Theorem. It says
+  \begin{equation}
+    x^{2}+y^{2}=z^{2}.
+  \end{equation}
+\end{theorem}
+\begin{definition}
+Earth is where life is possible.
+\end{definition}
+
+\section{References}
+Michael Downes \emph{Short Math Guide for \LaTeX}, AMS, 2002\\[0.2in]
+George Gratzer, \emph{First Steps in \LaTeX}, Springer-Verlag, New York, 1999\\[0.2in]
+
+
+\end{document}

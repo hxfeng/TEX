@@ -1,0 +1,24 @@
+mode_setup;
+beginchar ("a", 9pt#, 12pt#, 0);
+alpha:=0.65;
+beta:=0.24;
+% define points
+x1 = 0; y1 = 0.8*h;
+x4 = w; y4 = 0.2*h;
+y2 = h; y3 = 0;
+x2 = (alpha-beta)*w;
+x5 = alpha*w;
+x3 = (alpha+beta)*w;
+y5 = 0.5*h;
+x6 = 0; y6 = 0.3*h;
+x7 = 0.2*w; y7 = 0;
+x8 = x5; y8 = 0.2*h;
+% define pen
+pickup pencircle xscaled 0.2w yscaled 0.04w rotated 30;
+% draw
+draw z1{dir 30}..z2{right}..z5{down}..z3{right}..z4{dir 30};
+draw z5..z6{down}..z7{right}..z8;
+penlabels(1,2,3,4,5,6,7,8);
+endchar;
+
+end

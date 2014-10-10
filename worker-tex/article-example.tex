@@ -1,0 +1,118 @@
+%% name       : article-example.tex
+%% description: example of LaTeX document class article
+%% purpose    : illustrate use of LaTeX markup
+%%              for SAS User Group conference authors
+%% author     : Ronald J. Fehd for CTAN
+%% date       : 8/4/2006
+%% make       : pdflatex article-example
+
+\documentclass{article}%note: font size, default: 10 points
+%\documentclass[12pt]{article}%note: change font size to 12 points
+\pdfoutput=0%out=jobname.dvi
+\pdfoutput=1%out=jobname.pdf
+\renewcommand{\rmdefault}{phv}%Adobe Helvetica san-serif
+
+\title{{\small Paper 999-99}
+       \\% LaTeX note: double backslash: newline
+       Paper written for an annual SUG conference
+       }%end title
+\author{SUGI Author, ABC Corporation, City, State
+        \\% LaTeX note: double backslash: newline
+        SUGI Co-Author, ABC Corporation, City, State
+        }%end author
+\date{\relax}%TeX note: relax: null
+
+\begin{document}\maketitle%
+
+\begin{abstract} %(HEADER 1)? well, not exactly!
+
+A brief summary at the beginning highlights the major points of your
+paper. Include the complete names of all SAS products that are
+discussed in the paper, names of operating environments (if
+applicable), and the skill level that the intended audience should
+have. (9-point Arial regular)
+\end{abstract}
+
+\section{INTRODUCTION (HEADER 1)}
+
+The introduction explains the purpose and scope of your paper.
+
+\section{MAIN IDEA (Body of Paper, HEADER 1)}
+
+This is a main topic in the body of the paper. This is the body of
+the paper. This is the body of the paper. This is the body of the
+paper. %This is the body of the paper.
+
+This is programming code in the body of the paper.
+
+\begin{verbatim}
+data one;
+set two;
+if max(var1, var2) > 0 then do;
+run;
+\end{verbatim}
+
+Continuation of body of the paper.
+
+\subsection{SUB-TOPIC (HEADER 2)}
+
+This is a sub-topic in the body of the paper. This is text in the
+sub-topic. %This is text in the sub-topic.
+This is programming code
+in the sub-topic in the body of the paper.
+
+\begin{verbatim}
+data one;
+set two;
+if min(var1, var2) < 0 then do;
+run;
+\end{verbatim}
+
+Continuation of body – after source code.
+
+\section{ANOTHER MAIN TOPIC (HEADER 1)}
+
+This is the text of another main idea. This is the text of another
+main idea. This is the text of another main idea
+
+\section{CONCLUSION (HEADER 1)}
+
+The conclusion summarizes the main ideas in your paper. You can also
+use the conclusion to highlight final points and make
+recommendations or predictions.
+
+\section{REFERENCES (HEADER 1)}
+
+This section is required only when information that was written,
+tested, or researched by someone other than the author is included
+in the paper.
+
+\section{ACKNOWLEDGMENTS (HEADER 1)}
+
+This section is not required. Use this section to thank people who
+were especially helpful to you when you wrote your paper, for
+example, co-workers, reviewers, product developers.
+
+\section{CONTACT INFORMATION (HEADER 1)}
+Your comments and questions are valued and encouraged.
+
+Contact the author(s):
+\begin{tabular}[t]{rl}
+Name               & NameFirst NameLast               \\
+Enterprise         & My Employer                      \\
+Address            & 123 Main St                      \\
+City, State, ZIP   & Anytown, ZZ, 99999               \\
+Work Phone:        & 987-654-1234                     \\
+Fax:               & 987-654-3210                     \\
+E-mail:            & firstname.lastname@mycompany.com \\
+Web:               & mycompany.com                    \\
+\end{tabular}
+
+SAS and all other SAS Institute Inc. product or service names are
+registered trademarks or trademarks of SAS Institute Inc. in the USA
+and other countries. %®
+\textregistered\/ indicates USA registration.
+
+Other brand and product names are trademarks
+of their respective companies.
+\end{document}
