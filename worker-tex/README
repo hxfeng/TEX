@@ -1,1 +1,5 @@
 readme
+a.mf 是一个字体描述文件，通过metafont程序可以根据描述定制字体
+font.tex 和latexfonttest.tex 是对这个新制作的字体的使用测试实例
+article-example.tex 和 sample_artcle.TEX是文章排版实例 是我在网上下的
+page.tex 是关于页眉页脚设置的一个实例
