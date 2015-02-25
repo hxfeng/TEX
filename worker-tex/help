@@ -1,0 +1,9 @@
+tfm file `gray.tfm' not found.
+TeX Live can generate the missing TFM files automatically:
+
+mktextfm gray
+mktextfm black
+
+Documentation: kpathsea, section "2.2.9 mktex scripts".
+
+TeX and friends are using the kpathsea library for the file lookup business. Depending on the configuration, the library runs help programs mktex* to create missing files. For example, mktextfm is triggered, if a .tfm file is not found.
