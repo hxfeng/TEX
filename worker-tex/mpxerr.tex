@@ -1,0 +1,30 @@
+&latex           
+\documentclass{article}
+\usepackage{CJK}       
+\begin{CJK}{GBK}{song}
+\begin{document}      
+%
+\gdef\mpxshipout{\shipout\hbox\bgroup%
+  \setbox0=\hbox\bgroup}%
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 13 ./test.mp
+$o$%
+\stopmpxshipout
+\mpxshipout% line 14 ./test.mp
+$y$%
+\stopmpxshipout
+\mpxshipout% line 15 ./test.mp
+$x$%
+\stopmpxshipout
+% line 18 ./test.mp
+\end{CJK}
+\end{document}
+%
+\end{document}

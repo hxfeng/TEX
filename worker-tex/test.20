@@ -1,0 +1,16 @@
+%!PS
+%%BoundingBox: 0 0 29 29 
+%%HiResBoundingBox: 0 0 28.34645 28.34645 
+%%Creator: MetaPost 1.802
+%%CreationDate: 2015.02.25:1528
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.8 0.8 0.8 setrgbcolor
+newpath 0 0 moveto
+28.34645 0 lineto
+0 28.34645 lineto
+ closepath fill
+showpage
+%%EOF
