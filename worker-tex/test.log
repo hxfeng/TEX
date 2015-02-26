@@ -1,6 +1,9 @@
-This is MetaPost, version 1.802 (kpathsea version 6.1.1)  25 FEB 2015 15:28
+This is MetaPost, version 1.902 (TeX Live 2014) (kpathsea version 6.2.0)  26 FEB 2015 22:39
 **test.mp
-(mpost.mp (/usr/local/texlive/2013/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.004) ) (./test.mp [1] [19] [20] )
-3 output files written: test.1 .. test.20
+(/usr/local/texlive/2014/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2014/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./test.mp
+(/usr/local/texlive/2014/texmf-dist/metapost/base/boxes.mp) [1] [2] [3] [4{psfo
+nts.map}] )
+4 output files written: test-001-mp.eps .. test-004-mp.eps
 
