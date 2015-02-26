@@ -1,8 +1,8 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: -1 -1 29 29 
-%%HiResBoundingBox: -0.25 -0.25 28.59645 28.59645 
+%%BoundingBox: 0 0 29 29 
+%%HiResBoundingBox: 0 0 28.34645 28.34645 
 %%Creator: MetaPost 1.802
-%%CreationDate: 2015.02.26:1637
+%%CreationDate: 2015.02.26:1639
 %%Pages: 1
 %%DocumentResources: procset mpost-minimal
 %%DocumentSuppliedResources: procset mpost-minimal
@@ -20,10 +20,10 @@
 %%BeginSetup
 %%EndSetup
 %%Page: 1 1
- 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
- [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+ 0.8 0.8 0.8 setrgbcolor
 newpath 0 0 moveto
 28.34645 0 lineto
-0 28.34645 lineto stroke
+0 28.34645 lineto
+ closepath fill
 showpage
 %%EOF

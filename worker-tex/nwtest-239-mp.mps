@@ -1,11 +1,14 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: -1 -1 29 29 
-%%HiResBoundingBox: -0.25 -0.25 28.59645 28.59645 
+%%BoundingBox: -15 -15 15 15 
+%%HiResBoundingBox: -14.6716 -14.6716 14.6716 14.6716 
 %%Creator: MetaPost 1.802
-%%CreationDate: 2015.02.26:1637
+%%CreationDate: 2015.02.26:1644
 %%Pages: 1
 %%DocumentResources: procset mpost-minimal
+%%+ font CMR12
 %%DocumentSuppliedResources: procset mpost-minimal
+%%DocumentNeededResources: font CMR12
+%%IncludeResource: font CMR12
 %%EndComments
 %%BeginProlog
 %%BeginResource: procset mpost-minimal
@@ -18,12 +21,18 @@
 %%EndResource
 %%EndProlog
 %%BeginSetup
+ /cmr12 /CMR12 def
 %%EndSetup
 %%Page: 1 1
- 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
- [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
-newpath 0 0 moveto
-28.34645 0 lineto
-0 28.34645 lineto stroke
+ 0 0 0 setrgbcolor
+-11.77101 -3.9673 moveto
+(essai) cmr12 11.95517 fshow
+ 0 0.5 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinejoin 10 setmiterlimit
+newpath 14.4216 0 moveto
+14.4216 7.96483 7.96483 14.4216 0 14.4216 curveto
+-7.96483 14.4216 -14.4216 7.96483 -14.4216 0 curveto
+-14.4216 -7.96483 -7.96483 -14.4216 0 -14.4216 curveto
+7.96483 -14.4216 14.4216 -7.96483 14.4216 0 curveto closepath stroke
 showpage
 %%EOF

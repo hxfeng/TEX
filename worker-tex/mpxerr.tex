@@ -1,9 +1,8 @@
-&latex           
-\documentclass{article}
-\usepackage{CJK}       
-\begin{CJK}{GBK}{song}
-\begin{document}      
-%
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsbsy,amsthm}
+\usepackage{amsfonts}
+\begin{document}
+
 \gdef\mpxshipout{\shipout\hbox\bgroup%
   \setbox0=\hbox\bgroup}%
 \gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
@@ -14,17 +13,22 @@
     \else \vrule width1sp height1sp depth0sp\relax
     \fi\egroup
   \ht0=0pt \dp0=0pt \box0 \egroup}
-\mpxshipout% line 13 ./test.mp
-$o$%
+\mpxshipout% line 27 ./nwtest.mp
+$abcyzx_{3}^{25}c'$%
 \stopmpxshipout
-\mpxshipout% line 14 ./test.mp
-$y$%
+\mpxshipout% line 46 ./nwtest.mp
+$A'$%
 \stopmpxshipout
-\mpxshipout% line 15 ./test.mp
-$x$%
+\mpxshipout% line 48 ./nwtest.mp
+$B$%
 \stopmpxshipout
-% line 18 ./test.mp
-\end{CJK}
+\mpxshipout% line 50 ./nwtest.mp
+$B'$%
+\stopmpxshipout
+\mpxshipout% line 54 ./nwtest.mp
+Essai%
+\stopmpxshipout
+% line 62 ./nwtest.mp
 \end{document}
-%
+
 \end{document}
