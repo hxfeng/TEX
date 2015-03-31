@@ -1,0 +1,61 @@
+% !TEX program = xelatex
+% !Mode:: "TeX:UTF-8"
+\documentclass[12pt,a4paper]{article}
+\usepackage{xeCJK}                               
+
+\setCJKmainfont{SimSun}
+\usepackage[top=1.2in,bottom=1.2in,left=1.2in,right=1in]{geometry} %设置页边距
+\usepackage[no-math]{fontspec} %提供字体选择命令
+\usepackage{xunicode}  %提供 Unicode 字符宏
+\usepackage{xltxtra}   %提供了一些针对XeTeX的改进并且加入了XeTeX的LOGO
+%\usepackage{zhspacing} %解决中文断行问题
+\usepackage{titleps}  %设置页眉,页脚
+\usepackage{xcolor} %颜色宏包
+\usepackage[dvipsnames]{pstricks}
+\usepackage{pst-plot}   %ps宏包
+\usepackage{pst-func}    %画函数的宏包
+\usepackage{hyperref}
+%\setmainfont[BoldFont=Adobe Heiti Std,ItalicFont=Adobe Kaiti Std]{gkai} %设置正文为宋体,粗体使用黑体,斜体使用楷体
+%\setsansfont[BoldFont=Adobe Heiti Std]{Adobe Kaiti Std} %设置无衬线字体
+%\setmonofont{Adobe Song Std} %设置等距字体
+\linespread{1.5}   % 1.5倍行距
+\begin{document}
+%%%%-------------------------------------------------------
+\hypersetup{ %添加文件属性信息
+    pdftitle={XeLaTeX 使用手记},
+    pdfauthor={杨树伟<tianshui1008@163.com>},
+    pdfsubject={XeLaTeX 学习资料},
+    pdfkeywords={XeLaTeX ,开源字体,},
+}
+%%%%-------------------------------------------------------
+\newpagestyle{yang}{
+\sethead{NorthWest University}{}{西北大学}
+\setfoot{数学系}{}{第~~\thepage ~~页}\headrule\footrule}
+\pagestyle{yang}
+%---------------------------------------------------------
+\title{\blue{利用\XeLaTeX 引擎画图}}
+\author{杨树伟\thanks{西北大学数学系}}
+\maketitle
+%---------------------------------------------------------
+\begin{center}
+\begin{pspicture*}(-3,-3.2)(3.5,3.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-3)(3.2,3)%
+\psplotImp[linewidth=2pt,linecolor=green](-6,-6)(4,2.4){%
+ x 3 exp y 3 exp add 4 x y mul mul sub }
+\psplot[linecolor=red,linestyle=dashed]{-6}{4}{x neg 1.333 sub}
+\end{pspicture*}
+\end{center}
+%%%------------------------------
+\begin{center}
+ \psset{unit=0.4}
+\begin{pspicture}(-7,-5.2)(7.2,8.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-7,-5.2)(7.2,8.5) %画x-y坐标轴
+\psplot[polarplot,algebraic=true,linecolor=red,linewidth=1pt,
+ plotpoints=2000]{0}{7.85}{1*x}
+ \psplot[polarplot,algebraic=true,linestyle=dashed,linewidth=1pt]{-7.85}{0}{1*x}
+\end{pspicture}
+
+{\red 阿基米德螺线~$r=a\theta$(又称等速螺线)}
+\end{center}
+%%%------------------------------
+\end{document} 

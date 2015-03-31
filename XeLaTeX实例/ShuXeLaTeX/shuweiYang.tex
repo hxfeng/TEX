@@ -1,0 +1,377 @@
+%常用函数曲线图形
+%Made By Shuwei Yang
+%2010-6-26
+\documentclass[a4paper,12pt]{article}
+\usepackage[top=25.4mm,bottom=25.4mm,left=31.7mm,right=31.7mm]{geometry} %设置页边距
+\usepackage[dvipsnames]{pstricks}
+\usepackage[dvips]{graphics}
+\usepackage{scrtime}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amsfonts,amssymb,graphicx}    % EPS 图片支持
+\usepackage{subfigure}   % 使用子图形
+\pagestyle{fancy}   %显示上下的横线
+\usepackage{picins}      % 图片嵌入段落宏包 比如照片
+\usepackage{pst-plot}    %画函数曲线的宏包
+\usepackage{pst-func}    %画函数的宏包
+\usepackage{latexsym,bm}
+\usepackage{color}
+\usepackage{CJK}
+\newcommand*{\SONG}{\CJKfamily{song}}
+\newcommand*{\HEI}{\CJKfamily{hei}}
+\newcommand*{\KAI}{\CJKfamily{kai}}
+\newcommand*{\FS}{\CJKfamily{fs}}
+\newcommand*{\LI}{\CJKfamily{li}}
+\newcommand*{\YOU}{\CJKfamily{you}}
+\newcommand{\dahao}{\fontsize{100pt}{\baselineskip}\selectfont}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{8.0pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}
+\usepackage{draftcopy}              %加水印
+\draftcopyName{I love XeLaTeX}{130}    %加水印
+%\usepackage{hyperref}
+%\usepackage[JavaScript=true]{hypdvips}
+\renewcommand{\baselinestretch}{1.8} %重设行距
+\hypersetup{colorlinks, linkcolor=blue, citecolor=blue, %添加文件属性信息
+    pdftitle={XeLaTeX 使用手记},
+    pdfauthor={杨树伟<tianshui1008@163.com>},
+    pdfsubject={XeLaTeX 学习资料},
+    pdfkeywords={XeLaTeX ,开源字体,},
+}
+\begin{document}
+\begin{CJK}{GBK}{kai}
+\fancyhf{} % 清空页眉和页脚
+\lhead{\bfseries NorthWest University} \rhead{\HEI 西北大学}
+\lfoot{\ttfamily Dept.~of Math.} \rfoot{\KAI 数学系}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\centerline{\Large\textbf{常用函数曲线图形}}
+\marginpar{\centering\rotateleft{\resizebox{4cm}{!}{\includegraphics[width=1.0in]{yzbux.eps}}}}%添加页边注释
+%%%%正文开始%%%%%%%%%%%
+
+%\begin{center}
+%\psset{unit=1}
+% \begin{pspicture*}(-3,-3)(5.5,5)
+%\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-3)(5.5,5) %画x-y坐标轴
+%\psplot[plotstyle=curve]{-2.5}{1}{0.8 x dup mul mul 0.8 sub}
+%\psplot[plotstyle=curve]{1}{3.7}{2 x dup mul mul 8 x mul sub 6 add}
+%\psline[linecolor=red,linestyle=dashed](0,-2)(2,-2)
+%\psline[linecolor=red,linestyle=dashed](2,0)(2,-2)
+%\rput(4.5,2){$y^{'}=f^{'}(x)$}
+%\rput(5.4,-0.3){$x$}
+%\rput(-0.3,4.8){$y^{'}$}
+%\rput(-0.3,-0.3){$O$}
+%\rput(0,-1){$-$}
+%\rput(-0.5,-1){$-1$}
+%\rput(-0.5,-2){$-2$}
+%\rput(3.1,-0.3){$3$}
+%\rput(2,0.3){$2$}
+%\rput(1,0.3){$1$}
+%\rput(-1.2,-0.3){$-1$}
+% \end{pspicture*}
+% \caption{线~~$y=f$}
+%\end{center}
+
+\begin{center}
+ \begin{pspicture*}(-1,-1)(5,2.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1,-1)(5,2.5)%
+\psplotImp[algebraic,polarplot,linecolor=red](-2,-3)(4,3){r-100/phi}
+ \psplot[linestyle=dashed]{-1}{5}{1.8}
+ \end{pspicture*}
+\caption{双曲螺线~$r\theta=a$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \psset{unit=0.4}
+\begin{pspicture}(-7,-5.2)(7.2,8.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-7,-5.2)(7.2,8.5) %画x-y坐标轴
+\psplot[polarplot,algebraic=true,linecolor=red,linewidth=1pt,
+ plotpoints=2000]{0}{7.85}{1*x}
+ \psplot[polarplot,algebraic=true,linestyle=dashed,linewidth=1pt]{-7.85}{0}{1*x}
+\end{pspicture}
+\caption{\red 阿基米德螺线~$r=a\theta$(又称等速螺线)}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \psset{unit=0.03}
+\begin{pspicture*}(-12,-20)(90,60)
+%\psaxes[axesstyle=polar,subticklinestyle=dashed,subticks=2,
+% labelFontSize=\scriptstyle](5,5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-12,-20)(90,60) %画x-y坐标轴
+\psplot[polarplot,algebraic=true,linecolor=red,linewidth=1pt,
+ plotpoints=2000]{0}{9}{0.1*2.718282^x}
+\end{pspicture*}
+\caption{对数螺线~$r=a\rm{e}^{\theta}$(又称等角螺线)}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{unit=2}
+\begin{pspicture}(-1.3,-1.3)(1.3,1.3)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.3,-1.3)(1.3,1.3) %画x-y坐标轴
+\pscircle[linestyle=dashed](0,0){1}
+\psLame[radiusA=1,radiusB=1,linecolor=blue]{0.66666}
+\end{pspicture}
+\caption{星形线$x^{\frac{2}{3}}+y^{\frac{2}{3}}=a^{\frac{2}{3}}$}
+或$\left\{
+\begin{array}{ll}
+x=a\cos^3 t&\\
+y=a\sin^3 t&
+\end{array}
+\right.$
+ \end{center}
+ %%%%%%%%%%%%%%%%%
+\begin{center}
+ \begin{pspicture}(0,0)(4,4)
+\psaxes[ticks=none,labels=none]{->}(0,0)(0,0)(4,4) %画x-y坐标轴
+\parametricplot[plotstyle=curve,linecolor=blue]{0}{360}{3 t cos 4 exp mul 3 t sin 4 exp mul}
+\psline[linestyle=dashed](0,0)(2,2)
+ \end{pspicture}
+ \caption{斜抛物线~$\sqrt{x}+\sqrt{y}=\sqrt{a}$}
+\end{center}
+%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \begin{pspicture}(-5,-0.5)(5,2.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-5,-0.5)(5,2.5) %画x-y坐标轴
+\psplot[algebraic,plotstyle=curve,linecolor=blue]{-5}{5}{8*1^3/(x^2+4*1^2)}
+\psline[linestyle=dashed](-5,2)(5,2)
+ \end{pspicture}
+\caption{箕舌线$y=\dfrac{8a^3}{x^2+4a^2}$}或$\left\{
+\begin{array}{ll}
+x=2a\tan \theta&\\
+y=2a \cos^2 \theta&
+\end{array}
+\right.$
+\end{center}
+%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{plotpoints=200,unit=2.0}
+\begin{pspicture*}(-1.2,-1.2)(1.2,1.2)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.2,-1.2)(1.2,1.2) %画x-y坐标轴
+ \psplot[linecolor=red,polarplot=true]{0}{360}{3 x mul cos}
+\end{pspicture*}
+\caption{三叶玫瑰$r=a\cos 3\theta$}
+\end{center}
+%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{plotpoints=200,unit=2.0}
+\begin{pspicture*}(-1.2,-1.2)(1.2,1.2)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.2,-1.2)(1.2,1.2) %画x-y坐标轴
+ \psplot[linecolor=red,polarplot=true]{0}{360}{3 x mul sin}
+\end{pspicture*}
+\caption{三叶玫瑰$r=a\sin 3\theta$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{plotpoints=200,unit=2.0}
+\begin{pspicture*}(-1.2,-1.2)(1.2,1.2)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.2,-1.2)(1.2,1.2) %画x-y坐标轴
+ \psplot[linecolor=red,polarplot=true]{0}{360}{2 x mul cos}
+\end{pspicture*}
+\caption{四叶玫瑰$r=a\cos 2\theta$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pspicture}(-3.5,-3.5)(3.5,3.5)
+\psaxes[axesstyle=polar,subticklinestyle=dashed,subticks=2,
+ labelFontSize=\scriptstyle](3,3)
+\psplot[polarplot,algebraic=true,linecolor=red,linewidth=1pt,
+ plotpoints=2000]{0}{TwoPi}{3*sin(2*x)}
+\end{pspicture}
+\caption{ 四叶玫瑰$r=a\sin 2\theta$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{unit=1.0}
+\begin{pspicture*}(-4.5,-2.7)(4.5,2.7)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-4.5,-2.7)(4.5,2.7) %画x-y坐标轴
+ \psplot[linecolor=red,polarplot=true]{0}{360}{2 1 x cos sub mul}
+  \psplot[linecolor=blue,polarplot=true]{0}{360}{2 1 x cos add mul}
+\end{pspicture*}
+\caption{心脏线$\red r=a(1-\cos
+\theta)$或$x^2+y^2+ax=a\sqrt{x^2+y^2}$~~ 心脏线$\blue r=a(1+\cos
+\theta)$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{unit=2.0}
+\begin{pspicture*}(-1.2,-0.5)(1.2,0.5)
+\psaxes[ticks=all,labels=none]{->}(0,0)(-1.2,-0.5)(1.2,0.5) %画x-y坐标轴
+ \psplot[linecolor=red,polarplot=true]{-45}{45}{1 2 x mul cos mul}
+  \psplot[linecolor=red,polarplot=true]{135}{225}{1 2 x mul cos mul}
+\end{pspicture*}
+\caption{双扭线~$r^2=a^2\cos 2\theta$或$(x^2+y^2)^2=a^2(x^2-y^2)$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{plotpoints=2000,unit=2.0}
+\begin{pspicture*}(-1,-1)(1,1)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1,-1)(1,1)
+\psplotImp[linecolor=blue,algebraic](-1,-1)(1,1){(x^2+y^2)^2-2*x*y}
+\end{pspicture*}
+\caption{双扭线~$r^2=a^2\sin 2\theta$或$(x^2+y^2)^2=2a^2xy$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \begin{pspicture}(-1.5,-0.5)(1.5,1.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.5,-0.5)(1.5,1.5) %画x-y坐标轴
+\psplot[linecolor=blue,plotstyle=curve]{-1.5}{1.5}{2.718282 x dup
+mul neg exp}
+ \end{pspicture}
+ \caption{概率曲线~~$y=\rm{e}^{-x^2}$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%
+ \begin{center}
+\begin{pspicture*}(-3,-3.2)(3.5,3.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-3)(3.2,3)%
+\psplotImp[linewidth=2pt,linecolor=green](-6,-6)(4,2.4){%
+ x 3 exp y 3 exp add 4 x y mul mul sub }
+ \psplot[linecolor=red,linestyle=dashed]{-6}{4}{x neg 1.333 sub}
+\end{pspicture*}
+\caption{笛卡尔叶形线~$\left(x^3+y^3\right)=3axy$} 或$\left\{
+\begin{array}{ll}
+x=\dfrac{3at}{1+t^3}&\\
+y=\dfrac{3at^2}{1+t^3}=tx&
+\end{array}
+\right.$ 渐近线为~$x+y+a=0$, 这里取a=4/3
+ \end{center}
+ %%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{center}
+\begin{pspicture}*(-3,-0.5)(3,5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-0.5)(3,5)
+ \psplot[linewidth=1.5pt,linecolor=blue]{-3}{3}{x COSH}
+\end{pspicture}
+\caption{悬链线~$y=a\cosh
+\dfrac{x}{a}$或$y=\dfrac{a}{2}(\rm{e}^{\frac{x}{a}}+\rm{e}^{-\frac{x}{a}})$}
+ \end{center}
+ %%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{center}
+  \psset{unit=0.6}
+\begin{pspicture*}(-1,-6)(3,6)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1,-6)(3,6)
+\psplotImp[linewidth=2pt,linecolor=blue,algebraic](-1,-6)(3,6){y^2*(2-x)-x^3}
+\psline[linecolor=red,linestyle=dashed](2,-6)(2,6)
+\end{pspicture*}
+\caption{蔓叶线~$y^2(2a-x)=x^3$,~(渐近线~$x=2a$)}
+ \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+  \psset{unit=2}
+ \begin{pspicture}(-1,-1)(2,2)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1,-1)(2,2) %画x-y坐标轴
+\parametricplot[plotstyle=curve,linecolor=blue]{0}{10}{0.1 t RadtoDeg cos t t RadtoDeg sin mul add mul 0.1 t RadtoDeg sin t t RadtoDeg cos mul sub mul}
+ \end{pspicture}
+ \caption{圆的渐开线}
+ $\left\{
+\begin{array}{ll}
+x=a(\cos t+t\sin t)&\\
+y=a(\sin t-t\cos t)&
+\end{array}
+\right.$
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+  \psset{unit=3}
+ \begin{pspicture}(-0.5,-0.5)(1.5,1)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-0.5,-0.5)(1.5,1) %画x-y坐标轴
+\parametricplot[plotstyle=curve,linecolor=blue]{-2}{8}{0.2 t t RadtoDeg sin sub mul 0.2 1 t RadtoDeg cos sub mul}
+\pscircle[linestyle=dashed](0.3,0.2){0.2}
+ \end{pspicture}
+ \caption{摆线(又称旋轮线)}
+ $\left\{
+\begin{array}{ll}
+x=a(t-\sin t)&\\
+y=a(1-\cos t)&
+\end{array}
+\right.$
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\psset{plotpoints=200,unit=2.0}
+\begin{pspicture*}(-1.2,-0.2)(1.2,1.2)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-1.2,-0.2)(1.2,1.2) %画x-y坐标轴
+\psplot[linecolor=red,polarplot=true]{0}{360}{3 x sin x cos dup mul mul mul}
+\end{pspicture*}
+\caption{双叶线$r=a\sin \theta\cos^2\theta$或$(x^2+y^2)^2=ax^2y$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pspicture*}(-3,-1.5)(3,1.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-1.5)(3,1.5)%
+\psplotImp[linewidth=2pt,linecolor=green](-6,-6)(4,2.4){3 2 exp x 2 exp add y mul 3 2 mul x mul sub}
+\end{pspicture*}
+\caption{蛇形线~$(a^2+x^2)y=abx$}
+ \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pspicture}(-2,-2.5)(2,2.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-2,-2.5)(2,2.5) %画x-y坐标轴
+\parametricplot[plotstyle=curve,linecolor=red]{0}{360}{1 3 t cos mul 3 t mul cos sub mul 2 div 1 3 t sin mul 3 t mul sin sub mul 2 div}
+\parametricplot[plotstyle=curve,linecolor=blue]{0}{360}{t sin t cos}
+\end{pspicture}
+\caption{肾脏线}
+$\left\{\red
+\begin{array}{ll}
+x=\frac{1}{2}a(3\cos \phi-\cos 3\phi)&\\
+y=\frac{1}{2}a(3\sin \phi-\sin 3\phi)&
+\end{array}
+\right.$
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{pspicture}(-3,-3.2)(3.5,3.5)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-3,-3.2)(3.5,3.5) %画x-y坐标轴
+\parametricplot[plotstyle=curve,linecolor=red]{0}{360}{2 1 mul t cos mul 1 2 t mul cos mul add 2 1 mul t sin mul 1 2 t mul sin mul sub}
+\pscircle[linestyle=dashed,linecolor=blue](0,0){1}
+\pscircle[linestyle=dashed](0,0){3}
+\pscircle[linestyle=dashed,linecolor=green](1.4,1.45){1}
+\end{pspicture}
+\caption{三尖圆内旋轮线}
+$\left\{\red
+\begin{array}{ll}
+x=2a\cos \varphi+a\cos 2\varphi&\\
+y=2a\sin \varphi-a\sin 2\varphi&
+\end{array}
+\right.$
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+ \psset{unit=0.4}
+\begin{pspicture*}(-5,-10)(6,10)
+\psaxes[ticks=none,labels=none]{->}(0,0)(-5,-10)(6,10) %画x-y坐标轴
+\psplot[polarplot,algebraic=true,linecolor=red,linewidth=1pt,
+ plotpoints=2000]{0}{3.14}{4*cos(2*x)/cos(x)}
+\end{pspicture*}
+\caption{\red 环索线~$r=a\cos 2\theta\sec \theta$或$y^2=x^2\dfrac{a-x}{a+x}$}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%
+%\begin{center}
+%\begin{pspicture}(-6.5,-4)(6.5,7.5)
+%\psaxes[trigLabelBase=2,dx=\psPiH,xunit=\psPi,trigLabels]{->}(0,0)(-1.7,-3.5)(1.77,6.5)[$x$,0][$y$,90]
+%\psset{algebraic=true}
+%\psplot[yMaxValue=6,yMinValue=-3,linewidth=1.6pt,plotpoints=2000,linecolor=red]{-4.55}{4.55}{tan(x)}
+%\end{pspicture}
+%\end{center}
+%%%%%%%%%%%%%%%%%%
+%\begin{center}
+%\begin{pspicture}(-7,-1.5)(7,1.5)
+%\psaxes[trigLabels=true,trigLabelBase=2,dx=\psPiH,xunit=\psPi]{->}(0,0)(-2.2,-1.5)(2.2,1.5)
+%\psplot[linecolor=red,linewidth=1.5pt]{-7}{7}{x RadtoDeg sin}
+%\end{pspicture}
+%\end{center}
+%%%%%%%%%%%%%%%%%%%%
+%\attachfile{c:/gong.txt}  %{Source code of this documentation}
+
+\marginpar{\centering\rotateleft{\resizebox{3cm}{!}{\thistime\, \today}}}%添加页边注释\today %打印当前日期
+%%%%%正文结束%%%%%%%%%%%
+\newpage
+\end{CJK}
+\end{document}

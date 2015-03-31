@@ -1,0 +1,263 @@
+% !TEX program = xelatex
+% !Mode:: "TeX:UTF-8"
+%西北大学数学系 Made By Shuwei Yang
+%2011-12-13
+%\documentclass[addpoints,no-math,twoside,answers]{exam} %显示答案
+\documentclass[addpoints,no-math,twoside]{exam} %不显示答案
+\usepackage[paperheight=297 true mm,paperwidth=210 true mm, top=25 true
+mm,bottom=25 true mm,left=20 true mm,right=15 true mm, headsep=10pt]{geometry}
+\usepackage{fontspec}  %提供字体选择命令
+\usepackage{xunicode}  %提供 Unicode 字符宏
+\usepackage{xltxtra}   %提供了一些针对XeTeX的改进并且加入了XeTeX的LOGO
+\usepackage[slantfont,boldfont]{xeCJK} %使用xeCJK宏包
+\usepackage{amsmath}
+\usepackage{graphics}%图形宏包
+\usepackage{picinpar} %支持图文混排
+\usepackage{xcolor}  %颜色宏包
+\usepackage{hyperref}
+%%-----------------------设置中文字体-----------------------------------------------------------------------------------------
+\setCJKmainfont[BoldFont=Adobe Heiti Std,ItalicFont=Adobe Kaiti Std]{Adobe Song Std} %设置正文为宋体,粗体使用黑体,斜体使用楷体
+\setCJKmonofont{Adobe Song Std} %设置等距字体
+\setCJKsansfont[BoldFont=Adobe Heiti Std]{Adobe Kaiti Std} %设置无衬线字体
+%%-----------------------设置英文字体-----------------------------------------------------------------------------------------
+\setmainfont{Adobe Garamond Pro} %英文衬线字体
+\setsansfont{Myriad Pro}     %英文无衬线字体
+\setmonofont{Courier New}      %英文等宽字体
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%重定义中文字体%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setCJKfamilyfont{song}{Adobe Song Std}
+\setCJKfamilyfont{hei}{Adobe Heiti Std}
+\setCJKfamilyfont{kai}{Adobe Kaiti Std}
+\setCJKfamilyfont{fs}{Adobe Fangsong Std}
+%%-------------------------------------
+\newcommand{\song}{\CJKfamily{song}}
+\newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\kai}{\CJKfamily{kai}}
+\newcommand{\fs}{\CJKfamily{fs}}
+%%----------------字号命令--------------------------------------------
+\newcommand{\chuhao}{\fontsize{42.2pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36.1pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{26.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoyihao}{\fontsize{24.1pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{22.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18.1pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{16.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosanhao}{\fontsize{15.1pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12.1pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9.0pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoliuhao}{\fontsize{6.5pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.5pt}{\baselineskip}\selectfont}
+\newcommand{\bahao}{\fontsize{5.0pt}{\baselineskip}\selectfont}
+%%----------------------------------------------------------------
+\punctstyle{kaiming} %开明式标点格式
+\linespread{1.5}   % 1.5倍行距
+\pagestyle{headandfoot}
+%%%%-------------------------------------------
+\renewcommand{\solutiontitle}{\bfseries 答案: }
+\renewcommand\thepartno{\arabic{partno}}
+\renewcommand\thesubpart{\roman{subpart}}
+\renewcommand\subpartlabel{(\thesubpart)}
+%%%%--------------------------------------------
+\CorrectChoiceEmphasis{\color{red}\bfseries} %正确选项用红色粗体打印
+\newcommand{\envert}[1]{\left\lvert#1\right\rvert}
+\let\abs=\envert
+\newcommand\set[1]{\left\{ #1 \right\}} %定义花括号
+\newcommand\Set[2]{\left\{\, #1 \, \middle\vert \, #2 \,\right\}} %定义集合符号
+\renewcommand{\vec}[1]{\mbox{\boldmath$#1$}}  %重新定义向量为粗斜体
+\newcommand{\me}{\mathrm{e}} %定义无理常数e为直立体
+\newcommand{\mi}{\mathrm{i}}  %定义虚数i为直立体
+\newcommand{\dif}{\mathrm{d}} %定义微分算子d为直立体
+\DeclareSymbolFont{lettersA}{U}{pxmia}{m}{it}  %重新定义\pi为直立体
+\DeclareMathSymbol{\piup}{\mathord}{lettersA}{"19} %重新定义\pi为直立体
+\begin{document}
+\hypersetup{ %添加文件属性信息
+    pdftitle={高三数学练习试卷},
+    pdfauthor={杨树伟<tianshui1008@163.com>},
+    pdfsubject={好好学习,天天向上},
+    pdfkeywords={XeLaTeX ,高考,试题},
+}
+
+\firstpageheader{}{\bf \Large 高三数学练习试卷一}{2011.12.13}
+\cfoot{\small \kai {高三数学}\quad 第 \thepage 页 (共 \numpages 页)}
+
+\begin{center}
+{\kai 班级\underline {\hspace{6em}} 学号\underline {\hspace{8em}} 姓名\underline {\hspace{8em}}得分\underline {\hspace{6em}}
+
+(本试卷满分150分,考试时间120分钟)}
+\end{center}
+
+\begin{questions}
+
+\item[\bf 一.]{\bf 选择题: 本大题共4小题,每小题5分,共20分,在每小题给出的四个选项中,只有一项是符合题目要求的.}
+
+\question
+以下函数中是奇函数的是\hfill(\hspace{2em})
+
+\begin{oneparchoices}
+\choice $f(x)=x^2(1-x)$;
+\choice $f(x)=\dfrac{\me^x+\me^{-x}}{2}$;
+\CorrectChoice $f(x)=\ln(x+\sqrt{1+x^2})$;
+\choice $f(x)=3x^2-x^3$.
+\end{oneparchoices}
+
+\question
+以下函数中是偶函数的是\hfill(\hspace{2em})
+
+\begin{oneparchoices}
+\choice $f(x)=x^2(1-x)$;
+\CorrectChoice$f(x)=\dfrac{\me^x+\me^{-x}}{2}$;
+\choice  $f(x)=\ln(x+\sqrt{1+x^2})$;
+\choice $f(x)=3x^2-x^3$.
+\end{oneparchoices}
+
+\question
+复数$\dfrac{2+\mi}{1-2\mi}$的共轭复数是\hfill(\hspace{2em})
+
+\begin{oneparchoices}
+\choice $-\dfrac{3}{5}\mi$;
+\CorrectChoice $\dfrac{3}{5}\mi$;
+\choice  $-\mi$;
+\choice $\mi$.
+\end{oneparchoices}
+
+\question
+有3个兴趣小组,甲,乙两位同学各自参加其中一个小组,每位同学参加各个小组的可能性相同,则这两位同学参加同一个兴趣小组的概率为\hfill(\hspace{2em})
+
+\begin{oneparchoices}
+\choice $\dfrac{1}{3}$;
+\CorrectChoice$\dfrac{1}{2}$;
+\choice  $\dfrac{2}{3}$;
+\choice $\dfrac{3}{4}$.
+\end{oneparchoices}
+
+\question
+$\left(x+\dfrac{a}{x}\right)\left(2x-\dfrac{1}{x}\right)^5$的展开式中各项系数的和为$2$,则该展开式中常数项为\hfill(\hspace{2em})
+
+\begin{oneparchoices}
+\choice $-40$;
+\CorrectChoice $-20$;
+\choice  $20$;
+\choice $40$.
+\end{oneparchoices}
+
+\item[\bf 二.]{\bf 填空题: 本大题共14小题,每小题5分,共70分.}
+
+\question
+函数$y=\dfrac{1}{2}\sin2x-\dfrac{\sqrt{3}}{2}\cos2x$的最小正周期是\underline{\hspace{6em}}.
+\begin{solution}
+$\piup$.
+\end{solution}
+
+\question
+在等差数列$\{a_n\}$中,若$a_3+a_9+a_{27}=12$,则$a_{13}=$\underline{\hspace{6em}}.
+\begin{solution}
+$4$.
+\end{solution}
+
+\question
+已知集合$A=\Set{x}{x-m<0}$, $B=\Set{y}{y=\log_2x-1, x\geq 4}$若,$A\cap B=\emptyset$,则实数$m$的取值范围是\underline{\hspace{6em}}.
+\begin{solution}
+$(-\infty,1]$.
+\end{solution}
+
+\question
+函数$f(x)=x-\ln x$的单调递减区间是\underline{\hspace{6em}}.
+\begin{solution}
+$(0,1]$.
+\end{solution}
+
+\question
+数列$\dfrac{1}{1+2}, \dfrac{1}{1+2+3}, \dfrac{1}{1+2+3+4}, \cdots$的前$n$项之和为\underline{\hspace{6em}}.
+\begin{solution}
+$\dfrac{n}{n+2}$.
+\end{solution}
+
+\question
+若命题"$ax^2-2ax+3>0$恒成立"是假命题,则实数$a$的取值范围是\underline{\hspace{6em}}.
+\begin{solution}
+$(-\infty,0)\cup[3,+\infty)$.
+\end{solution}
+
+\question
+在$\triangle{ABC}$中,角$A,B,C$所对的边分别为$a,b,c$,若$a=5$, $b=7$, $\cos C=\dfrac{4}{5}$则角$A$的大小为\underline{\hspace{6em}}.
+\begin{solution}
+$45^\circ $. \quad 可先求得$c=3\sqrt{2}$.
+\end{solution}
+
+\question
+函数$f(x)=(x+a)^3$,对任意$t\in\mathbf{R}$,总有$f(1+t)=-f(1-t)$,则$f(2)+f(-2)=$\underline{\hspace{6em}}.
+\begin{solution}
+$-26$. \quad 图象关于点$(1,0)$对称, $f(x)=(x-1)^3$.
+\end{solution}
+
+\question
+设$\set{a_n}$是首项为$1$的正项数列,且$(n+1)a_{n+1}^2-na_n^2+a_{n+1}a_n=0\ (n\in\mathbf{N^{\ast}})$,则这个数列的通项公式$a_n=$\underline{\hspace{6em}}.
+\begin{solution}
+$\dfrac{1}{n}$.
+\end{solution}
+
+\item[\bf 三.]{\bf 解答题: 本大题共6小题,共计90分.解答时应写出文字说明,证明过程或演算步骤.}
+
+\question{(本小题满分16分)}
+
+已知函数$f(x)=a\ln x -ax-3, (a\in\mathbf{R})$
+\begin{parts}
+\part
+    求函数$f(x)$的单调区间;
+\part
+    若函数$y=f(x)$的图象在点$\big(2,f(2)\big)$处的切线的倾斜角为$45^\circ$,对于任意的$t\in [1,2]$,函数$g(x)=x^3+x^2\big[f'(x)+\dfrac{m}{2}\big]$在区间$(t,3)$上总不是单调函数,求实数$m$的取值范围;
+\part
+    求证: $\dfrac{\ln2}{2}\cdot \dfrac{\ln 3}{3}\cdot \dfrac{\ln 4}{4}\cdot \cdots \cdot \dfrac{\ln n}{n}<\dfrac{1}{n}\ (n\geq 2, n\in\mathbf{N^{\ast}})$.
+\end{parts}
+
+\begin{solution}
+\begin{parts}
+\part
+    函数$f(x)$的定义域为$(0, +\infty)$,$f'(x)=\dfrac{a(1-x)}{x}$.
+
+    若$a=0$函数$f(x)$没有单调区间,
+\part
+	令$f'(2)=1$, 得$a=-2$. 	
+	$g(x)=x^3+(2+\dfrac{m}{2})x^2-2x$, $g'(x)=3x^2+(m+4)x-2$.
+\part
+	先证, $x>1$时,$\ln x<x-1$.
+
+	所以, 当$n\geq2$时, $\dfrac{\ln n}{n}<\dfrac{n-1}{n}$.以下易证.
+\end{parts}
+\end{solution}
+\vfill
+
+
+\question{(本小题满分16分)}
+
+\begin{window}[1,r,{\hbox{\XeTeXpdffile "3dtu.pdf" scaled 500}},{}]
+如图,四棱锥$P-ABCD$中,底面$ABCD$为平行四边形,$\angle DAB=60^{\circ},AB=2AD,PD\bot \text{底面}ABCD$.\\
+%\begin{parts}
+%\part
+%    证明: $PA\bot BD$;
+%\part
+%    若$PD=AD$,求二面角$A-PB-C$的余弦值.
+%\end{parts}
+(1) 证明: $PA\bot BD$;
+
+(2) 若$PD=AD$,求二面角$A-PB-C$的余弦值.
+\end{window}
+
+
+\begin{solution}
+\begin{parts}
+\part
+    函数$f(x)$的定义域为$(0, +\infty)$,$f'(x)=\dfrac{a(1-x)}{x}$.
+
+    若$a=0$函数$f(x)$没有单调区间,
+\part
+	令$f'(2)=1$, 得$a=-2$. 	
+	$g(x)=x^3+(2+\dfrac{m}{2})x^2-2x$, $g'(x)=3x^2+(m+4)x-2$.
+\end{parts}
+\end{solution}
+\vfill
+\end{questions}
+
+\end{document} 

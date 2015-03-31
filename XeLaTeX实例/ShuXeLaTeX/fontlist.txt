@@ -1,0 +1,19 @@
+ 黑体,SimHei
+ 方正楷体_GBK,FZKai\-Z03
+ 文泉驿微米黑,文泉驛微米黑,WenQuanYi Micro Hei
+ 楷体_GB2312,KaiTi_GB2312
+ 宋体,SimSun
+ 微软雅黑,Microsoft YaHei
+ 隶书,LiSu
+ 新宋体,NSimSun
+ 仿宋_GB2312,FangSong_GB2312
+ 方正楷体简体,FZKai\-Z03S
+ 文泉驿等宽微米黑,文泉驛等寬微米黑,WenQuanYi Micro Hei Mono
+ 幼圆,YouYuan
+ 方正黑体_GBK,FZHei\-B01
+ 华文宋体,STSong
+ Adobe 楷体 Std,Adobe Kaiti Std,Adobe Kaiti Std R,Adobe 楷体 Std R
+ Adobe 宋体 Std,Adobe Song Std,Adobe Song Std L,Adobe 宋体 Std L
+ Adobe 仿宋 Std,Adobe Fangsong Std,Adobe Fangsong Std R,Adobe 仿宋 Std R
+ Adobe 黑体 Std,Adobe Heiti Std,Adobe Heiti Std R,Adobe 黑体 Std R
+ Adobe Ming Std,Adobe 明體 Std,Adobe 明體 Std L,Adobe Ming Std L

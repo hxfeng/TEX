@@ -1,0 +1,29 @@
+% !TEX program = xelatex
+% !Mode:: "TeX:UTF-8"
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=1.2in,bottom=1.2in,left=1.2in,right=1in]{geometry} %设置页边距
+\usepackage[no-math]{fontspec} %提供字体选择命令
+\usepackage{xunicode}  %提供 Unicode 字符宏
+\usepackage{xltxtra}   %提供了一些针对XeTeX的改进并且加入了XeTeX的LOGO
+\usepackage{xcolor} %颜色宏包
+\usepackage{chemfig}  %画化学分子式
+\setmainfont[BoldFont=微软雅黑,ItalicFont=新宋体]{宋体} %设置正文为宋体,粗体使用黑体,斜体使用楷体
+\setsansfont[BoldFont=微软雅黑]{宋体} %设置无衬线字体
+\setmonofont{宋体} %设置等距字体
+\linespread{1.5}   % 1.5倍行距
+\begin{document}
+%---------------------------------------------------------
+\section{下面是分子结构图形}
+\begin{center}
+\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-H} \qquad
+\chemfig{H-C(-[2]H)(-[6]H)-C(-[7]H)=[1]O} \qquad
+\chemfig{H_3C-[7]CH(-[6]CH_3)-[1]CH(-[7]C_3H_7)-[2]CH_2-[3]H_3C}
+\end{center}
+%%%------------------------------
+\begin{center}
+\chemfig{*6((-H_2N)=N-*6(-\chembelow{N}{H}-=N?)=?-(=O)-HN-[,,2])}\qquad
+\chemfig{HC*6(-C(-OH)=C(-O-[::-60]CH_3)-CH=C(-[,,,2]HC=[::-60]O)-HC=[,,2])} \qquad
+\chemfig{*6((=O)-N(-CH_3)-*5(-N=-N(-CH_3)=)--(=O)-N(-H_3C)-)}
+\end{center}
+%%%------------------------------
+\end{document} 

@@ -1,0 +1,1583 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.11.24)  6 MAY 2014 23:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**shuweiYang.tex
+(./shuweiYang.tex
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1 replaced by U+FFFD.
+
+LaTeX2e <2011/06/27>
+Babel <3.9g> and hyphenation patterns for 78 languages loaded.
+Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/10/21 v0.59 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+\XKV@depth=\count91
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count92
+\pstFP@xia=\count93
+\pstFP@xib=\count94
+\pstFP@xfa=\count95
+\pstFP@xfb=\count96
+\pstFP@rega=\count97
+\pstFP@regb=\count98
+\pstFP@regs=\count99
+\pstFP@times=\count100
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks18
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks21
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen111
+\pgffor@skip=\dimen112
+\pgffor@stack=\toks22
+\pgffor@toks=\toks23
+)
+\psLoopIndex=\count101
+
+`PSTricks' v2.46  <2013/08/20> (tvz)
+\pst@dima=\dimen113
+\pst@dimb=\dimen114
+\pst@dimc=\dimen115
+\pst@dimd=\dimen116
+\pst@dimg=\dimen117
+\pst@dimh=\dimen118
+\pst@dimm=\dimen119
+\pst@dimn=\dimen120
+\pst@dimo=\dimen121
+\pst@dimp=\dimen122
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count102
+\pst@cntb=\count103
+\pst@cntc=\count104
+\pst@cntd=\count105
+\pst@cntg=\count106
+\pst@cnth=\count107
+\pst@cntm=\count108
+\pst@cntn=\count109
+\pst@cnto=\count110
+\pst@cntp=\count111
+\@zero=\count112
+\pst@toks=\toks24
+(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
+\psunit=\dimen123
+\psxunit=\dimen124
+\psyunit=\dimen125
+\pst@C@@rType=\count113
+\pslinewidth=\dimen126
+\psk@startLW=\dimen127
+\psk@endLW=\dimen128
+\pst@customdefs=\toks25
+\pslinearc=\dimen129
+\pst@symbolStep=\dimen130
+\pst@symbolWidth=\dimen131
+\pst@symbolLinewidth=\dimen132
+\everypsbox=\toks26
+\psframesep=\dimen133
+\pslabelsep=\dimen134
+\sh@wgridXunit=\dimen135
+\sh@wgridYunit=\dimen136
+\pst@shift=\dimen137
+(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+Using PSTricks configuration for XeTeX+xdvipdfmx
+)))
+File: pstricks.tex 2013/08/20 v2.46 `PSTricks' (tvz,hv)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2013/08/20 v2.46 `PST-fp' (hv)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2013/04/29 v0.96 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))))
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks27
+\ex@=\dimen138
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen139
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count114
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count115
+\leftroot@=\count116
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count117
+\DOTSCASE@=\count118
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count119
+\c@MaxMatrixCols=\count120
+\dotsspace@=\muskip10
+\c@parentequation=\count121
+\dspbrk@lvl=\count122
+\tag@help=\toks28
+\row@=\count123
+\column@=\count124
+\maxfields@=\count125
+\andhelp@=\toks29
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks30
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen149
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen150
+\subfiglabelskip=\skip58
+\c@subfigure=\count126
+\c@lofdepth=\count127
+\c@subtable=\count128
+\c@lotdepth=\count129
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
+
+
+! LaTeX Error: File `picins.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count130
+\multidocount=\count131
+\multido@stuff=\toks32
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+ v1.55, 2013/11/21 (tvz,hv)
+\pstRadUnit=\dimen151
+\pstRadUnitInv=\dimen152
+\pst@linecnt=\count132
+\RCD@file=\read1
+\psxlabelsep=\dimen153
+\psylabelsep=\dimen154
+\psk@subticksize=\dimen155
+\pst@xticksizeA=\dimen156
+\pst@xticksizeB=\dimen157
+\pst@xticksizeC=\dimen158
+\pst@yticksizeA=\dimen159
+\pst@yticksizeB=\dimen160
+\pst@yticksizeC=\dimen161
+\@digitcounter=\count133
+\psk@llx=\dimen162
+\psk@lly=\dimen163
+\psk@urx=\dimen164
+\psk@ury=\dimen165
+\pst@xunit=\dimen166
+\pst@yunit=\dimen167
+)
+File: pst-plot.tex 2013/11/21 1.55 `pst-plot' (tvz,hv)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pst-func/pst-func.sty
+Package: pst-func 2013/06/03 package wrapper for pst-func.tex (hv)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-func/pst-func.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-plot/pst-plot.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-math/pst-math.tex
+`pst-math' v0.62 , (CJ,hv))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.30, 2013/09/17
+\psrow=\count134
+\pscol=\count135
+\psmatrixcnt=\count136
+\psrowsep=\skip61
+\pscolsep=\skip62
+\pst@args=\count137
+\num@pts=\count138
+\pst@argcnt=\count139
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+`PST-3d' v1.11, 2010/02/14 (tvz)) `pstricks-add' v3.62, 2013/11/13 (dr,hv)
+\psparallelogramsep=\dimen168
+\pshooklength=\dimen169
+\pshookwidth=\dimen170
+\pst@cntC=\count140
+\chart@ColorIndex=\dimen171
+\chart@ColorStep=\dimen172
+\pst@chartHeight=\dimen173
+\pst@chartStackDepth=\dimen174
+\pst@chartStackWidth=\dimen175
+\chart@Toggle=\count141
+\psVectorCtr=\count142
+)
+`PST-func' v0.76, 2012/01/13 (hv)
+\psk@zeroLineWidth=\dimen176
+)
+File: pst-func.tex 2012/01/13 v0.76 `PST-func' (hv)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2012/05/07 4.8.3
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2012/05/07 4.8.3
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2012/05/07 4.8.3
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box31
+)
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/draftcopy/draftcopy.sty
+Package: draftcopy 2002/02/25 v2.16
+\draftcopy@hour=\count143
+\draftcopy@minute=\count144
+Invalid UTF-8 byte or sequence at line 261 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 263 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 268 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 268 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 268 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 269 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/draftcopy/draftcopy.cfg)
+Prints DRAFT on pages; does not show in your DVI viewer
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen177
+\Hy@linkcounter=\count145
+\Hy@pagecounter=\count146
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count147
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count148
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen178
+\Fld@menulength=\count149
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count150
+\c@Item=\count151
+\c@Hfootnote=\count152
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box32
+\c@Hy@AnnotLevel=\count153
+\HyField@AnnotCount=\count154
+\Fld@listcount=\count155
+\c@bookmark@seq@number=\count156
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip63
+)
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hypdvips/hypdvips.sty
+Package: hypdvips 2012/12/30 v3.00 Hyperref extensions for use with dvips
+
+
+! Package hypdvips Error: Wrong hyperref driver `hxetex.def' selected!
+(hypdvips)                Please switch to hdvips.def before loading hypdvips.
+
+See the hypdvips package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43   }
+        
+? 
+)
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
+Package hyperref Info: Option `colorlinks' set `true' on input line 48.
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+)
+(./shuweiYang.aux)
+\openout1 = `shuweiYang.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.19522pt, 417.11743pt, 90.19522pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=417.11743pt
+* \textheight=700.5069pt
+* \oddsidemargin=17.92523pt
+* \evensidemargin=17.92523pt
+* \topmargin=-37.00002pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 49.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count157
+)
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
+
+(./shuweiYang.out) (./shuweiYang.out)
+\@outlinefile=\write3
+\openout3 = `shuweiYang.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/standard.bdg
+File: standard.bdg 2012/05/07 4.8.3
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/extended.enc
+File: extended.enc 2012/05/07 4.8.3
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/extended.chr
+File: extended.chr 2012/05/07 4.8.3
+)
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+LaTeX Font Info:    Try loading font information for C19+kai on input line 57.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/zhmetrics/c19kai.fd
+File: c19kai.fd 2009/09/23 4.8.2
+)
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no ͼ in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
+
+
+LaTeX Warning: File `yzbux.eps' not found on input line 58.
+
+
+! LaTeX Error: File `yzbux.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...includegraphics[width=1.0in]{yzbux.eps}}}}
+                                                  %���ҳ±�ע��
+? 
+
+! LaTeX Error: Cannot determine size of graphic in yzbux.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...includegraphics[width=1.0in]{yzbux.eps}}}}
+                                                  %���ҳ±�ע��
+? 
+File: yzbux.eps Graphic file (type eps)
+<yzbux.eps>
+Overfull \hbox (78.82248pt too wide) in paragraph at lines 58--58
+ [][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 81 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 81 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \caption
+             {˫������~$r\theta=a$}
+? 
+Missing character: There is no ˫ in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 90.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 90.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \caption
+              {\red °¢»��׵�����~$r=a\theta$(�ֳƵ���...
+
+? 
+
+! Package CJK Error: Invalid character code.
+
+See the CJK package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \caption{\red °¢»�
+                             �׵�����~$r=a\theta$(�ֳƵ���...
+
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no ׵ in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no ֳ in font cmr12!
+Missing character: There is no Ƶ in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+
+! LaTeX Error: Environment pspipicture* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \begin{pspipicture*}
+                          (-12,-20)(90,60)
+? 
+Invalid UTF-8 byte or sequence at line 109 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 109 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 109 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 109 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 109 replaced by U+FFFD.
+! Extra }, or forgotten \endgroup.
+\endpspicture ... \pst@killglue \endgroup \egroup 
+                                                  \ifdim \wd \pst@hbox =\z@ ...
+l.112 \end{pspicture*}
+                      
+? 
+
+! LaTeX Error: \begin{CJK} on input line 50 ended by \end{pspicture*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \end{pspicture*}
+                      
+? 
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 113 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \caption
+              {¶�������~$r=a\rm{e}^{\theta}$(�ֳƵȽ���...
+
+? 
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.113 \caption{¶�
+                    ������~$r=a\rm{e}^{\theta}$(�ֳƵȽ���...
+
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no ֳ in font cmr12!
+Missing character: There is no Ƶ in font cmr12!
+Missing character: There is no Ƚ in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \end{center}
+                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.114 \end{center}
+                  
+? 
+Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \caption
+              {������$x^{\frac{2}{3}}+y^{\frac{2}{3}}=a^{\frac{2...
+
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 124 replaced by U+FFFD.
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.124 »�
+           $\left\{
+? 
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 138 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138  \caption
+               {б������~$\sqrt{x}+\sqrt{y}=\sqrt{a}$}
+? 
+Missing character: There is no б in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 143 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \caption
+              {»�����$y=\dfrac{8a^3}{x^2+4a^2}$}»�$\left\{
+? 
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.147 \caption{»�
+                    ����$y=\dfrac{8a^3}{x^2+4a^2}$}»�$\left\{
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.147 ...���$y=\dfrac{8a^3}{x^2+4a^2}$}»�
+                                                  $\left\{
+? 
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\f@ncyorh ->\HEI �\�
+                        ѧ\strut 
+l.153 \end{center}
+                  
+? 
+Missing character: There is no ѧ in font cmr12!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no ѧ in font cmr12!
+Missing character: There is no ϵ in font cmr12!
+[1
+
+]
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \caption
+              {��Ҷõ¹�$r=a\cos 3\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no Ҷ in font cmr12!
+! Argument of \CJK@XX has an extra }.
+<inserted text> 
+                \par 
+l.161 \caption{��Ҷõ¹
+                           �$r=a\cos 3\theta$}
+? 
+Runaway argument?
+! Paragraph ended before \CJK@XX was complete.
+<to be read again> 
+                   \par 
+l.161 \caption{��Ҷõ¹
+                           �$r=a\cos 3\theta$}
+? 
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.161 \caption{��Ҷõ¹
+                           �$r=a\cos 3\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 170 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 170 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 170 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \caption
+              {��Ҷõ¹�$r=a\sin 3\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no Ҷ in font cmr12!
+! Argument of \CJK@XX has an extra }.
+<inserted text> 
+                \par 
+l.170 \caption{��Ҷõ¹
+                           �$r=a\sin 3\theta$}
+? 
+Runaway argument?
+! Paragraph ended before \CJK@XX was complete.
+<to be read again> 
+                   \par 
+l.170 \caption{��Ҷõ¹
+                           �$r=a\sin 3\theta$}
+? 
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.170 \caption{��Ҷõ¹
+                           �$r=a\sin 3\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 176 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \caption
+              {��Ҷõ¹�$r=a\cos 2\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no Ҷ in font cmr12!
+! Argument of \CJK@XX has an extra }.
+<inserted text> 
+                \par 
+l.179 \caption{��Ҷõ¹
+                           �$r=a\cos 2\theta$}
+? 
+Runaway argument?
+! Paragraph ended before \CJK@XX was complete.
+<to be read again> 
+                   \par 
+l.179 \caption{��Ҷõ¹
+                           �$r=a\cos 2\theta$}
+? 
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.179 \caption{��Ҷõ¹
+                           �$r=a\cos 2\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \caption
+              { ��Ҷõ¹�$r=a\sin 2\theta$}
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no Ҷ in font cmr12!
+! Argument of \CJK@XX has an extra }.
+<inserted text> 
+                \par 
+l.189 \caption{ ��Ҷõ¹
+                            �$r=a\sin 2\theta$}
+? 
+Runaway argument?
+! Paragraph ended before \CJK@XX was complete.
+<to be read again> 
+                   \par 
+l.189 \caption{ ��Ҷõ¹
+                            �$r=a\sin 2\theta$}
+? 
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.189 \caption{ ��Ҷõ¹
+                            �$r=a\sin 2\theta$}
+? 
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\f@ncyorh ->\HEI �\�
+                        ѧ\strut 
+l.189 \caption{ ��Ҷõ¹�
+                               $r=a\sin 2\theta$}
+? 
+Missing character: There is no ѧ in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no ѧ in font cmr12!
+Missing character: There is no ϵ in font cmr12!
+[2]
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \caption
+              {������$\red r=a(1-\cos
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.200 \theta)$»�
+                   $x^2+y^2+ax=a\sqrt{x^2+y^2}$~~ ������$\blue r...
+
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 \caption
+              {˫Ť��~$r^2=a^2\cos 2\theta$»�$(x^2+y^2)^2=a^2(x^2-y^2)$}
+
+? 
+Missing character: There is no ˫ in font cmr12!
+Missing character: There is no Ť in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.211 ...ion{˫Ť��~$r^2=a^2\cos 2\theta$»�
+                                                  $(x^2+y^2)^2=a^2(x^2-y^2)$}
+? 
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \caption
+              {˫Ť��~$r^2=a^2\sin 2\theta$»�$(x^2+y^2)^2=2a^2xy$}
+? 
+Missing character: There is no ˫ in font cmr12!
+Missing character: There is no Ť in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.220 ...ion{˫Ť��~$r^2=a^2\sin 2\theta$»�
+                                                  $(x^2+y^2)^2=2a^2xy$}
+? 
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 225 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 229 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229  \caption
+               {¸�������~~$y=\rm{e}^{-x^2}$}
+? 
+Missing character: There is no � in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.229  \caption{¸�
+                     ������~~$y=\rm{e}^{-x^2}$}
+? 
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \caption
+              {µѿ¨¶�Ҷ����~$\left(x^3+y^3\right)=3axy$} »�$...
+
+? 
+Missing character: There is no ѿ in font cmr12!
+! Undefined control sequence.
+\CJK@XX ...r `#1\endcsname {`#2}\CJK@ignorespaces 
+                                                  \fi 
+l.239 \caption{µѿ
+                   ¨¶�Ҷ����~$\left(x^3+y^3\right)=3axy$} »�$...
+
+? 
+! Argument of \CJK@XX has an extra }.
+<inserted text> 
+                \par 
+l.239 \caption{µѿ¨¶
+                       �Ҷ����~$\left(x^3+y^3\right)=3axy$} »�$...
+
+? 
+Runaway argument?
+! Paragraph ended before \CJK@X

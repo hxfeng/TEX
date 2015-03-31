@@ -1,0 +1,207 @@
+% !Mode:: "TeX:UTF-8"
+% !TEX program = xelatex
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=1.2in,bottom=1.2in,left=1.2in,right=1in]{geometry} %设置页边距
+\usepackage[no-math]{fontspec} %提供字体选择命令
+\usepackage{xunicode}  %提供 Unicode 字符宏
+\usepackage{xltxtra}   %提供了一些针对XeTeX的改进并且加入了XeTeX的LOGO
+\usepackage[slantfont,boldfont]{xeCJK} %使用xeCJK宏包
+\usepackage{amsmath}
+\usepackage{graphics}%图形宏包
+\usepackage{xcolor}  %颜色宏包
+\usepackage{verbatim}
+\usepackage{titleps}  %设置页眉,页脚
+\usepackage{hyperref}
+%%-----------------------设置中文字体-----------------------------------------------------------------------------------------
+\setCJKmainfont[BoldFont=Adobe Heiti Std,ItalicFont=Adobe Kaiti Std]{Adobe Song Std} %设置正文为宋体,粗体使用黑体,斜体使用楷体
+\setCJKmonofont{Adobe Song Std} %设置等距字体
+\setCJKsansfont[BoldFont=Adobe Heiti Std]{Adobe Kaiti Std} %设置无衬线字体
+%%-----------------------设置英文字体-----------------------------------------------------------------------------------------
+\setmainfont{Adobe Garamond Pro} %英文衬线字体
+\setsansfont{Myriad Pro}     %英文无衬线字体
+\setmonofont{Courier New}      %英文等宽字体
+%%%%----------重定义中文字体%%%%---------------
+\setCJKfamilyfont{song}{Adobe Song Std}
+\setCJKfamilyfont{hei}{Adobe Heiti Std}
+\setCJKfamilyfont{kai}{Adobe Kaiti Std}
+\setCJKfamilyfont{fs}{Adobe Fangsong Std}
+%%-------------------------------------
+\newcommand{\song}{\CJKfamily{song}}
+\newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\kai}{\CJKfamily{kai}}
+\newcommand{\fs}{\CJKfamily{fs}}
+%%----------------字号命令--------------------------------------------
+\newcommand{\chuhao}{\fontsize{42.2pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36.1pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{26.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoyihao}{\fontsize{24.1pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{22.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18.1pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{16.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosanhao}{\fontsize{15.1pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14.1pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12.1pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9.0pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoliuhao}{\fontsize{6.5pt}{\baselineskip}\selectfont}
+\newcommand{\qihao}{\fontsize{5.5pt}{\baselineskip}\selectfont}
+\newcommand{\bahao}{\fontsize{5.0pt}{\baselineskip}\selectfont}
+%%----------------------------------------------------------------
+\punctstyle{kaiming} %开明式标点格式
+\linespread{1.5}   % 1.5倍行距
+\renewcommand{\vec}[1]{\mbox{\boldmath$#1$}}  %重新定义向量为粗斜体
+\newcommand{\me}{\mathrm{e}} %定义无理常数e为直立体
+\newcommand{\mi}{\mathrm{i}}  %定义虚数i为直立体
+\newcommand{\dif}{\mathrm{d}} %定义微分算子d为直立体
+\DeclareSymbolFont{lettersA}{U}{pxmia}{m}{it}  %重新定义\pi为直立体
+\DeclareMathSymbol{\piup}{\mathord}{lettersA}{"19} %重新定义\pi为直立体
+\begin{document}
+%%%%-------------------------------------------------------
+\hypersetup{ %添加文件属性信息
+    pdftitle={XeLaTeX 使用手记},
+    pdfauthor={杨树伟<tianshui1008@163.com>},
+    pdfsubject={XeLaTeX 学习资料},
+    pdfkeywords={XeLaTeX ,开源字体,},
+}
+%%%%-------------------------------------------------------
+\newpagestyle{yang}{
+\sethead{NorthWest University}{}{西北大学}
+\setfoot{数学系}{}{第~~\thepage ~~页}\headrule\footrule}
+\pagestyle{yang}
+%%%%-------------------------------------------------------
+\title{\XeLaTeX 使用手记}
+\author{杨树伟\thanks{西北大学数学系tianshui1008@163.com}
+}
+\maketitle
+%%%%-------------------------------------------------------
+
+研究生3年以来一直使用李树均博士开发的ChinaTeX编译环境来进行\LaTeX 的编辑和排版，由于同宿舍的舍友写毕业论文时使用的是CTeX套装，
+我毕业论文用的又是hooklee开发的西安交通大学的硕士论文模板，所以有些不太一样，
+主要是hooklee开发的西安交通大学的硕士论文模板无法正常在CTeX套装环境下正常编译，但可喜的是一般的模板却可以在ChinaTeX编译环境下运行，
+快毕业的时候从网上得知自己学了3年的\LaTeX 已经过时，人家国外大牛大都在使用\XeLaTeX 来排版自己的文章，经过一个多月的使用和摸索，终于悟出些门道，特与大家分享，不是孟子说过：”独乐乐不如众乐乐“。
+
+
+和\LaTeX 相比\XeLaTeX 最大的变化集中在字体的使用上，以前我们用\LaTeX 编译环境的时候，中文只能使用宋体，仿宋，黑体，隶书，楷体，幼圆六款字体，如果从网上下到一款好看的字体，在\LaTeX 下一般是不能正常使用的，且Windows下这六款字体都是私权字体，因而李树均博士开发的ChinaTeX在使用字体时，
+使用的是现场调用用户系统的字体来生成相关的字体文件，来避免相应的字体版权纠纷，所以我们在安装李树均博士开发的ChinaTeX安装包的时候会很慢，
+自从有了\XeLaTeX 现在好了，我们可以使用Adobe的几款中文开源字体(宋体，仿宋，黑体，楷体)和第三方字体了，所以现在\TeX 真正做到了开源。
+
+如果你想在文档中使用第三方字体，可在正文中使用以下代码，
+\begin{verbatim}
+{\fontspec[ExternalLocation]{liguofu.TTF} 这是一个华丽的测试}
+\end{verbatim}
+注：{liguofu.TTF}是字体文件名，和你的源代码放在同一个目录下，或者这里写上字体文件的绝对路径名称。
+在命令行窗口下使用以下代码来查看系统已安装的中文字体
+\begin{verbatim}
+fc-list :lang=zh-cn >> c:\yang.txt
+\end{verbatim}
+注：这里是把记录导入到C盘下的yang.txt文件中，你只需查看yang.txt便可知道你的系统安装了哪几款中文字体。
+也许你会发现打开的文件还是无法辨认，其实你只需把它粘贴到Word中就可以了，同样的查看系统已安装的英文字体用以下命令。
+\begin{verbatim}
+fc-list :lang=en-us >> c:\gong.txt
+\end{verbatim}
+
+一个典型的\XeLaTeX 中文环境是这样的
+\begin{verbatim}
+% !TEX program = xelatex
+% !Mode:: "TeX:UTF-8"
+\documentclass[12pt,a4paper]{article}
+\usepackage[top=25.4mm,bottom=25.4mm,left=31.7mm,right=31.7mm]{geometry} %设置页边距
+\usepackage[no-math]{fontspec} %提供字体选择命令
+\usepackage{xunicode}  %提供 Unicode 字符宏
+\usepackage{xltxtra}   %提供了一些针对XeTeX的改进并且加入了XeTeX的LOGO
+\usepackage[slantfont,boldfont]{xeCJK} %使用xeCJK宏包
+\usepackage{amsmath} %数学宏包
+\usepackage{graphics}%图形宏包
+\usepackage{titleps}  %设置页眉,页脚
+\usepackage{xecolour}
+%%-----------------------设置中文字体--------
+\setCJKmainfont[BoldFont=Adobe Heiti Std,ItalicFont=Adobe Kaiti Std]{Adobe Song Std}%设置正文为宋体,粗体使用黑体,斜体使用楷体
+\setCJKmonofont{Adobe Song Std}%设置等距字体
+\setCJKsansfont[BoldFont=Adobe Heiti Std]{Adobe Kaiti Std}%设置无衬线字体
+%%-----------------------设置英文字体------------------------------------
+\setmainfont[Mapping=tex-text]{TeX Gyre Pagella}%英文衬线字体
+\setsansfont[Mapping=tex-text]{Trebuchet MS}%英文无衬线字体
+\setmonofont[Mapping=tex-text]{Courier New}%英文等宽字体
+\punctstyle{kaiming}%开明式标点格式
+\usepackage{indentfirst}%首段缩进
+\linespread{1.5}%1.5倍行距
+\begin{document}
+\newpagestyle{yang}{
+\sethead{NorthWest University}{}{某某大学}
+\setfoot{数学系}{}{第~~\thepage ~~页}\headrule\footrule}
+\pagestyle{yang}
+这儿是正文
+\end{document}
+\end{verbatim}
+
+WinEdt是个ASCII格式的编辑器，所以它并不完全支持Unicode或者UTF-8编码，但我们可以给源文件的开头加上一行使他存储和打开的时候不致显示乱码，
+大家注意到源代码开始的两行，是提醒读者这个代码要用\XeLaTeX 命令来编译，
+并且使用UTF-8格式编码，关于编译环境的选取，我们选取CTeX 2.8.0.125或以上版本便可，关于编码格式的选取，在WinEdt代码编辑界面中我们点击最下面的状态栏上的TeX
+\hbox{\XeTeXpicfile "Snap5.jpg" scaled 800}，在弹出的界面中选取TeX:UTF-8编码格式便可\hbox{\XeTeXpicfile "Snap6.jpg" scaled 500}
+
+
+由于\XeLaTeX 默认的设置对中英文混排支持还不够好，不能
+对中文和英文分别设置字体，也不能很好地处理中文和英文之间的空白距离。我
+们可以安装孙文昌老师开发的xeCJK宏包来解决这个问题。即使用
+\begin{verbatim}
+\usepackage[slantfont,boldfont]{xeCJK}
+\end{verbatim}
+
+
+再一个最大的不同就是图片的插入了，现在在\XeLaTeX 下可以直接插入.jpg, .bmp, .tiff, .png等格式的图片了，
+插入图片的基本命令为
+\begin{verbatim}
+\XeTeXpicfile <文件名> [选项]
+\end{verbatim}
+注：选项包括以下6项
+
+
+\begin{tabular}{|r|r|}
+\hline
+width & 宽度\\
+\hline
+height& 高度\\
+\hline
+scaled &缩放因子\\
+\hline
+xscaled &x方向的缩放因子\\
+\hline
+yscaled &y方向的缩放因子\\
+\hline
+rotated &旋转的度数\\
+\hline
+\end{tabular}
+
+
+还有一个插入pdf格式图片的命令
+\begin{verbatim}
+\XeTeXpdffile <文件名> [选项]
+\end{verbatim}
+但它有个特别的页码选项，page<页数>，这个命令用于插入某一pdf文件的其中某一页，默认情况下插入第一页，其中页码也可以是负值，
+比如-2表示倒数第二页，如果使用页码这个选项，必须是文件名后的第一个选项。注意到pdf格式的图片也可以用前一个命令来插入但是这样做的话会有两个缺点，
+第一图片的清晰度降低，也就是说它不再是矢量格式的了，第二只能插入第一页.
+
+注意:xelatex对.eps格式的图片是不支持的，需将其转化为.pdf格式才行。
+
+\centerline{\hbox{\XeTeXpicfile "charu.jpg" scaled 500}}
+使用如下代码
+\begin{verbatim}
+\hbox{\XeTeXpicfile "Snap5.jpg" scaled 800}
+\end{verbatim}
+\centerline{\hbox{\XeTeXpicfile "charu.jpg" scaled 500 xscaled 2000}}
+使用如下代码对原图横向放大200倍
+\begin{verbatim}
+\hbox{\XeTeXpicfile "Snap5.jpg" scaled 800 xscaled 200}
+\end{verbatim}
+\centerline{\hbox{\XeTeXpicfile "charu.jpg" scaled 500 rotated 90}}
+使用如下代码对原图旋转90度
+\begin{verbatim}
+\hbox{\XeTeXpicfile "Snap5.jpg" scaled 800 rotated 90}
+\end{verbatim}
+\centerline{\hbox{\XeTeXpdffile "tiger.pdf" scaled 500}}
+若要插入pdf格式的图片，可使用如下代码
+\begin{verbatim}
+\hbox{\XeTeXpdffile "Snap.pdf" scaled 800}
+\end{verbatim}
+\end{document} 
