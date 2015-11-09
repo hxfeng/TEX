@@ -1,0 +1,22 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{lipsum}     %随机生成文本的宏包
+\usepackage{geometry}   %设置页边距的宏包
+\usepackage{titlesec}   %设置页眉页脚的宏包
+\geometry{left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm}  %设置 上、左、下、右 页边距
+\begin{document}
+\newpagestyle{main}{            
+    \sethead{left}{center}{right}     %设置页眉
+    \setfoot{footl}{footc}{footr}      %设置页脚，可以在页脚添加 \thepage  显示页数
+    \headrule                                      % 添加页眉的下划线
+    \footrule                                       %添加页脚的下划线
+}
+\pagestyle{main}    %使用该style
+\lipsum[5]
+\lipsum[1]\lipsum[6]
+\lipsum[2]
+\lipsum[3]
+\lipsum[4]
+\lipsum[5]
+\clearpage
+
+\end{document}
