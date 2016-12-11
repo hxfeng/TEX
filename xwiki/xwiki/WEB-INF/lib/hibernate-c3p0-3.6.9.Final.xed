@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.hibernate:hibernate-c3p0</id>
+<version>3.6.9.Final</version>
+<type>jar</type>
+<name>Hibernate C3P0 ConnectionProvider</name>
+<summary>C3P0-based implementation of the Hibernate ConnectionProvder contract</summary>
+<website>http://hibernate.org/hibernate-c3p0</website>
+<authors>
+<author>
+<name>Hibernate.org Developers</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/hibernate/hibernate-core/hibernate-c3p0</url>
+<connection>
+<system>git</system>
+<path>git//github.com:hibernate/hibernate-core.git/hibernate-c3p0</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git//github.com:hibernate/hibernate-core.git/hibernate-c3p0</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://opensource.atlassian.com/projects/hibernate/browse/HHH</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.hibernate:hibernate-core</id>
+<version>3.6.9.Final</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>c3p0:c3p0</id>
+<version>0.9.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>antlr:antlr</id>
+<version>2.7.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javassist:javassist</id>
+<version>3.12.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>cglib:cglib</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate.javax.persistence:hibernate-jpa-2.0-api</id>
+<version>1.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-commons-annotations</id>
+<version>3.2.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-validator</id>
+<version>4.1.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.h2database:h2</id>
+<version>1.2.145</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.byteman:byteman</id>
+<version>1.5.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.hibernate</maven.groupid>
+<maven.artifactid>hibernate-c3p0</maven.artifactid>
+</properties>
+</extension>

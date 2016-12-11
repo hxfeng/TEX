@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.googlecode.json-simple:json-simple</id>
+<version>1.1.1</version>
+<type>jar</type>
+<name>JSON.simple</name>
+<summary>A simple Java toolkit for JSON</summary>
+<website>http://code.google.com/p/json-simple/</website>
+<authors>
+<author>
+<name>Yidong Fang</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://json-simple.googlecode.com/svn/trunk/</url>
+<connection>
+<system>svn</system>
+<path>http://json-simple.googlecode.com/svn/trunk/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>http://json-simple.googlecode.com/svn/trunk/</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.10</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.googlecode.json-simple</maven.groupid>
+<maven.artifactid>json-simple</maven.artifactid>
+</properties>
+</extension>

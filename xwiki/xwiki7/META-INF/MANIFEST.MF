@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+XWiki-Extension-Id: org.xwiki.enterprise:xwiki-enterprise-web
+Built-By: hudsonagent
+Build-Jdk: 1.7.0_71
+Created-By: Apache Maven 3.3.9
+Archiver-Version: Plexus Archiver
+

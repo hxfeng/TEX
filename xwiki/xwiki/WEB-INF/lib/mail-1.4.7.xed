@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.mail:mail</id>
+<version>1.4.7</version>
+<type>jar</type>
+<name>JavaMail API (compat)</name>
+<summary>JavaMail API (compat)</summary>
+<website>http://kenai.com/projects/javamail/mail</website>
+<authors>
+<author>
+<name>Bill Shannon</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>CDDL</name>
+</license>
+<license>
+<name>GPLv2+CE</name>
+</license>
+</licenses>
+<scm>
+<url>http://kenai.com/hg/javamail~mercurial/mail</url>
+<connection>
+<system>hg</system>
+<path>http://kenai.com/hg/javamail~mercurial/mail</path>
+</connection>
+<developerconnection>
+<system>hg</system>
+<path>https://kenai.com/hg/javamail~mercurial/mail</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Bugzilla</system>
+<url>http://kenai.com/bugzilla</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.activation:activation</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>com.sun.mail:javax.mail</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.mail:dsn</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.mail:gimap</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.mail:mbox</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.mail:taglib</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet.jsp:jsp-api</id>
+<version>2.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>javax.mail</maven.groupid>
+<maven.artifactid>mail</maven.artifactid>
+</properties>
+</extension>

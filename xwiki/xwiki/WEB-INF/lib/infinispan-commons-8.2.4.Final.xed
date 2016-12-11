@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.infinispan:infinispan-commons</id>
+<version>8.2.4.Final</version>
+<type>jar</type>
+<name>Infinispan Commons</name>
+<summary>Infinispan Commons</summary>
+<website>http://www.infinispan.org/infinispan-commons</website>
+<authors>
+<author>
+<name>See http://www.infinispan.org for a complete list of contributors</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/infinispan/infinispan/infinispan-commons</url>
+<connection>
+<system>git</system>
+<path>git@github.com:infinispan/infinispan.git/infinispan-commons</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:infinispan/infinispan.git/infinispan-commons</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.jboss.org/browse/ISPN</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.jboss.logging:jboss-logging</id>
+<version>3.3.0.Final</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-jdbc</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-jdbc</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-jpa</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-common</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-common</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-embedded</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cdi-embedded</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-client-hotrod</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-client-hotrod</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-core</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-core</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-lucene-directory</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-directory-provider</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-lucene-directory</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-scripting</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-core</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-core</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-hotrod</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-hotrod</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-memcached</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-memcached</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-rest:classes</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-rest</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-tools</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-tree</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-jcache</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-jcache-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-jcache-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cli-client</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cli-interpreter</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-osgi</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-common</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-common</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-tasks-api</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-embedded</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring4-embedded</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.mchange:c3p0</id>
+<version>0.9.5-pre8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.h2database:h2</id>
+<version>1.4.180</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.intellij:forms_rt</id>
+<version>6.0.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.martiansoftware:jsap</id>
+<version>2.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-dbcp:commons-dbcp</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-httpclient:commons-httpclient</id>
+<version>3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>1.3.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.javassist:javassist</id>
+<version>3.18.1-GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.cache:cache-tests</id>
+<version>1.0.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.cache:cache-tests:tests</id>
+<version>1.0.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.cache:cdi-weld-annotations-test-harness</id>
+<version>1.0.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:jstl</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.jgoodies:forms</id>
+<version>1.0.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-core</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-api</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-jcl</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-slf4j-impl</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>mc4j:org-mc4j-ems</id>
+<version>1.2.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>mysql:mysql-connector-java</id>
+<version>5.1.19</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.postgresql:postgresql</id>
+<version>9.3-1101-jdbc41</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.webdav-servlet:webdav-servlet</id>
+<version>2.0.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.antlr:antlr-runtime</id>
+<version>3.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.aspectj:aspectjweaver</id>
+<version>1.8.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-math</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.avro:avro</id>
+<version>1.7.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-core-asl</id>
+<version>1.9.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-mapper-asl</id>
+<version>1.9.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-core</id>
+<version>5.0.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-entitymanager</id>
+<version>5.0.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate.hql:hibernate-hql-parser</id>
+<version>1.3.0.Alpha2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate.hql:hibernate-hql-lucene</id>
+<version>1.3.0.Alpha2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.arquillian:wildfly-arquillian-container-managed</id>
+<version>1.0.2.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-weld-ee-embedded-1.1</id>
+<version>1.0.0.CR3</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.remotingjmx:remoting-jmx</id>
+<version>2.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.sasl:jboss-sasl</id>
+<version>1.0.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.spec:jboss-javaee-7.0</id>
+<version>1.0.2.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.naming:jnp-client</id>
+<version>5.0.6.CR1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.naming:jnpserver</id>
+<version>5.0.6.CR1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logmanager:jboss-logmanager</id>
+<version>1.3.1.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.resteasy:resteasy-jaxrs</id>
+<version>3.0.11.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.resteasy:resteasy-netty4</id>
+<version>3.0.11.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.solder:solder-impl</id>
+<version>3.1.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss:jboss-transaction-spi</id>
+<version>7.1.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.weld:weld-core</id>
+<version>1.1.13.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.weld.se:weld-se</id>
+<version>2.2.0.SP1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.xnio:xnio-nio</id>
+<version>3.2.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty-embedded</id>
+<version>6.1.25</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.5</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-simple</id>
+<version>1.7.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-jdk14</id>
+<version>1.7.5</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-log4j12</id>
+<version>1.7.5</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.testng:testng</id>
+<version>6.8.8</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>spy:memcached</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.fusesource.leveldbjni:leveldbjni-all</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.iq80.leveldb:leveldb</id>
+<version>0.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpclient</id>
+<version>4.2.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.narayana.jta:narayana-jta</id>
+<version>5.0.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-all</id>
+<version>2.0.0-M20</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-testsuite-shared</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.security:jboss-negotiation-extras</id>
+<version>2.3.6.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.picketbox:jbosssx-bare</id>
+<version>4.0.20.Final</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.karaf:apache-karaf</id>
+<version>3.0.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.karaf.features:org.apache.karaf.features.core</id>
+<version>3.0.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.exam:pax-exam-container-karaf</id>
+<version>4.5.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.exam:pax-exam</id>
+<version>4.5.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.exam:pax-exam-junit4</id>
+<version>4.5.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.exam:pax-exam-inject</id>
+<version>4.5.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.xerial.snappy:snappy-java</id>
+<version>1.0.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.geronimo.components:geronimo-transaction</id>
+<version>3.1.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.objectweb.howl:howl</id>
+<version>1.0.1-1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.url:pax-url-aether</id>
+<version>2.2.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.url:pax-url-assembly</id>
+<version>2.2.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ops4j.pax.url:pax-url-wrap</id>
+<version>2.2.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-queryparser</id>
+<version>5.5.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-core</id>
+<version>5.5.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-common</id>
+<version>5.5.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-memory</id>
+<version>5.5.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>11.0.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.kohsuke.metainf-services:metainf-services</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.byteman:byteman</id>
+<version>2.1.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.byteman:byteman-bmunit</id>
+<version>2.1.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-testing</id>
+<version>5.0.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-jpa</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-rest</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-persistence-cli</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cachestore-leveldb</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-commons</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-persistence-soft-index</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-query</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-query-dsl</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-objectfilter</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-remote-query-client</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-remote-query-server</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-scripting</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-server-websocket</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-spring</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-tasks</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-jcache-commons</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-embedded</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-embedded-query</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-remote</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan:infinispan-cli</id>
+<version>8.2.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>gnu.getopt:java-getopt</id>
+<version>1.0.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec</id>
+<version>1.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate.javax.persistence:hibernate-jpa-2.1-api</id>
+<version>1.0.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging</id>
+<version>3.3.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling-osgi</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jgroups:jgroups</id>
+<version>3.6.7.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.aesh:aesh</id>
+<version>0.66.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.osgi:org.osgi.core</id>
+<version>4.3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.osgi:org.osgi.compendium</id>
+<version>4.3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.rhq:rhq-core-domain</id>
+<version>4.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.rhq:rhq-core-plugin-api</id>
+<version>4.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.rhq:rhq-jmx-plugin</id>
+<version>4.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.rhq:rhq-jboss-as-7-plugin</id>
+<version>4.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.rhq:rhq-core-native-system</id>
+<version>4.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-search-engine</id>
+<version>5.6.0.Beta1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-search-serialization-avro</id>
+<version>5.6.0.Beta1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan.protostream:protostream</id>
+<version>3.0.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan.protostream:sample-domain-definition</id>
+<version>3.0.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.infinispan.protostream:sample-domain-implementation</id>
+<version>3.0.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.enterprise:cdi-api</id>
+<version>1.0-SP4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.cache:cache-api</id>
+<version>1.0.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.netty:netty-all</id>
+<version>4.0.36.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.scala-lang:scala-library</id>
+<version>2.11.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.scala-lang.modules:scala-xml_2.11</id>
+<version>1.0.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.thoughtworks.xstream:xstream</id>
+<version>1.4.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-pool:commons-pool</id>
+<version>1.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.core:arquillian-core-api</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.core:arquillian-core-spi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.core:arquillian-core-impl-base</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.config:arquillian-config-api</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.config:arquillian-config-spi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.config:arquillian-config-impl-base</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.test:arquillian-test-api</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.test:arquillian-test-spi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.test:arquillian-test-impl-base</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-container-spi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-container-impl-base</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-container-test-api</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-container-test-spi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.container:arquillian-container-test-impl-base</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.junit:arquillian-junit-core</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.junit:arquillian-junit-container</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.junit:arquillian-junit-standalone</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testng:arquillian-testng-core</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testng:arquillian-testng-container</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testng:arquillian-testng-standalone</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.protocol:arquillian-protocol-servlet</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.protocol:arquillian-protocol-jmx</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testenricher:arquillian-testenricher-cdi</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testenricher:arquillian-testenricher-ejb</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testenricher:arquillian-testenricher-resource</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext</id>
+<version>1.1.5.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-api</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-spi</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-impl-base</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-api-nio2</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-impl-nio2</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-depchain</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap:shrinkwrap-depchain-java7</id>
+<version>1.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-maven-plugin</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-gen</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi</id>
+<version>2.0.0-alpha-5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-feature-pack</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-feature-pack</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-build</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-build</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-test-runner</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-controller</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-security-api</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-security</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-controller-client</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-deployment-repository</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-deployment-scanner</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-domain-http-error-context</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-domain-http-interface</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-domain-management</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-dist</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-cli</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-cli:client</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-model-test-framework</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-core-model-test-controller-optional</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-embedded</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-host-controller</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-io</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-jmx</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-launcher</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-logging</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-management-client-content</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-model-test</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-network</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-patching</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-platform-mbean</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-process-controller</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-protocol</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-remoting</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-request-controller</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-self-contained</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-server</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-subsystem-test</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-subsystem-test-framework</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-threads</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.core:wildfly-version</id>
+<version>2.0.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.inject:javax.inject</id>
+<version>1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.fusesource.jansi:jansi</id>
+<version>1.11</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.16</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpmime</id>
+<version>4.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore</id>
+<version>4.4.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore-nio</id>
+<version>4.4.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven:maven-aether-provider</id>
+<version>3.2.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:woodstox-core-asl</id>
+<version>4.4.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>3.1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.byteman:byteman-submit</id>
+<version>2.2.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.byteman:byteman-install</id>
+<version>2.2.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss:jandex</id>
+<version>2.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss:jboss-dmr</id>
+<version>1.3.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss:staxmapper</id>
+<version>1.2.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss:jboss-vfs</id>
+<version>3.2.11.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.classfilewriter:jboss-classfilewriter</id>
+<version>1.1.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.invocation:jboss-invocation</id>
+<version>1.4.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging-annotations</id>
+<version>2.0.1.Final</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging-processor</id>
+<version>2.0.1.Final</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jul-to-slf4j-stub</id>
+<version>1.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logmanager:log4j-jboss-logmanager</id>
+<version>1.1.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling-river</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.metadata:jboss-metadata-common</id>
+<version>10.0.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.msc:jboss-msc</id>
+<version>1.2.6.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.modules:jboss-modules</id>
+<version>1.5.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.undertow:undertow-core</id>
+<version>1.3.15.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.undertow:undertow-servlet</id>
+<version>1.3.15.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.undertow:undertow-websockets-jsr</id>
+<version>1.3.15.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.remoting:jboss-remoting</id>
+<version>4.0.18.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.slf4j:slf4j-jboss-logmanager</id>
+<version>1.0.3.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec</id>
+<version>1.0.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.spec.javax.sql:jboss-javax-sql-api_7.0_spec</id>
+<version>2.0.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.stdio:jboss-stdio</id>
+<version>1.0.2.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.threads:jboss-threads</id>
+<version>2.2.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.xnio:xnio-api</id>
+<version>3.3.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mockito:mockito-all</id>
+<version>1.9.5</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.picketbox:picketbox</id>
+<version>4.9.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.picketbox:picketbox-infinispan</id>
+<version>4.9.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.7.jbossorg-1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.syslog4j:syslog4j</id>
+<version>0.9.30</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-api</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-spi</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-util</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-impl</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-connector-basic</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-transport-file</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-transport-http</id>
+<version>1.0.0.v20140518</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.common:wildfly-common</id>
+<version>1.1.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.checkstyle:wildfly-checkstyle-config</id>
+<version>1.0.4.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.legacy.test:wildfly-legacy-spi</id>
+<version>1.0.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.wildfly.security:wildfly-elytron</id>
+<version>1.0.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xml-resolver:xml-resolver</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xerces:xercesImpl</id>
+<version>2.11.0.SP4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.infinispan</maven.groupid>
+<maven.artifactid>infinispan-commons</maven.artifactid>
+</properties>
+</extension>

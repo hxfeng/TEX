@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.sis.core:sis-referencing</id>
+<version>0.6</version>
+<type>jar</type>
+<name>Apache SIS referencing</name>
+<summary>Implementations of Coordinate Reference Systems (CRS),
+ conversion and transformation services derived from ISO 19111.</summary>
+<website>http://sis.apache.org/core/sis-referencing</website>
+<authors>
+<author>
+<name>Chris A. Mattmann</name>
+<url>http://sunset.usc.edu/~mattmann/</url>
+</author>
+<author>
+<name>Martin Desruisseaux</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/sis/tags/0.6/core/sis-referencing</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/sis/tags/0.6/core/sis-referencing</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/sis/tags/0.6/core/sis-referencing</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.apache.org/jira/browse/SIS</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.sis.core:sis-utility</id>
+<version>0.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.sis.core:sis-metadata</id>
+<version>0.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.opengis:geoapi</id>
+<version>3.0.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.opengis:geoapi</id>
+<version>3.0.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.opengis:geoapi-conformance</id>
+<version>3.0.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.esri.geometry:esri-geometry-api</id>
+<version>1.2.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>gov.nist.math:jama</id>
+<version>1.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax:javaee-api</id>
+<version>6.0</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.osgi:org.osgi.core</id>
+<version>5.0.0</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>edu.ucar:cdm</id>
+<version>4.4.2</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-jdk14</id>
+<version>1.7.5</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.measure:jsr-275</id>
+<version>0.9.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.sis.core</maven.groupid>
+<maven.artifactid>sis-referencing</maven.artifactid>
+</properties>
+</extension>

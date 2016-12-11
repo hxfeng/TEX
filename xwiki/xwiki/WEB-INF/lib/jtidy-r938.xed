@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.jtidy:jtidy</id>
+<version>r938</version>
+<type>jar</type>
+<name>JTidy</name>
+<summary>JTidy is a Java port of HTML Tidy, a HTML syntax checker and pretty printer. Like its non-Java cousin, JTidy can be
+    used as a tool for cleaning up malformed and faulty HTML. In addition, JTidy provides a DOM interface to the
+    document that is being processed, which effectively makes you able to use JTidy as a DOM parser for real-world HTML.</summary>
+<website>http://jtidy.sourceforge.net</website>
+<authors>
+<author>
+<name>Fabrizio Giustina</name>
+</author>
+<author>
+<name>Andy Tripp</name>
+</author>
+<author>
+<name>Russell Gold</name>
+</author>
+<author>
+<name>Gary L Peskin</name>
+</author>
+<author>
+<name>Sami Lempinen</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Java HTML Tidy License</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.sourceforge.net/viewcvs.cgi/jtidy/trunk/jtidy/</url>
+<connection>
+<system>svn</system>
+<path>https://svn.sourceforge.net/svnroot/jtidy/trunk/jtidy/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.sourceforge.net/svnroot/jtidy/trunk/jtidy/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://sourceforge.net/tracker/?group_id=13153</url>
+</issuemanagement>
+<properties>
+<maven.groupid>net.sf.jtidy</maven.groupid>
+<maven.artifactid>jtidy</maven.artifactid>
+</properties>
+</extension>

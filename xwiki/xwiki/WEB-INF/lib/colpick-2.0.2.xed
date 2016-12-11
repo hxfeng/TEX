@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:colpick</id>
+<version>2.0.2</version>
+<type>jar</type>
+<name>Colpick</name>
+<summary>WebJar for Colpick</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>Guillaume Delhumeau</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+<license>
+<name>GNU General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/colpick</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/colpick.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/colpick.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>colpick</maven.artifactid>
+</properties>
+</extension>

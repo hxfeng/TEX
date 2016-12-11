@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.htrace:htrace-core</id>
+<version>3.2.0-incubating</version>
+<type>jar</type>
+<name>htrace-core</name>
+<summary>A tracing framework for use with distributed systems written in java</summary>
+<website>http://incubator.apache.org/projects/htrace.html</website>
+<authors>
+<author>
+<name>Jonathan Leavitt</name>
+</author>
+<author>
+<name>Elliott Clark</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git-wip-us.apache.org/repos/asf?p=incubator-htrace.git/htrace-core</url>
+<connection>
+<system>git</system>
+<path>http://git-wip-us.apache.org/repos/asf/incubator-htrace.git/htrace-core</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/incubator-htrace.git/htrace-core</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://issues.apache.org/jira/browse/HTRACE</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-core</id>
+<version>2.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-databind</id>
+<version>2.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.htrace</maven.groupid>
+<maven.artifactid>htrace-core</maven.artifactid>
+</properties>
+</extension>

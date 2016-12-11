@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>ch.qos.logback:logback-classic</id>
+<version>1.1.7</version>
+<type>jar</type>
+<name>Logback Classic Module</name>
+<summary>logback-classic module</summary>
+<website>http://logback.qos.ch/logback-classic</website>
+<authors>
+<author>
+<name>Ceki Gulcu</name>
+</author>
+<author>
+<name>Joern Huxhorn</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Eclipse Public License - v 1.0</name>
+</license>
+<license>
+<name>GNU Lesser General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/ceki/logback/logback-classic</url>
+<connection>
+<system>git@github.com</system>
+<path>ceki/logback.git/logback-classic</path>
+</connection>
+</scm>
+<dependencies>
+<dependency>
+<id>ch.qos.logback:logback-core</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.20</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>ch.qos.logback:logback-core</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ch.qos.logback:logback-core</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ch.qos.logback:logback-classic</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ch.qos.logback:logback-access</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.20</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.janino:janino</id>
+<version>2.7.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.groovy:groovy-all</id>
+<version>2.4.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.fusesource.jansi:jansi</id>
+<version>1.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.mail:mail</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>hsqldb:hsqldb</id>
+<version>1.8.0.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.h2database:h2</id>
+<version>1.2.132</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>postgresql:postgresql</id>
+<version>8.4-701.jdbc4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>mysql:mysql-connector-java</id>
+<version>5.1.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tomcat:tomcat-catalina</id>
+<version>7.0.59</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tomcat:tomcat-coyote</id>
+<version>7.0.59</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-server</id>
+<version>7.5.1.v20110908</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.geronimo.specs:geronimo-jms_1.1_spec</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>joda-time:joda-time</id>
+<version>2.9.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>ch.qos.logback</maven.groupid>
+<maven.artifactid>logback-classic</maven.artifactid>
+</properties>
+</extension>

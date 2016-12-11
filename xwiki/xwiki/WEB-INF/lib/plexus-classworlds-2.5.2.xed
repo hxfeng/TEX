@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.plexus:plexus-classworlds</id>
+<version>2.5.2</version>
+<type>jar</type>
+<name>Plexus Classworlds</name>
+<summary>A class loader framework</summary>
+<website>http://plexus.codehaus.org/plexus-classworlds/</website>
+<authors>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Pete Kazmier</name>
+</author>
+<author>
+<name>James Taylor</name>
+</author>
+<author>
+<name>Dan Diephouse</name>
+</author>
+<author>
+<name>Kasper Nielsen</name>
+</author>
+<author>
+<name>Ben Walding</name>
+</author>
+<author>
+<name>Mark Wilkinson</name>
+</author>
+<author>
+<name>Michal Maczka</name>
+</author>
+<author>
+<name>Emmanuel Venisse</name>
+</author>
+<author>
+<name>Trygve Laugstøl</name>
+</author>
+<author>
+<name>Kenney Westerhof</name>
+</author>
+<author>
+<name>Carlos Sanchez</name>
+</author>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>John Casey</name>
+</author>
+<author>
+<name>Andrew Williams</name>
+</author>
+<author>
+<name>Rahul Thakur</name>
+</author>
+<author>
+<name>Joakim Erdfelt</name>
+</author>
+<author>
+<name>Olivier Lamy</name>
+</author>
+<author>
+<name>Hervé Boutemy</name>
+</author>
+<author>
+<name>Oleg Gusakov</name>
+</author>
+<author>
+<name>Vincent Siveton</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/sonatype/plexus-classworlds</url>
+<connection>
+<system>git</system>
+<path>git@github.com:sonatype/plexus-classworlds.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:sonatype/plexus-classworlds.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://jira.codehaus.org/browse/PLX</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.sonatype.sisu:sisu-inject-bean</id>
+<version>2.1.1</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.sonatype.sisu:sisu-guice:no_aop</id>
+<version>2.9.4</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.inject:javax.inject</id>
+<version>1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.sonatype.sisu:sisu-inject-plexus</id>
+<version>2.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-classworlds</id>
+<version>2.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>2.0.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jul-to-slf4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-simple</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.codehaus.plexus</maven.groupid>
+<maven.artifactid>plexus-classworlds</maven.artifactid>
+</properties>
+</extension>

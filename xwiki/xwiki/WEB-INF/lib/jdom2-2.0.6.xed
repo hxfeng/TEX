@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jdom:jdom2</id>
+<version>2.0.6</version>
+<type>jar</type>
+<name>JDOM</name>
+<summary>A complete, Java-based solution for accessing, manipulating, 
+		and outputting XML data</summary>
+<website>http://www.jdom.org</website>
+<authors>
+<author>
+<name>Jason Hunter</name>
+</author>
+<author>
+<name>Rolf Lear</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Similar to Apache License but with the acknowledgment clause removed</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:/hunterhacker/jdom</url>
+<connection>
+<system>git</system>
+<path>git@github.com:hunterhacker/jdom</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:hunterhacker/jdom</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.jdom</maven.groupid>
+<maven.artifactid>jdom2</maven.artifactid>
+</properties>
+</extension>

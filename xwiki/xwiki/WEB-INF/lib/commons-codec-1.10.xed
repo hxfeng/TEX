@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-codec:commons-codec</id>
+<version>1.10</version>
+<type>jar</type>
+<name>Apache Commons Codec</name>
+<summary>The Apache Commons Codec package contains simple encoder and decoders for
+     various formats such as Base64 and Hexadecimal.  In addition to these
+     widely used encoders and decoders, the codec package also maintains a
+     collection of phonetic encoding utilities.</summary>
+<website>http://commons.apache.org/proper/commons-codec/</website>
+<authors>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Tim OBrien</name>
+</author>
+<author>
+<name>Scott Sanders</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Jon S. Stevens</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+<author>
+<name>David Graham</name>
+</author>
+<author>
+<name>Julius Davies</name>
+</author>
+<author>
+<name>Thomas Neidhart</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/codec/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/codec/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/codec/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CODEC</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-codec</maven.groupid>
+<maven.artifactid>commons-codec</maven.artifactid>
+</properties>
+</extension>

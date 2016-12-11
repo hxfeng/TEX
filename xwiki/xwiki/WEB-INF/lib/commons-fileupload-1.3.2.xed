@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-fileupload:commons-fileupload</id>
+<version>1.3.2</version>
+<type>jar</type>
+<name>Apache Commons FileUpload</name>
+<summary>The Apache Commons FileUpload component provides a simple yet flexible means of adding support for multipart
+    file upload functionality to servlets and web applications.</summary>
+<website>http://commons.apache.org/proper/commons-fileupload/</website>
+<authors>
+<author>
+<name>Martin Cooper</name>
+</author>
+<author>
+<name>dIon Gillard</name>
+</author>
+<author>
+<name>John McNally</name>
+</author>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Sean C. Sullivan</name>
+</author>
+<author>
+<name>Jochen Wiedmann</name>
+</author>
+<author>
+<name>Simone Tripodi</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/fileupload/tags/FILEUPLOAD_1_3_2</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/fileupload/tags/FILEUPLOAD_1_3_2</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/fileupload/tags/FILEUPLOAD_1_3_2</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/FILEUPLOAD</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-fileupload</maven.groupid>
+<maven.artifactid>commons-fileupload</maven.artifactid>
+</properties>
+</extension>

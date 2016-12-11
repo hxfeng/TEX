@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.yahoo.platform.yui:yuicompressor</id>
+<version>2.4.7-xwiki</version>
+<type>jar</type>
+<name>yui compressor</name>
+<summary>The YUI Compressor is a JavaScript compressor which, in addition to removing
+    comments and white-spaces, obfuscates local variables using the smallest
+    possible variable name. This obfuscation is safe, even when using constructs
+    such as 'eval' or 'with' (although the compression is not optimal is those
+    cases) Compared to jsmin, the average savings is around 20%.</summary>
+<website>http://developer.yahoo.com/yui/compressor/</website>
+<authors>
+<author>
+<name>Julien Lecomte</name>
+</author>
+<author>
+<name>Isaac Z. Schlueter</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/yui/yuicompressor</url>
+<connection>
+<system>git</system>
+<path>git://github.com/yui/yuicompressor.git</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>com.yahoo.platform.yui</maven.groupid>
+<maven.artifactid>yuicompressor</maven.artifactid>
+</properties>
+</extension>

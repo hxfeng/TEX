@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>xml-apis:xml-apis</id>
+<version>1.4.01</version>
+<type>jar</type>
+<name>XML Commons External Components XML APIs</name>
+<summary>xml-commons provides an Apache-hosted set of DOM, SAX, and 
+    JAXP interfaces for use in other xml-based projects. Our hope is that we 
+    can standardize on both a common version and packaging scheme for these 
+    critical XML standards interfaces to make the lives of both our developers 
+    and users easier. The External Components portion of xml-commons contains 
+    interfaces that are defined by external standards organizations. For DOM, 
+    that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for 
+    JAXP it's Sun.</summary>
+<website>http://xml.apache.org/commons/components/external/</website>
+<authors>
+<author>
+<name>Apache Software Foundation</name>
+<url>http://xml.apache.org/commons/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+<license>
+<name>The SAX License</name>
+</license>
+<license>
+<name>The W3C License</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_4_01/</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/xml/commons/tags/xml-commons-external-1_4_01/</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>bugzilla</system>
+<url>http://issues.apache.org/bugzilla/</url>
+</issuemanagement>
+<properties>
+<maven.groupid>xml-apis</maven.groupid>
+<maven.artifactid>xml-apis</maven.artifactid>
+</properties>
+</extension>

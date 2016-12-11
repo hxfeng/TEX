@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.poi:poi</id>
+<version>3.15-beta1</version>
+<type>jar</type>
+<name>Apache POI</name>
+<summary>Apache POI - Java API To Access Microsoft Format Files</summary>
+<website>http://poi.apache.org/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<dependencies>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.10</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.poi</maven.groupid>
+<maven.artifactid>poi</maven.artifactid>
+</properties>
+</extension>

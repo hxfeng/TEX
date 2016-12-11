@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-smile</id>
+<version>2.8.4</version>
+<type>jar</type>
+<name>Jackson dataformat: Smile</name>
+<summary>Support for reading and writing Smile ("binary JSON")
+encoded data using Jackson abstractions (streaming API, data binding,
+tree model)</summary>
+<website>http://github.com/FasterXML/jackson-dataformats-binary</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+<author>
+<name>Christopher Currie</name>
+</author>
+<author>
+<name>Paul Brown</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/FasterXML/jackson-dataformats-binary/jackson-dataformat-smile</url>
+<connection>
+<system>git</system>
+<path>git@github.com:FasterXML/jackson-dataformats-binary.git/jackson-dataformat-smile</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:FasterXML/jackson-dataformats-binary.git/jackson-dataformat-smile</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>https://github.com/FasterXML/jackson-dataformats-binary/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-core</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-databind</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-annotations</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.fasterxml.jackson.dataformat</maven.groupid>
+<maven.artifactid>jackson-dataformat-smile</maven.artifactid>
+</properties>
+</extension>

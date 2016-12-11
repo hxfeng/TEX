@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.maven.scm:maven-scm-api</id>
+<version>1.4</version>
+<type>jar</type>
+<name>Maven SCM API</name>
+<summary>The SCM API provides mechanisms to manage all SCM tools.</summary>
+<website>http://maven.apache.org/scm/maven-scm-api/</website>
+<authors>
+<author>
+<name>Brian Fox</name>
+</author>
+<author>
+<name>Arnaud Héritier</name>
+</author>
+<author>
+<name>Barrie Treloar</name>
+</author>
+<author>
+<name>Benjamin Bentmann</name>
+</author>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>Carlos Sanchez</name>
+</author>
+<author>
+<name>Dennis Lundberg</name>
+</author>
+<author>
+<name>Daniel Fabulich</name>
+</author>
+<author>
+<name>Daniel Kulp</name>
+</author>
+<author>
+<name>Emmanuel Venisse</name>
+</author>
+<author>
+<name>Hervé Boutemy</name>
+</author>
+<author>
+<name>John Casey</name>
+</author>
+<author>
+<name>Jesse McConnell</name>
+</author>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Kenney Westerhof</name>
+</author>
+<author>
+<name>Lukas Theussl</name>
+</author>
+<author>
+<name>Milos Kleint</name>
+</author>
+<author>
+<name>Maria Odea B. Ching</name>
+</author>
+<author>
+<name>Olivier Lamy</name>
+</author>
+<author>
+<name>Ralph Goers</name>
+</author>
+<author>
+<name>Stephane Nicoll</name>
+</author>
+<author>
+<name>Trygve Laugstol</name>
+</author>
+<author>
+<name>Vincent Massol</name>
+</author>
+<author>
+<name>Vincent Siveton</name>
+</author>
+<author>
+<name>Wendy Smoak</name>
+</author>
+<author>
+<name>Allan Q. Ramirez</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Fabrice Bellingard</name>
+</author>
+<author>
+<name>Chris Stevenson</name>
+</author>
+<author>
+<name>Dan Tran</name>
+</author>
+<author>
+<name>David Blevins</name>
+</author>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Edwin Punzalan</name>
+</author>
+<author>
+<name>Igor Fedorenko</name>
+</author>
+<author>
+<name>Fabrizio Giustina</name>
+</author>
+<author>
+<name>Felipe Leme</name>
+</author>
+<author>
+<name>Andrew Williams</name>
+</author>
+<author>
+<name>Jeff Jensen</name>
+</author>
+<author>
+<name>Kristian Rosenvold</name>
+</author>
+<author>
+<name>Nicolas De Loof</name>
+</author>
+<author>
+<name>Oleg Gusakov</name>
+</author>
+<author>
+<name>Paul Gier</name>
+</author>
+<author>
+<name>Patrick Schneider</name>
+</author>
+<author>
+<name>Petar Tahchiev</name>
+</author>
+<author>
+<name>Raphaël Piéroni</name>
+</author>
+<author>
+<name>Rahul Thakur</name>
+</author>
+<author>
+<name>Shinobu Kuwai</name>
+</author>
+<author>
+<name>Torbjorn Eikli Smorgrav</name>
+</author>
+<author>
+<name>Stephen Connolly</name>
+</author>
+<author>
+<name>Mark Hobson</name>
+</author>
+<author>
+<name>Joakim Erdfelt</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Ernesto Tolentino Jr.</name>
+</author>
+<author>
+<name>Mike Perham</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:svn:https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-api</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-api</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-api</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://jira.codehaus.org/browse/SCM</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.5.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-api</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-manager-plexus</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-accurev</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-bazaar</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-clearcase</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-cvs-commons</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-cvsexe</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-cvsjava</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-git-commons</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-gitexe</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-hg</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-local</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-perforce</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-starteam</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-svn-commons</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-svnexe</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-synergy</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-vss</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-tfs</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>1.0-alpha-9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.5.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>3.8.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-svntest</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-test</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-cvstest</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-gittest</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.maven.scm</maven.groupid>
+<maven.artifactid>maven-scm-api</maven.artifactid>
+</properties>
+</extension>

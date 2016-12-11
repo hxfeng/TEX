@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.httpcomponents:httpcore</id>
+<version>4.4.5</version>
+<type>jar</type>
+<name>Apache HttpCore</name>
+<summary>Apache HttpComponents Core (blocking I/O)</summary>
+<website>http://hc.apache.org/httpcomponents-core-ga</website>
+<authors>
+<author>
+<name>Ortwin Glueck</name>
+<url>http://www.odi.ch/</url>
+</author>
+<author>
+<name>Oleg Kalnichevski</name>
+</author>
+<author>
+<name>Asankha C. Perera</name>
+<url>http://www.adroitlogic.org/</url>
+</author>
+<author>
+<name>Sebastian Bazley</name>
+</author>
+<author>
+<name>Erik Abele</name>
+<url>http://www.codefaktor.de/</url>
+</author>
+<author>
+<name>Ant Elder</name>
+</author>
+<author>
+<name>Paul Fremantle</name>
+</author>
+<author>
+<name>Roland Weber</name>
+</author>
+<author>
+<name>Sam Berlin</name>
+</author>
+<author>
+<name>Sean C. Sullivan</name>
+</author>
+<author>
+<name>Jonathan Moore</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+</author>
+<author>
+<name>William Speirs</name>
+</author>
+<author>
+<name>Karl Wright</name>
+</author>
+<author>
+<name>Francois-Xavier Bonnet</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.4.5/httpcore</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.4.5/httpcore</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.4.5/httpcore</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Jira</system>
+<url>http://issues.apache.org/jira/browse/HTTPCORE</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mockito:mockito-core</id>
+<version>1.8.5</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.httpcomponents</maven.groupid>
+<maven.artifactid>httpcore</maven.artifactid>
+</properties>
+</extension>

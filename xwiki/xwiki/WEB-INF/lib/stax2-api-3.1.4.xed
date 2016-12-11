@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>3.1.4</version>
+<type>jar</type>
+<name>Stax2 API</name>
+<summary>tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.</summary>
+<website>http://wiki.fasterxml.com/WoodstoxStax2</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/FasterXML/stax2-api</url>
+<connection>
+<system>git</system>
+<path>git@github.com:FasterXML/stax2-api.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:FasterXML/stax2-api.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.codehaus.woodstox</maven.groupid>
+<maven.artifactid>stax2-api</maven.artifactid>
+</properties>
+</extension>

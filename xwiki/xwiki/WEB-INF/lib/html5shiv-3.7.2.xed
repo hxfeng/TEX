@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:html5shiv</id>
+<version>3.7.2</version>
+<type>jar</type>
+<name>HTML5 Shiv</name>
+<summary>WebJar for HTML5 Shiv</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/html5shiv</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/html5shiv.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/html5shiv.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>html5shiv</maven.artifactid>
+</properties>
+</extension>

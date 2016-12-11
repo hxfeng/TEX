@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>info.informatica:jclf</id>
+<version>3.1.0</version>
+<type>jar</type>
+<properties>
+<maven.groupid>info.informatica</maven.groupid>
+<maven.artifactid>jclf</maven.artifactid>
+</properties>
+</extension>

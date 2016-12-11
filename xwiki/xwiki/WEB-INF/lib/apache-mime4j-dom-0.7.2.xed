@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.james:apache-mime4j-dom</id>
+<version>0.7.2</version>
+<type>jar</type>
+<name>Apache JAMES Mime4j (DOM)</name>
+<summary>Java MIME Document Object Model</summary>
+<website>http://james.apache.org/mime4j/apache-mime4j-dom</website>
+<authors>
+<author>
+<name>Stefano Bagnara</name>
+</author>
+<author>
+<name>Norman Maurer</name>
+</author>
+<author>
+<name>Serge Knystautas</name>
+</author>
+<author>
+<name>Bernd Fondermann</name>
+</author>
+<author>
+<name>Steve Brewin</name>
+</author>
+<author>
+<name>Søren Hilmer</name>
+</author>
+<author>
+<name>Noel J. Bergman</name>
+</author>
+<author>
+<name>Danny Angus</name>
+</author>
+<author>
+<name>Alan D. Cabrera</name>
+</author>
+<author>
+<name>Harmeet Bedi</name>
+</author>
+<author>
+<name>Jason Webb</name>
+</author>
+<author>
+<name>Vincenzo Gianferrari Pini</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Niklas Therning</name>
+</author>
+<author>
+<name>Joe Cheng</name>
+</author>
+<author>
+<name>Markus Wiederkehr</name>
+</author>
+<author>
+<name>Oleg Kalnichevski</name>
+</author>
+<author>
+<name>Manuel Carrasco Monino</name>
+</author>
+<author>
+<name>Eric Charles</name>
+</author>
+<author>
+<name>Felix Knecht</name>
+</author>
+<author>
+<name>Ioan Eugen Stan</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/james/mime4j/tags/apache-mime4j-project-0.7.2/apache-mime4j-dom</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/james/mime4j/tags/apache-mime4j-project-0.7.2/apache-mime4j-dom</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/james/mime4j/tags/apache-mime4j-project-0.7.2/apache-mime4j-dom</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://issues.apache.org/jira/browse/MIME4J</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.james:apache-mime4j-core</id>
+<version>0.7.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.14</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>3.8.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.james</maven.groupid>
+<maven.artifactid>apache-mime4j-dom</maven.artifactid>
+</properties>
+</extension>

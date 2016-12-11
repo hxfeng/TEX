@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.velocity:velocity</id>
+<version>1.7</version>
+<type>jar</type>
+<name>Apache Velocity</name>
+<summary>Apache Velocity is a general purpose template engine.</summary>
+<website>http://velocity.apache.org/engine/devel/</website>
+<authors>
+<author>
+<name>Will Glass-Husain</name>
+</author>
+<author>
+<name>Geir Magnusson Jr.</name>
+</author>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Henning P. Schmiedehausen</name>
+</author>
+<author>
+<name>Nathan Bubna</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/velocity/engine/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/velocity/engine/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/velocity/engine/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.apache.org/jira/browse/VELOCITY</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.velocity</maven.groupid>
+<maven.artifactid>velocity</maven.artifactid>
+</properties>
+</extension>

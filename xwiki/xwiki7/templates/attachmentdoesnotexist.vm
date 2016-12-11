@@ -1,0 +1,15 @@
+$response.setStatus(404)
+#template("startpage.vm")
+<div class="main layoutsubsection">
+<div id="mainContentArea">
+#if($xwiki.exists("XWiki.AttachmentDoesNotExist"))
+  $xwiki.includeForm("XWiki.AttachmentDoesNotExist",false)
+#else
+  #xwikimessageboxstart($services.localization.render('error') $services.localization.render('attachmentdoesnotexist'))
+  $!exception
+  #xwikimessageboxend()
+#end
+<div class="clearfloats"></div>
+</div>## mainContentArea
+</div>## main
+#template("endpage.vm")

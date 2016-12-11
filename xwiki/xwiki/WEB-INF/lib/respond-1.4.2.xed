@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:respond</id>
+<version>1.4.2</version>
+<type>jar</type>
+<name>Respond.js</name>
+<summary>WebJar for Respond.js</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>Scott Jehl</name>
+</author>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/respond</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/respond.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/respond.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>respond</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>xmlunit:xmlunit</id>
+<version>1.5</version>
+<type>jar</type>
+<name>XMLUnit for Java</name>
+<summary>XMLUnit compares a control XML document to a test document or the result of a transformation, validates documents, and compares the results of XPath expressions.</summary>
+<website>http://xmlunit.sourceforge.net/</website>
+<authors>
+<author>
+<name>Stefan Bodewig</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://xmlunit.svn.sourceforge.net/viewvc/xmlunit/</url>
+<connection>
+<system>svn</system>
+<path>https://xmlunit.svn.sourceforge.net/svnroot/xmlunit/branches/xmlunit-1.x</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>xmlunit</maven.groupid>
+<maven.artifactid>xmlunit</maven.artifactid>
+</properties>
+</extension>

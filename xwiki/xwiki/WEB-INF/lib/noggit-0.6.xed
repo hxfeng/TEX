@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.noggit:noggit</id>
+<version>0.6</version>
+<type>jar</type>
+<name>Noggit</name>
+<summary>Noggit is the world's fastest streaming JSON parser for Java.</summary>
+<website>http://github.com/yonik/noggit</website>
+<authors>
+<author>
+<name>Yonik Seeley</name>
+<url>https://github.com/yonik</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:yonik/noggit.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:yonik/noggit.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:yonik/noggit.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.noggit</maven.groupid>
+<maven.artifactid>noggit</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.octo.captcha:jcaptcha-extension-sound-freetts</id>
+<version>2.0-alpha-1-SNAPSHOT-500</version>
+<type>jar</type>
+<name>Extension Sound FreeTTS</name>
+<website>http://www.jcaptcha.net/jcaptcha-extension-sound-freetts/</website>
+<authors>
+<author>
+<name>Antoine Veret</name>
+</author>
+<author>
+<name>Marc-Antoine Garrigue</name>
+</author>
+<author>
+<name>Sebastien Brunot</name>
+</author>
+<author>
+<name>Mathieu Gandin</name>
+</author>
+<author>
+<name>Benoit Doumas</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>http://jcaptcha.svn.sourceforge.net/viewvc/jcaptcha/jcaptcha-extension-sound-freetts/</url>
+<connection>
+<system>svn</system>
+<path>https://jcaptcha.svn.sourceforge.net/svnroot/jcaptcha/trunk/jcaptcha-extension-sound-freetts</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>Jira</system>
+<url>http://forge.octo.com/jcaptcha/jira</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.octo.captcha:jcaptcha</id>
+<version>2.0-alpha-1-SNAPSHOT-500</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.octo.captcha</maven.groupid>
+<maven.artifactid>jcaptcha-extension-sound-freetts</maven.artifactid>
+</properties>
+</extension>

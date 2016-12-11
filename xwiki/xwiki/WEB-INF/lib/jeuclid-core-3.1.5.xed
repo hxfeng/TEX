@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sourceforge.jeuclid:jeuclid-core</id>
+<version>3.1.5</version>
+<type>jar</type>
+<name>JEuclid Core Module</name>
+<summary>This is the core module containing the basic JEuclid rendering and document handling classes.</summary>
+<website>http://jeuclid.sourceforge.net/jeuclid-core</website>
+<authors>
+<author>
+<name>Max Berger</name>
+<url>http://max.berger.name</url>
+</author>
+<author>
+<name>Ernest Mishkin</name>
+</author>
+<author>
+<name>Erik Putrycz</name>
+</author>
+<author>
+<name>Emmanuel Pietriga</name>
+</author>
+<author>
+<name>PetrProchy</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://jeuclid.svn.sourceforge.net/svnroot/jeuclid/tags/jeuclid-parent-3.1.5/jeuclid-core</url>
+<connection>
+<system>svn</system>
+<path>https://jeuclid.svn.sourceforge.net/svnroot/jeuclid/tags/jeuclid-parent-3.1.5/jeuclid-core</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://jeuclid.svn.sourceforge.net/svnroot/jeuclid/tags/jeuclid-parent-3.1.5/jeuclid-core</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>SourceForge</system>
+<url>https://sourceforge.net/tracker/?group_id=44862</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-svg-dom</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:xmlgraphics-commons</id>
+<version>1.3.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.sourceforge.jeuclid</maven.groupid>
+<maven.artifactid>jeuclid-core</maven.artifactid>
+</properties>
+</extension>

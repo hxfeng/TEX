@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.locationtech.spatial4j:spatial4j</id>
+<version>0.6</version>
+<type>jar</type>
+<name>Spatial4J</name>
+<summary>Spatial4j is a general purpose spatial / geospatial ASL licensed open-source Java library. It's
+    core capabilities are 3-fold: to provide common geospatially-aware shapes, to provide distance
+    calculations and other math, and to read shape formats like WKT and GeoJSON.</summary>
+<website>http://www.locationtech.org/projects/locationtech.spatial4j</website>
+<authors>
+<author>
+<name>David Smiley</name>
+</author>
+<author>
+<name>Ryan McKinley</name>
+</author>
+<author>
+<name>Justin Deoliveira</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/locationtech/spatial4j</url>
+<connection>
+<system>git</system>
+<path>git@github.com:locationtech/spatial4j.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:locationtech/spatial4j.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub</system>
+<url>https://github.com/locationtech/spatial4j/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.locationtech.spatial4j</maven.groupid>
+<maven.artifactid>spatial4j</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,40 @@
+###
+### Display document information
+###
+<div id="informationcontent" class="xwikiintracontent">
+<div id="_information">
+  <div id="informationleft" class="half column">
+    <dl>
+      #if($tdoc.realLocale != $doc.realLocale)
+        <dt>$services.localization.render('core.viewers.information.translationCreation', [$tdoc.realLocale])</dt>
+        <dd>$services.localization.render('core.viewers.information.translationCreationData', [$xwiki.getUserName($tdoc.creator), $xwiki.formatDate($tdoc.creationDate)])</dd>
+      #end
+      <dt>$services.localization.render('core.viewers.information.includedPages')</dt>
+      <dd>
+        #set($pages = $tdoc.includedPages)
+        #if ($pages.isEmpty())
+          ## We display a "no included pages" message to avoid having a blank information panel when there is nothing
+          $services.localization.render('core.viewers.information.noIncludedPages')
+        #else
+          #displayDocumentList($pages true $blacklistedSpaces)
+        #end
+      </dd>
+    </dl>
+  </div>## informationleft
+  <div id="informationright" class="half column">
+    <dl>
+      <dt>$services.localization.render('core.viewers.information.backlinks')</dt>
+      <dd>
+        #set($blinks = $sorttool.sort($doc.getBacklinks()))
+        #if ($blinks.isEmpty())
+          ## We display a "no backlinks" message to avoid having a blank information panel when there is nothing
+          $services.localization.render('core.viewers.information.noBacklinks')
+        #else
+          #displayDocumentList($blinks true $blacklistedSpaces)
+        #end
+      </dd>
+    </dl>
+  </div>## informationright
+  <div class="clearfloats">&nbsp;</div>
+</div>## _information
+</div>## informationcontent

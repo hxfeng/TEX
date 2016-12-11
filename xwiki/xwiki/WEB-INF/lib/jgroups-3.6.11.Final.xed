@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jgroups:jgroups</id>
+<version>3.6.11.Final</version>
+<type>jar</type>
+<name>JGroups</name>
+<summary>Reliable cluster communication toolkit</summary>
+<website>http://www.jgroups.org</website>
+<authors>
+<author>
+<name>Bela Ban</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/belaban/JGroups</url>
+<connection>
+<system>git</system>
+<path>git://github.com/belaban/JGroups.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/belaban/JGroups.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://jira.jboss.com/jira/browse/JGRP</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.jgroups</maven.groupid>
+<maven.artifactid>jgroups</maven.artifactid>
+</properties>
+</extension>

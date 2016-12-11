@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.hibernate:hibernate-validator</id>
+<version>4.3.2.Final</version>
+<type>jar</type>
+<name>Hibernate Validator Engine</name>
+<summary>Hibernate's Bean Validation (JSR-303) reference implementation.</summary>
+<website>http://validator.hibernate.org/hibernate-validator</website>
+<authors>
+<author>
+<name>Emmanuel Bernard</name>
+<url>http://in.relation.to/Bloggers/Emmanuel</url>
+</author>
+<author>
+<name>Hardy Ferentschik</name>
+<url>http://in.relation.to/Bloggers/Hardy</url>
+</author>
+<author>
+<name>Gunnar Morling</name>
+<url>http://musingsofaprogrammingaddict.blogspot.com/</url>
+</author>
+<author>
+<name>Kevin Pollet</name>
+<url>http://www.serli.com</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/hibernate/hibernate-validator/hibernate-validator</url>
+<connection>
+<system>git</system>
+<path>git://github.com/hibernate/hibernate-validator.git/hibernate-validator</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:hibernate/hibernate-validator.git/hibernate-validator</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://opensource.atlassian.com/projects/hibernate/browse/HV</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging</id>
+<version>3.1.0.CR2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.hibernate:hibernate-validator</id>
+<version>4.3.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-validator-annotation-processor</id>
+<version>4.3.2.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>joda-time:joda-time</id>
+<version>1.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.16</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate.javax.persistence:hibernate-jpa-2.0-api</id>
+<version>1.0.1.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-entitymanager</id>
+<version>3.6.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.testng:testng</id>
+<version>5.14.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.groovy:groovy</id>
+<version>1.8.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.easymock:easymock</id>
+<version>3.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.h2database:h2</id>
+<version>1.2.124</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jsoup:jsoup</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging</id>
+<version>3.1.0.CR2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.hibernate</maven.groupid>
+<maven.artifactid>hibernate-validator</maven.artifactid>
+</properties>
+</extension>

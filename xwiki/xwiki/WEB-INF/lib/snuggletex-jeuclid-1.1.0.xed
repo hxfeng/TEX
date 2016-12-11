@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>uk.ac.ed.ph.snuggletex:snuggletex-jeuclid</id>
+<version>1.1.0</version>
+<type>jar</type>
+<name>SnuggleTeX JEuclid Extensions</name>
+<summary>SnuggleTeX is a free and open-source Java library for converting LaTeX to XML
+    (usually XHTML + MathML).</summary>
+<website>http://snuggletex.sourceforge.net/snuggletex-jeuclid</website>
+<authors>
+<author>
+<name>David McKain</name>
+<url>http://www.ph.ed.ac.uk/~dmckain/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Modified BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://snuggletex.svn.sourceforge.net/svnroot/snuggletex/trunk/snuggletex-jeuclid</url>
+<connection>
+<system>svn</system>
+<path>https://snuggletex.svn.sourceforge.net/svnroot/snuggletex/trunk/snuggletex-jeuclid</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://snuggletex.svn.sourceforge.net/svnroot/snuggletex/trunk/snuggletex-jeuclid</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>sourceforge</system>
+<url>http://sourceforge.net/tracker/?group_id=221375</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>uk.ac.ed.ph.snuggletex:snuggletex-core</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sourceforge.jeuclid:jeuclid-core</id>
+<version>3.1.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.saxon:saxon9</id>
+<version>9.1.0.6</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.saxon:saxon9-dom</id>
+<version>9.1.0.6</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>uk.ac.ed.ph.snuggletex</maven.groupid>
+<maven.artifactid>snuggletex-jeuclid</maven.artifactid>
+</properties>
+</extension>

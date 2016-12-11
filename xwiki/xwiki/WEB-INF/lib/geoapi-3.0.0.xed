@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.opengis:geoapi</id>
+<version>3.0.0</version>
+<type>jar</type>
+<name>GeoAPI</name>
+<summary>The development community in building GIS solutions is sustaining an enormous level
+ of effort. The GeoAPI project aims to reduce duplication and increase interoperability
+ by providing neutral, interface-only APIs derived from OGC/ISO Standards.</summary>
+<website>http://www.geoapi.org/geoapi/</website>
+<authors>
+<author>
+<name>Martin Desruisseaux</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>OGC copyright</name>
+</license>
+</licenses>
+<scm>
+<url>http://geoapi.svn.sourceforge.net/viewvc/geoapi/branches/3.0.x/geoapi/</url>
+<connection>
+<system>svn</system>
+<path>https://geoapi.svn.sourceforge.net/svnroot/geoapi/branches/3.0.x/geoapi</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://jira.codehaus.org/browse/GEO</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.measure:jsr-275</id>
+<version>0.9.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>javax.measure:jsr-275</id>
+<version>0.9.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.opengis</maven.groupid>
+<maven.artifactid>geoapi</maven.artifactid>
+</properties>
+</extension>

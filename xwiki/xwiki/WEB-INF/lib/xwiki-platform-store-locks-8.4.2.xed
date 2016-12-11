@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.xwiki.platform:xwiki-platform-store-locks</id>
+<version>8.4.2</version>
+<type>jar</type>
+<name>XWiki Platform - Store - Locks</name>
+<summary>Locking mechanisms and supporting code for XWiki storage engine.</summary>
+<website>http://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-store-locks:8.4.2:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-store/xwiki-platform-store-locks</website>
+<authors>
+<author>
+<name>XWiki Development Team</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/xwiki/xwiki-platform/tree/master/xwiki-platform-core/xwiki-platform-store/xwiki-platform-store-locks/</url>
+<connection>
+<system>git</system>
+<path>git://github.com/xwiki/xwiki-platform.git/xwiki-platform-core/xwiki-platform-store/xwiki-platform-store-locks</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:xwiki/xwiki-platform.git/xwiki-platform-core/xwiki-platform-store/xwiki-platform-store-locks</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://jira.xwiki.org/jira/browse/XWIKI</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.xwiki.commons:xwiki-commons-component-api</id>
+<version>8.4.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.python:jython-standalone</id>
+<version>2.7.0-xwiki-3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jgroups:jgroups</id>
+<version>3.6.11.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-core</id>
+<version>1.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-parsers</id>
+<version>1.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>rome:rome</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>rome:rome-fetcher</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>de.l3s.boilerpipe:boilerpipe</id>
+<version>1.2.0-xwiki</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.struts:struts-core</id>
+<version>1.3.10</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-user</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-servlet</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:woodstox-core-asl</id>
+<version>4.4.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jfree:jfreechart</id>
+<version>1.0.19</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>joda-time:joda-time</id>
+<version>2.9.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:requirejs</id>
+<version>2.2.0</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:jquery</id>
+<version>2.2.2</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:bootstrap</id>
+<version>3.3.7-1</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-rasterizer</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-bridge</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-css</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-util</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-codec</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-ext</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-extension</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-transcoder</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-gvt</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-svg-dom</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:bootstrap-select</id>
+<version>1.12.0</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-lang3</id>
+<version>3.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-collections4</id>
+<version>4.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-net:commons-net</id>
+<version>3.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpclient</id>
+<version>4.5.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpmime</id>
+<version>4.5.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore</id>
+<version>4.4.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore-nio</id>
+<version>4.4.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpasyncclient</id>
+<version>4.1.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-httpclient:commons-httpclient</id>
+<version>3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-dbcp2</id>
+<version>2.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-fileupload:commons-fileupload</id>
+<version>1.3.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.10</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.9.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-configuration:commons-configuration</id>
+<version>1.10</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.thoughtworks.xstream:xstream</id>
+<version>1.4.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jdom:jdom</id>
+<version>1.1.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jdom:jdom2</id>
+<version>2.0.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.java.dev.stax-utils:stax-utils</id>
+<version>20070216</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xpp3:xpp3</id>
+<version>1.1.4c</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xpp3:xpp3_min</id>
+<version>1.1.4c</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xerces:xercesImpl</id>
+<version>2.11.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xml-apis:xml-apis</id>
+<version>1.4.01</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>xalan:xalan</id>
+<version>2.7.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.json-lib:json-lib:jdk15</id>
+<version>2.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.json:json</id>
+<version>20160810</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-core</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-databind</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-annotations</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-csv</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-smile</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-xml</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-yaml</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-cbor</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-avro</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.module:jackson-module-jaxb-annotations</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.module:jackson-module-jsonSchema</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.datatype:jackson-datatype-jdk8</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.datatype:jackson-datatype-jsr310</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.datatype:jackson-datatype-jsr353</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.datatype:jackson-datatype-guava</id>
+<version>2.8.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-mapper-asl</id>
+<version>1.9.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-core-asl</id>
+<version>1.9.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.ws.rs:jsr311-api</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.restlet.jse:org.restlet.ext.jaxrs</id>
+<version>2.0.14</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.transaction:jta</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.55</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcpkix-jdk15on</id>
+<version>1.55</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcmail-jdk15on</id>
+<version>1.55</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.reflections:reflections</id>
+<version>0.9.10</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>edu.ucar:netcdf</id>
+<version>4.2.20</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>19.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.groovy:groovy-all</id>
+<version>2.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ch.qos.logback:logback-classic</id>
+<version>1.1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:log4j-over-slf4j</id>
+<version>1.7.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.logging:jboss-logging</id>
+<version>3.3.0.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.22</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hamcrest:hamcrest-core</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hamcrest:hamcrest-library</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jmock:jmock</id>
+<version>2.6.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jmock:jmock-junit4</id>
+<version>2.6.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jmock:jmock-legacy</id>
+<version>2.6.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mockito:mockito-core</id>
+<version>1.10.19</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.seleniumhq.selenium:selenium-java</id>
+<version>2.44.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:javax.servlet-api</id>
+<version>3.0.1</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.aspectj:aspectjrt</id>
+<version>1.8.9</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sourceforge.cssparser:cssparser</id>
+<version>0.9.20</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.mail:mail</id>
+<version>1.4.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.googlecode.java-diff-utils:diffutils</id>
+<version>1.3.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.velocity:velocity</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.velocity:velocity-tools</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.annotation:javax.annotation-api</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-analysis</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-util</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.antlr:antlr-runtime</id>
+<version>3.5.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>antlr:antlr</id>
+<version>2.7.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.xwiki.platform</maven.groupid>
+<maven.artifactid>xwiki-platform-store-locks</maven.artifactid>
+</properties>
+</extension>

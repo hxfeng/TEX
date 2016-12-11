@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.opennlp:opennlp-maxent</id>
+<version>3.0.3</version>
+<type>jar</type>
+<name>Apache OpenNLP Maxent</name>
+<summary>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</summary>
+<website>http://www.apache.org/opennlp-maxent/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/opennlp/tags/opennlp-1.5.3-rc3/opennlp-maxent</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/opennlp/tags/opennlp-1.5.3-rc3/opennlp-maxent</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/opennlp/tags/opennlp-1.5.3-rc3/opennlp-maxent</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/OPENNLP</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.opennlp</maven.groupid>
+<maven.artifactid>opennlp-maxent</maven.artifactid>
+</properties>
+</extension>

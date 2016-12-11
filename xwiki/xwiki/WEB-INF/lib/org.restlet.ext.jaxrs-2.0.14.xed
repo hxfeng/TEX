@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.restlet.jse:org.restlet.ext.jaxrs</id>
+<version>2.0.14</version>
+<type>jar</type>
+<name>Restlet Extension - JAX-RS</name>
+<summary>Implementation of JAX-RS (JSR-311)</summary>
+<website>http://www.restlet.org/org.restlet.ext.jaxrs</website>
+<licenses>
+<license>
+<name>Apache 2.0 license</name>
+</license>
+<license>
+<name>LGPL 3.0 license</name>
+</license>
+<license>
+<name>LGPL 2.1 license</name>
+</license>
+<license>
+<name>CDDL 1.0 license</name>
+</license>
+<license>
+<name>EPL 1.0 license</name>
+</license>
+</licenses>
+<scm>
+<url>http://restlet.tigris.org/svn/restlet/modules/org.restlet.ext.jaxrs/</url>
+</scm>
+<dependencies>
+<dependency>
+<id>javax.activation:activation</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-fileupload:commons-fileupload</id>
+<version>1.2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.mail:mail</id>
+<version>1.4.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.xml.bind:jaxb-api</id>
+<version>2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.xml.bind:jaxb-impl</id>
+<version>2.1.12</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.ws.rs:jsr311-api</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.restlet.jse:org.restlet.lib.org.json</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.xml.stream:stax-api</id>
+<version>1.0-2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.restlet.jse:org.restlet</id>
+<version>2.0.14</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.restlet.jse</maven.groupid>
+<maven.artifactid>org.restlet.ext.jaxrs</maven.artifactid>
+</properties>
+</extension>

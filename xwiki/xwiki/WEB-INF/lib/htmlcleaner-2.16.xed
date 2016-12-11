@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sourceforge.htmlcleaner:htmlcleaner</id>
+<version>2.16</version>
+<type>jar</type>
+<name>HtmlCleaner</name>
+<summary>HtmlCleaner is an HTML parser written in Java. It transforms dirty HTML to well-formed XML following
+        the same rules that most web-browsers use.</summary>
+<website>http://htmlcleaner.sourceforge.net/</website>
+<authors>
+<author>
+<name>Vladimir Nikic</name>
+</author>
+<author>
+<name>Patrick Moore</name>
+</author>
+<author>
+<name>Scott Wilson</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.code.sf.net/p/htmlcleaner/code/tags/htmlcleaner-2.16</url>
+<connection>
+<system>svn</system>
+<path>https://svn.code.sf.net/p/htmlcleaner/code/tags/htmlcleaner-2.16</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.code.sf.net/p/htmlcleaner/code/tags/htmlcleaner-2.16</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.jdom:jdom2</id>
+<version>2.0.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.sourceforge.htmlcleaner</maven.groupid>
+<maven.artifactid>htmlcleaner</maven.artifactid>
+</properties>
+</extension>

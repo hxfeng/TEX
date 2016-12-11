@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.osgi:org.osgi.core</id>
+<version>4.0.0</version>
+<type>jar</type>
+<properties>
+<maven.groupid>org.osgi</maven.groupid>
+<maven.artifactid>org.osgi.core</maven.artifactid>
+</properties>
+</extension>

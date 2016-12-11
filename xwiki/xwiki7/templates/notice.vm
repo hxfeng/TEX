@@ -1,0 +1,5 @@
+###
+### Generic notification message
+###
+#set($messageType = $services.localization.render('platform.core.noticeMessageType'))
+#template("message.vm")

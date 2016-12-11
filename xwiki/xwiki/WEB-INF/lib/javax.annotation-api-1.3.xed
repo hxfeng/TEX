@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.annotation:javax.annotation-api</id>
+<version>1.3</version>
+<type>jar</type>
+<name>javax.annotation API</name>
+<summary>Common Annotations for the JavaTM Platform API</summary>
+<website>http://jcp.org/en/jsr/detail?id=250</website>
+<authors>
+<author>
+<name>Rajiv Mordani</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>CDDL + GPLv2 with classpath exception</name>
+</license>
+</licenses>
+<scm>
+<url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.3</url>
+<connection>
+<system>svn</system>
+<path>https://svn.java.net/svn/glassfish~svn/tags/javax.annotation-api-1.3</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.java.net/svn/glassfish~svn/tags/javax.annotation-api-1.3</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://java.net/jira/browse/GLASSFISH</url>
+</issuemanagement>
+<properties>
+<maven.groupid>javax.annotation</maven.groupid>
+<maven.artifactid>javax.annotation-api</maven.artifactid>
+</properties>
+</extension>

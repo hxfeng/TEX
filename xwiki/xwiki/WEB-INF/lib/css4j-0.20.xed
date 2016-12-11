@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>info.informatica:css4j</id>
+<version>0.20</version>
+<type>jar</type>
+<name>CSS4J</name>
+<summary>Java library that implements the CSS Object Model</summary>
+<website>http://informatica.info/projects/css/</website>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.13</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-css</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-util</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>info.informatica:jclf</id>
+<version>3.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.w3c.css:sac</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.10</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>info.informatica</maven.groupid>
+<maven.artifactid>css4j</maven.artifactid>
+</properties>
+</extension>

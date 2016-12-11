@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.21</version>
+<type>jar</type>
+<name>SLF4J API Module</name>
+<summary>The slf4j API</summary>
+<website>http://www.slf4j.org</website>
+<authors>
+<author>
+<name>Ceki Gulcu</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/qos-ch/slf4j/slf4j-api</url>
+<connection>
+<system>git@github.com</system>
+<path>qos-ch/slf4j.git/slf4j-api</path>
+</connection>
+</scm>
+<manageddependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-jdk14</id>
+<version>1.7.21</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.17</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ch.qos.cal10n:cal10n-api</id>
+<version>0.8.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.slf4j</maven.groupid>
+<maven.artifactid>slf4j-api</maven.artifactid>
+</properties>
+</extension>

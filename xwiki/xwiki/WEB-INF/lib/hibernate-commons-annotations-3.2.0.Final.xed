@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.hibernate:hibernate-commons-annotations</id>
+<version>3.2.0.Final</version>
+<type>jar</type>
+<name>Hibernate Commons Annotations</name>
+<summary>Common reflection code used in support of annotation processing</summary>
+<website>http://hibernate.org</website>
+<authors>
+<author>
+<name>Emmanuel Bernard</name>
+<url>http://in.relation.to/Bloggers/Emmanuel</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.jboss.org/repos/hibernate/commons-annotations/tags/3.2.0.Final</url>
+<connection>
+<system>svn</system>
+<path>https://svn.jboss.org/repos/hibernate/commons-annotations/tags/3.2.0.Final</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.jboss.org/repos/hibernate/commons-annotations/tags/3.2.0.Final</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://opensource.atlassian.com/projects/hibernate/browse/HCANN</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.5.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.5.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.hibernate</maven.groupid>
+<maven.artifactid>hibernate-commons-annotations</maven.artifactid>
+</properties>
+</extension>

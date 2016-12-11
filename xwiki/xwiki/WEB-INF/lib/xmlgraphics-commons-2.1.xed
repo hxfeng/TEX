@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.xmlgraphics:xmlgraphics-commons</id>
+<version>2.1</version>
+<type>jar</type>
+<name>Apache XML Graphics Commons</name>
+<summary>Apache XML Graphics Commons is a library that consists of several reusable 
+    components used by Apache Batik and Apache FOP. Many of these components 
+    can easily be used separately outside the domains of SVG and XSL-FO.</summary>
+<website>http://xmlgraphics.apache.org/commons/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/xmlgraphics/commons/trunk/?root=Apache-SVN</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/xmlgraphics/commons/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/xmlgraphics/commons/trunk</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>1.3.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.0.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.xmlgraphics</maven.groupid>
+<maven.artifactid>xmlgraphics-commons</maven.artifactid>
+</properties>
+</extension>

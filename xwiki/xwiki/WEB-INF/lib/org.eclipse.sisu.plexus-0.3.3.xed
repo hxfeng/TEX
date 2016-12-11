@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.eclipse.sisu:org.eclipse.sisu.plexus</id>
+<version>0.3.3</version>
+<type>eclipse-plugin</type>
+<summary>Plexus-JSR330 adapter; adds Plexus support to the Sisu-Inject container</summary>
+<website>http://www.eclipse.org/sisu/org.eclipse.sisu.plexus/</website>
+<licenses>
+<license>
+<name>Eclipse Public License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/org.eclipse.sisu.plexus/</url>
+<connection>
+<system>git</system>
+<path>git://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.plexus.git/org.eclipse.sisu.plexus</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.plexus.git/org.eclipse.sisu.plexus</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>bugzilla</system>
+<url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Plexus&amp;format=guided</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.enterprise:cdi-api</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.sisu:org.eclipse.sisu.inject</id>
+<version>0.3.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-classworlds</id>
+<version>2.5.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.17</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.eclipse.sisu</maven.groupid>
+<maven.artifactid>org.eclipse.sisu.plexus</maven.artifactid>
+</properties>
+</extension>

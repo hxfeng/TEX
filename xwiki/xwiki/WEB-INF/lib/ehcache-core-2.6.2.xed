@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.ehcache:ehcache-core</id>
+<version>2.6.2</version>
+<type>jar</type>
+<name>Ehcache Core</name>
+<summary>This is the ehcache core module. Pair it with other modules for added functionality.</summary>
+<website>http://ehcache.org</website>
+<authors>
+<author>
+<name>Greg Luck</name>
+</author>
+<author>
+<name>Surya Suravarapu</name>
+</author>
+<author>
+<name>Gavin King</name>
+</author>
+<author>
+<name>Mauro Talevi</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.terracotta.org/svn/ehcache/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.terracotta.org/svn/ehcache/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.terracotta.org/repo/ehcache/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://jira.terracotta.org/jira/browse/EHC</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>net.sf.jsr107cache:jsr107cache</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.0.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-core</id>
+<version>3.3.2.GA</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hibernate:hibernate-ehcache</id>
+<version>3.3.2.GA</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.hibernate:hibernate</id>
+<version>2.1.8</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.4</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>jgroups:jgroups-all</id>
+<version>2.4.1</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>httpunit:httpunit</id>
+<version>1.6</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-httpclient:commons-httpclient</id>
+<version>3.0.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>checkstyle:checkstyle-optional</id>
+<version>4.4</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.springframework:spring</id>
+<version>2.0.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.springframework:spring-aop</id>
+<version>2.0.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.springframework:spring-aspects</id>
+<version>2.0.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.springframework:spring-mock</id>
+<version>2.0.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.acegisecurity:acegi-security</id>
+<version>1.0.3</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>net.sf.ehcache</maven.groupid>
+<maven.artifactid>ehcache-core</maven.artifactid>
+</properties>
+</extension>

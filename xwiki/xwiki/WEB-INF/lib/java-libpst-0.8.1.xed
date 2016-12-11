@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.pff:java-libpst</id>
+<version>0.8.1</version>
+<type>jar</type>
+<name>java-libpst</name>
+<summary>A library to read PST files with java, without need for external libraries.</summary>
+<website>https://code.google.com/p/java-libpst/</website>
+<authors>
+<author>
+<name>Richard Johnson</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/rjohnsondev/java-libpst/tags/java-libpst-0.8.1</url>
+<connection>
+<system>https</system>
+<path>//github.com/rjohnsondev/java-libpst.git/tags/java-libpst-0.8.1</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.sonatype.org/spice/tags/oss-parent-7/java-libpst</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.pff</maven.groupid>
+<maven.artifactid>java-libpst</maven.artifactid>
+</properties>
+</extension>

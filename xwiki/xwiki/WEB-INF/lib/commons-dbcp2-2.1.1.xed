@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-dbcp2</id>
+<version>2.1.1</version>
+<type>jar</type>
+<name>Apache Commons DBCP</name>
+<summary>Apache Commons DBCP software implements Database Connection Pooling</summary>
+<website>http://commons.apache.org/dbcp/</website>
+<authors>
+<author>
+<name>Morgan Delagrange</name>
+</author>
+<author>
+<name>Geir Magnusson</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>John McNally</name>
+</author>
+<author>
+<name>Martin Poeschl</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>David Weinrich</name>
+</author>
+<author>
+<name>Dirk Verbeeck</name>
+</author>
+<author>
+<name>Yoav Shapira</name>
+</author>
+<author>
+<name>Jörg Schaible</name>
+</author>
+<author>
+<name>Mark Thomas</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/dbcp/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/dbcp/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/dbcp/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/DBCP</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.commons:commons-pool2</id>
+<version>2.4.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-dbcp2</maven.artifactid>
+</properties>
+</extension>

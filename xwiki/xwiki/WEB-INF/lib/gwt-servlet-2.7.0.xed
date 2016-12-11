@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.gwt:gwt-servlet</id>
+<version>2.7.0</version>
+<type>jar</type>
+<summary>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</summary>
+<website>http://www.gwtproject.org/gwt-servlet/</website>
+<licenses>
+<license>
+<name>GWT Terms</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.sonatype.org/spice/tags/oss-parent-4/gwt/gwt-servlet</url>
+<connection>
+<system>svn</system>
+<path>http://svn.sonatype.org/spice/tags/oss-parent-4/gwt/gwt-servlet</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.sonatype.org/spice/tags/oss-parent-4/gwt/gwt-servlet</path>
+</developerconnection>
+</scm>
+<manageddependencies>
+<dependency>
+<id>com.google.gwt:gwt-user</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-dev</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-codeserver</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-servlet</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.gwt:gwt-elemental</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.validation:validation-api:sources</id>
+<version>1.0.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.web.bindery:requestfactory-apt</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.web.bindery:requestfactory-client</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.web.bindery:requestfactory-server</id>
+<version>2.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-analysis</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-util</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-xml</id>
+<version>5.0.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.google.gwt</maven.groupid>
+<maven.artifactid>gwt-servlet</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,1 @@
+define("deferred",["jquery"],function(b){var a={};var c=require.onResourceLoad;require.onResourceLoad=function(e,f,d){if(typeof c==="function"){c.apply(this,arguments)}var h=f.fullName||f.id;var g=a[h];if(g){g.resolve(require(h))}};return{load:function(f,d,g,e){var h=a[f];if(!h){a[f]=h=b.Deferred()}if(d.defined(f)){h.resolve(d(f))}g(h.promise())}}});

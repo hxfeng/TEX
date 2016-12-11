@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.avalon.framework:avalon-framework-api</id>
+<version>4.3.1</version>
+<type>jar</type>
+<name>Avalon Framework API</name>
+<summary>Avalon Framework API</summary>
+<website>http://www.apache.org/excalibur/avalon-framework/avalon-framework-api/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.apache.avalon.framework</maven.groupid>
+<maven.artifactid>avalon-framework-api</maven.artifactid>
+</properties>
+</extension>

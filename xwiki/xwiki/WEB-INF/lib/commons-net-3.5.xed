@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-net:commons-net</id>
+<version>3.5</version>
+<type>jar</type>
+<name>Apache Commons Net</name>
+<summary>Apache Commons Net library contains a collection of network utilities and protocol implementations.
+Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois</summary>
+<website>http://commons.apache.org/proper/commons-net/</website>
+<authors>
+<author>
+<name>Jeffrey D. Brekke</name>
+</author>
+<author>
+<name>Steve Cohen</name>
+</author>
+<author>
+<name>Bruno D'Avanzo</name>
+</author>
+<author>
+<name>Daniel F. Savarese</name>
+</author>
+<author>
+<name>Rory Winston</name>
+</author>
+<author>
+<name>Rory Winston</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/net/tags/NET_3_5</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/net/tags/NET_3_5</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/net/tags/NET_3_5</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/NET</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-net</maven.groupid>
+<maven.artifactid>commons-net</maven.artifactid>
+</properties>
+</extension>

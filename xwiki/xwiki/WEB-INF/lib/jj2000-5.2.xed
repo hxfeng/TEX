@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>edu.ucar:jj2000</id>
+<version>5.2</version>
+<type>jar</type>
+<name>Unidata jj2000</name>
+<summary>Fork of jpeg2k code from https://code.google.com/p/jj2000/. 
+		This is a dependency for support of compression in Grib2 files in netCDF-java and TDS.
+		We welcome bug fixes and other contributions to this code.</summary>
+<website>https://github.com/Unidata/jj2000</website>
+<authors>
+<author>
+<name/>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/Unidata/jj2000.git</url>
+<connection>
+<system>git</system>
+<path>http://github.com/Unidata/jj2000.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>http://github.com/Unidata/jj2000.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>edu.ucar</maven.groupid>
+<maven.artifactid>jj2000</maven.artifactid>
+</properties>
+</extension>

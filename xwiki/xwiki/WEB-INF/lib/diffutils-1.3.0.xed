@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.googlecode.java-diff-utils:diffutils</id>
+<version>1.3.0</version>
+<type>jar</type>
+<name>java-diff-utils</name>
+<summary>The DiffUtils library for computing diffs, applying patches, generationg side-by-side view in Java.</summary>
+<website>http://code.google.com/p/java-diff-utils/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://code.google.com/p/java-diff-utils/source/browse/</url>
+<connection>
+<system>svn</system>
+<path>http://java-diff-utils.googlecode.com/svn/branches/1.3.0/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://java-diff-utils.googlecode.com/svn/branches/1.3.0</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.googlecode.java-diff-utils</maven.groupid>
+<maven.artifactid>diffutils</maven.artifactid>
+</properties>
+</extension>

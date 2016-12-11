@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-chain:commons-chain</id>
+<version>1.2</version>
+<type>jar</type>
+<name>Commons Chain</name>
+<summary>An implementation of the GoF Chain of Responsibility pattern</summary>
+<website>http://commons.apache.org/chain/</website>
+<authors>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Ted Husted</name>
+</author>
+<author>
+<name>Martin Cooper</name>
+</author>
+<author>
+<name>Don Brown</name>
+</author>
+<author>
+<name>James Mitchell</name>
+</author>
+<author>
+<name>Joe Germuska</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/chain/trunk/</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/chain/trunk/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/chain/trunk/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CHAIN</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-chain</maven.groupid>
+<maven.artifactid>commons-chain</maven.artifactid>
+</properties>
+</extension>

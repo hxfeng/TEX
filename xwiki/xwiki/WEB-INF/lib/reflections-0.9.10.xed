@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.reflections:reflections</id>
+<version>0.9.10</version>
+<type>jar</type>
+<name>Reflections</name>
+<summary>Reflections - a Java runtime metadata analysis</summary>
+<website>http://github.com/ronmamo/reflections</website>
+<authors>
+<author/>
+</authors>
+<licenses>
+<license>
+<name>Do What The Fuck You Want To Public License 2</name>
+</license>
+<license>
+<name>Revised BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/ronmamo/reflections/issues</url>
+<connection>
+<system>git</system>
+<path>git://github.com/ronmamo/reflections.git</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/ronmamo/reflections/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>15.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.javassist:javassist</id>
+<version>3.19.0-GA</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.code.findbugs:annotations</id>
+<version>2.0.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.reflections</maven.groupid>
+<maven.artifactid>reflections</maven.artifactid>
+</properties>
+</extension>

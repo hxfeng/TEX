@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-exec</id>
+<version>1.3</version>
+<type>jar</type>
+<name>Apache Commons Exec</name>
+<summary>Apache Commons Exec is a library to reliably execute external processes from within the JVM.</summary>
+<website>http://commons.apache.org/proper/commons-exec/</website>
+<authors>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>Trygve Laugstøl</name>
+</author>
+<author>
+<name>Siegfried Goeschl</name>
+</author>
+<author>
+<name>Sebastian Bazley</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/exec/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/exec/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/exec/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/EXEC</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-exec</maven.artifactid>
+</properties>
+</extension>

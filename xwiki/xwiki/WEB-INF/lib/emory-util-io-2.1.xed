@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>edu.emory.mathcs.util:emory-util-io</id>
+<version>2.1</version>
+<type>jar</type>
+<summary>Collection of Java 1.4-compatible utility classes for advanced systems and applications.</summary>
+<website>http://dcl.mathcs.emory.edu/util/emory-util-io/</website>
+<authors>
+<author>
+<name>Distributed Computing Laboratory, Dept. of Math and Computer Science, Emory University</name>
+<url>http://www.mathcs.emory.edu/research.php</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<scm>
+<url>http://dcl.mathcs.emory.edu/bin/viewvc/software/harness2/trunk/emory-util-io</url>
+<connection>
+<system>svn</system>
+<path>svn://dcl.mathcs.emory.edu/software/harness2/trunk/emory-util-io</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>svn://dcl.mathcs.emory.edu/software/harness2/trunk/emory-util-io</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>edu.emory.mathcs.util</maven.groupid>
+<maven.artifactid>emory-util-io</maven.artifactid>
+</properties>
+</extension>

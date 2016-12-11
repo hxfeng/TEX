@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.curator:curator-client</id>
+<version>2.8.0</version>
+<type>jar</type>
+<name>Curator Client</name>
+<summary>Low-level API</summary>
+<website>http://curator.apache.org/curator-client</website>
+<authors>
+<author>
+<name>Jordan Zimmerman</name>
+<url>https://people.apache.org/~randgalt</url>
+</author>
+<author>
+<name>Jay Zarfoss</name>
+<url>http://www.linkedin.com/pub/jay-zarfoss/34/56/a19</url>
+</author>
+<author>
+<name>Eric Tschetter</name>
+</author>
+<author>
+<name>Ioannis Canellos</name>
+<url>http://iocanel.blogspot.com</url>
+</author>
+<author>
+<name>Cameron McKenzie</name>
+<url>https://people.apache.org/~cammckenzie</url>
+</author>
+<author>
+<name>Scott Blum</name>
+<url>http://github.com/dragonsinth</url>
+</author>
+<author>
+<name>Patrick Hunt</name>
+<url>http://www.linkedin.com/pub/patrick-hunt/2/5b2/24a</url>
+</author>
+<author>
+<name>Mahadev Konar</name>
+<url>http://www.linkedin.com/in/mahadevkonar</url>
+</author>
+<author>
+<name>Luciano Resende</name>
+<url>https://people.apache.org/~lresende</url>
+</author>
+<author>
+<name>Enis Söztutar</name>
+<url>https://people.apache.org/~enis</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/apache/curator.git/curator-client</url>
+<connection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/curator.git/curator-client</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/curator.git/curator-client</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://issues.apache.org/jira/browse/CURATOR</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.zookeeper:zookeeper</id>
+<version>3.4.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>16.0.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-log4j12</id>
+<version>1.7.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mockito:mockito-core</id>
+<version>1.9.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-client</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-framework</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-recipes</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-test</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-x-discovery</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-x-discovery-server</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.javassist:javassist</id>
+<version>3.18.1-GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-math</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-mapper-asl</id>
+<version>1.9.13</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-server</id>
+<version>1.18.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-servlet</id>
+<version>1.18.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-client</id>
+<version>1.18.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-core</id>
+<version>1.18.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.ws.rs:jsr311-api</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty</id>
+<version>6.1.26</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.scannotation:scannotation</id>
+<version>1.0.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.resteasy:resteasy-jaxrs</id>
+<version>2.3.0.GA</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.zookeeper:zookeeper</id>
+<version>3.4.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>16.0.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.testng:testng</id>
+<version>6.8.8</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.facebook.swift:swift-codec</id>
+<version>0.12.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.facebook.swift:swift-service</id>
+<version>0.12.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.dropwizard:dropwizard-configuration</id>
+<version>0.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>io.dropwizard:dropwizard-logging</id>
+<version>0.7.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.curator</maven.groupid>
+<maven.artifactid>curator-client</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:jquery-ui-touch-punch</id>
+<version>0.2.3-2</version>
+<type>jar</type>
+<name>jquery-ui-touch-punch.js</name>
+<summary>WebJar for jquery-ui-touch-punch.js</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>Michael Haitz</name>
+</author>
+<author>
+<name>James Ward</name>
+</author>
+<author>
+<name>Dhruv Bhatia</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/jquery-ui-touch-punch</url>
+<connection>
+<system>git@github.com</system>
+<path>webjars/jquery-ui-touch-punch.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/jquery-ui-touch-punch.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:jquery-ui</id>
+<version>1.10.4-1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>jquery-ui-touch-punch</maven.artifactid>
+</properties>
+</extension>

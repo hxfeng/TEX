@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.55</version>
+<type>jar</type>
+<name>Bouncy Castle Provider</name>
+<summary>The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.5 to JDK 1.8.</summary>
+<website>http://www.bouncycastle.org/java.html</website>
+<authors>
+<author>
+<name>The Legion of the Bouncy Castle Inc.</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Bouncy Castle Licence</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/bcgit/bc-java</url>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://www.bouncycastle.org/jira/secure/Dashboard.jspa</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.bouncycastle</maven.groupid>
+<maven.artifactid>bcprov-jdk15on</maven.artifactid>
+</properties>
+</extension>

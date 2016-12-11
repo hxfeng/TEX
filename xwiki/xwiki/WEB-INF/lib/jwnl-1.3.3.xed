@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.jwordnet:jwnl</id>
+<version>1.3.3</version>
+<type>jar</type>
+<name>Java WordNet Library</name>
+<summary>JWNL is an API for accessing WordNet-style relational dictionaries. It also provides 
+  	functionality beyond data access, such as relationship discovery and morphological 
+  	processing.</summary>
+<website>http://jwordnet.sourceforge.net/</website>
+<authors>
+<author>
+<name>Brett Walenz</name>
+</author>
+<author>
+<name>John Didion</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD 3-Clause License</name>
+</license>
+</licenses>
+<scm>
+<url>http://jwordnet.svn.sourceforge.net/viewvc/jwordnet</url>
+<connection>
+<system>http</system>
+<path>//jwordnet.svn.sourceforge.net/viewvc/jwordnet</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>net.sf.jwordnet</maven.groupid>
+<maven.artifactid>jwnl</maven.artifactid>
+</properties>
+</extension>

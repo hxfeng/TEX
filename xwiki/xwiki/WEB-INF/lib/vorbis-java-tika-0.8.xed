@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.gagravarr:vorbis-java-tika</id>
+<version>0.8</version>
+<type>jar</type>
+<name>Apache Tika plugin for Ogg, Vorbis and FLAC</name>
+<summary>Ogg and Vorbis toolkit and tools for Java</summary>
+<website>https://github.com/Gagravarr/VorbisJava</website>
+<authors>
+<author>
+<name>Nick Burch</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/Gagravarr/VorbisJava/vorbis-java-tika</url>
+<connection>
+<system>git</system>
+<path>git@github.com:Gagravarr/VorbisJava.git/vorbis-java-tika</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://gagravarr@github.com/Gagravarr/VorbisJava.git/vorbis-java-tika</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.apache.tika:tika-core</id>
+<version>1.12</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.gagravarr</maven.groupid>
+<maven.artifactid>vorbis-java-tika</maven.artifactid>
+</properties>
+</extension>

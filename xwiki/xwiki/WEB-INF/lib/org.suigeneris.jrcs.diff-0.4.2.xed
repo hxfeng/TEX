@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jvnet.hudson:org.suigeneris.jrcs.diff</id>
+<version>0.4.2</version>
+<type>jar</type>
+<properties>
+<maven.groupid>org.jvnet.hudson</maven.groupid>
+<maven.artifactid>org.suigeneris.jrcs.diff</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.liquibase:liquibase-core</id>
+<version>2.0.5</version>
+<type>jar</type>
+<name>Liquibase Core</name>
+<summary>Liquibase is a tool for managing and executing database changes.</summary>
+<website>http://www.liquibase.org/liquibase-core</website>
+<authors>
+<author>
+<name>Nathan Voxland</name>
+<url>http://nathan.voxland.net</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git:git@github.com:liquibase/liquibase.git/liquibase-core</url>
+<connection>
+<system>git</system>
+<path>git@github.com:liquibase/liquibase.git/liquibase-core</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:liquibase/liquibase.git/liquibase-core</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://liquibase.jira.com/browse/CORE</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven:maven-plugin-api</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven:maven-project</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.shared:maven-plugin-testing-harness</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.1</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.easymock:easymockclassextension</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ant:ant</id>
+<version>1.6.5</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.4</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.springframework:spring</id>
+<version>2.0.6</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">true</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.shared:maven-verifier</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>hsqldb:hsqldb</id>
+<version>1.8.0.7</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.derby:derby</id>
+<version>10.2.2.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.liquibase</maven.groupid>
+<maven.artifactid>liquibase-core</maven.artifactid>
+</properties>
+</extension>

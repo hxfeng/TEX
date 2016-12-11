@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.ivy:ivy</id>
+<version>2.3.0</version>
+<type>jar</type>
+<name>Apache Ivy</name>
+<summary>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</summary>
+<website>http://ant.apache.org/ivy/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/repos/asf/ant/ivy/core/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/ant/ivy/core/trunk/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/ant/ivy/core/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/IVY</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.ivy</maven.groupid>
+<maven.artifactid>ivy</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:bootstrap</id>
+<version>3.3.7-1</version>
+<type>jar</type>
+<name>Bootstrap</name>
+<summary>WebJar for Bootstrap</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/bootstrap</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:jquery</id>
+<version>1.11.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>bootstrap</maven.artifactid>
+</properties>
+</extension>

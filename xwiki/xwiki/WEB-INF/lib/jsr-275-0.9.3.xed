@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.measure:jsr-275</id>
+<version>0.9.3</version>
+<type>jar</type>
+<name>JSR-275</name>
+<summary>JSR-275 specifies Java packages for the programmatic handling
+    of physical quantities and their expression as numbers of units.</summary>
+<website>https://kenai.com/projects/jsr-275</website>
+<authors>
+<author>
+<name>Jean-Marie Dautelle</name>
+</author>
+<author>
+<name>Werner Keil</name>
+</author>
+<author>
+<name>Karen Legrand</name>
+</author>
+<author>
+<name>Chris Senior</name>
+</author>
+<author>
+<name>Martin Desruisseaux</name>
+</author>
+<author>
+<name>Michael Gruebsch</name>
+</author>
+<author>
+<name>Eric Russell</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Specification License</name>
+</license>
+</licenses>
+<scm>
+<url>https://kenai.com/svn/jsr-275~svn-repository/trunk</url>
+<connection>
+<system>svn</system>
+<path>https://kenai.com/svn/jsr-275~svn-repository/trunk</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://kenai.com/jira/browse/JSR_275</url>
+</issuemanagement>
+<properties>
+<maven.groupid>javax.measure</maven.groupid>
+<maven.artifactid>jsr-275</maven.artifactid>
+</properties>
+</extension>

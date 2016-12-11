@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.tukaani:xz</id>
+<version>1.5</version>
+<type>jar</type>
+<name>XZ for Java</name>
+<summary>XZ data compression</summary>
+<website>http://tukaani.org/xz/java.html</website>
+<authors>
+<author>
+<name>Lasse Collin</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<scm>
+<url>http://git.tukaani.org/?p=xz-java.git</url>
+<connection>
+<system>git</system>
+<path>http://git.tukaani.org/xz-java.git</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>org.tukaani</maven.groupid>
+<maven.artifactid>xz</maven.artifactid>
+</properties>
+</extension>

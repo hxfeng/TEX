@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.activation:activation</id>
+<version>1.1.1</version>
+<type>jar</type>
+<name>JavaBeans(TM) Activation Framework</name>
+<summary>The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data</summary>
+<website>http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp</website>
+<licenses>
+<license>
+<name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>javax.activation</maven.groupid>
+<maven.artifactid>activation</maven.artifactid>
+</properties>
+</extension>

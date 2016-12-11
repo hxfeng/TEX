@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.code.findbugs:annotations</id>
+<version>3.0.0</version>
+<type>jar</type>
+<name>FindBugs-Annotations</name>
+<summary>Annotation supports the FindBugs tool</summary>
+<website>http://findbugs.sourceforge.net/</website>
+<authors>
+<author>
+<name>Bill Pugh</name>
+<url>http://www.cs.umd.edu/~pugh/</url>
+</author>
+<author>
+<name>Andrey Loskutov</name>
+<url>http://andrei.gmxhome.de/privat.html</url>
+</author>
+<author>
+<name>Keith Lea</name>
+<url>http://keithlea.com/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser Public License</name>
+</license>
+</licenses>
+<scm>
+<url>https://code.google.com/p/findbugs/</url>
+<connection>
+<system>git</system>
+<path>https://code.google.com/p/findbugs/</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://code.google.com/p/findbugs/</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.google.code.findbugs</maven.groupid>
+<maven.artifactid>annotations</maven.artifactid>
+</properties>
+</extension>

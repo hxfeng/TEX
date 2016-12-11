@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars.npm:iscroll</id>
+<version>5.1.3</version>
+<type>jar</type>
+<name>iscroll</name>
+<summary>WebJar for iscroll</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>webjars</name>
+<url>http://webjars.org</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/cubiq/iscroll</url>
+<connection>
+<system>https</system>
+<path>//github.com/cubiq/iscroll.git</path>
+</connection>
+<developerconnection>
+<system>https</system>
+<path>//github.com/cubiq/iscroll.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars.npm</maven.groupid>
+<maven.artifactid>iscroll</maven.artifactid>
+</properties>
+</extension>

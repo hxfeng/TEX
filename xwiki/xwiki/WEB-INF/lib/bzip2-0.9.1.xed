@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.itadaki:bzip2</id>
+<version>0.9.1</version>
+<type>jar</type>
+<name>Itadaki jbzip2</name>
+<summary>jbzip2 is a Java bzip2 compression/decompression library. It can be used as a replacement for the Apache CBZip2InputStream / CBZip2OutputStream classes.</summary>
+<website>https://code.google.com/p/jbzip2/</website>
+<authors>
+<author>
+<name/>
+</author>
+</authors>
+<licenses>
+<license>
+<name>MIT License (MIT)</name>
+</license>
+</licenses>
+<scm>
+<url>http://jbzip2.googlecode.com/svn/trunk/</url>
+<connection>
+<system>svn</system>
+<path>http://jbzip2.googlecode.com/svn/trunk/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>http://jbzip2.googlecode.com/svn/trunk/</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.itadaki</maven.groupid>
+<maven.artifactid>bzip2</maven.artifactid>
+</properties>
+</extension>

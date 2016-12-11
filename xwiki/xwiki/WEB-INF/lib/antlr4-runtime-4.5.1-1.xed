@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.antlr:antlr4-runtime</id>
+<version>4.5.1-1</version>
+<type>jar</type>
+<name>ANTLR 4 Runtime</name>
+<summary>The ANTLR 4 Runtime</summary>
+<website>http://www.antlr.org/antlr4-runtime</website>
+<authors>
+<author>
+<name>Terence Parr</name>
+<url>http://antlr.org/wiki/display/~admin/Home</url>
+</author>
+<author>
+<name>Sam Harwell</name>
+<url>http://tunnelvisionlabs.com</url>
+</author>
+<author>
+<name>Eric Vergnaud</name>
+</author>
+<author>
+<name>Jim Idle</name>
+<url>http://www.linkedin.com/in/jimidle</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/antlr/antlr4/tree/master/antlr4-runtime</url>
+<connection>
+<system>git</system>
+<path>git://github.com/antlr/antlr4.git/antlr4-runtime</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:antlr/antlr4.git/antlr4-runtime</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/antlr/antlr4/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.antlr</maven.groupid>
+<maven.artifactid>antlr4-runtime</maven.artifactid>
+</properties>
+</extension>

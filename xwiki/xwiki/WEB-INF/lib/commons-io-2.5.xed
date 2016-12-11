@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-io:commons-io</id>
+<version>2.5</version>
+<type>jar</type>
+<name>Apache Commons IO</name>
+<summary>The Apache Commons IO library contains utility classes, stream implementations, file filters, 
+file comparators, endian transformation classes, and much more.</summary>
+<website>http://commons.apache.org/proper/commons-io/</website>
+<authors>
+<author>
+<name>Scott Sanders</name>
+</author>
+<author>
+<name>dIon Gillard</name>
+</author>
+<author>
+<name>Nicola Ken Barozzi</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Stephen Colebourne</name>
+</author>
+<author>
+<name>Jeremias Maerki</name>
+</author>
+<author>
+<name>Matthew Hawthorne</name>
+</author>
+<author>
+<name>Martin Cooper</name>
+</author>
+<author>
+<name>Rob Oxspring</name>
+</author>
+<author>
+<name>Jochen Wiedmann</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+<author>
+<name>Jukka Zitting</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+<author>
+<name>Kristian Rosenvold</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/io/tags/commons-io-2.5</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/io/tags/commons-io-2.5</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/io/tags/commons-io-2.5</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/IO</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-io</maven.groupid>
+<maven.artifactid>commons-io</maven.artifactid>
+</properties>
+</extension>

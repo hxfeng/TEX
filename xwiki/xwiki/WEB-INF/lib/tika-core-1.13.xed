@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.tika:tika-core</id>
+<version>1.13</version>
+<type>jar</type>
+<name>Apache Tika core</name>
+<summary>This is the core Apache Tika™ toolkit library from which all other modules inherit functionality. It also
+    includes the core facades for the Tika API.</summary>
+<website>http://tika.apache.org/</website>
+<authors>
+<author>
+<name>Rida Benjelloun</name>
+</author>
+<author>
+<name>Keith Bennett</name>
+</author>
+<author>
+<name>Mark Harwood</name>
+</author>
+<author>
+<name>Ken Krugler</name>
+<url>http://ken-blog.krugler.org</url>
+</author>
+<author>
+<name>Chris A. Mattmann</name>
+<url>http://people.apache.org/~mattmann/</url>
+</author>
+<author>
+<name>Michael McCandless</name>
+</author>
+<author>
+<name>Dave Meikle</name>
+</author>
+<author>
+<name>Sami Siren</name>
+</author>
+<author>
+<name>Jukka Zitting</name>
+</author>
+<author>
+<name>Nick Burch</name>
+</author>
+<author>
+<name>Maxim Valyanskiy</name>
+</author>
+<author>
+<name>Oleg Tikhonov</name>
+</author>
+<author>
+<name>Ray Gauss II</name>
+</author>
+<author>
+<name>Tyler Palsulich</name>
+</author>
+<author>
+<name>Tim Allison</name>
+</author>
+<author>
+<name>Konstantin Gribov</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/apache/tika/tika-core</url>
+<connection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/tika-core/</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/tika-core/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.apache.org/jira/browse/TIKA</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>biz.aQute:bndlib</id>
+<version>1.43.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.felix:org.apache.felix.scr.annotations</id>
+<version>1.6.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-log4j12</id>
+<version>1.7.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-simple</id>
+<version>1.7.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jul-to-slf4j</id>
+<version>1.7.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.12</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.tika</maven.groupid>
+<maven.artifactid>tika-core</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-lang3</id>
+<version>3.5</version>
+<type>jar</type>
+<name>Apache Commons Lang</name>
+<summary>Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.</summary>
+<website>http://commons.apache.org/proper/commons-lang/</website>
+<authors>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Stephen Colebourne</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Steven Caswell</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Gary D. Gregory</name>
+</author>
+<author>
+<name>Fredrik Westermarck</name>
+</author>
+<author>
+<name>James Carman</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+<author>
+<name>Matt Benson</name>
+</author>
+<author>
+<name>Joerg Schaible</name>
+</author>
+<author>
+<name>Oliver Heger</name>
+</author>
+<author>
+<name>Paul Benedict</name>
+</author>
+<author>
+<name>Benedikt Ritter</name>
+</author>
+<author>
+<name>Duncan Jones</name>
+</author>
+<author>
+<name>Loic Guibert</name>
+</author>
+<author>
+<name>Rob Tompkins</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git-wip-us.apache.org/repos/asf?p=commons-lang.git</url>
+<connection>
+<system>git</system>
+<path>http://git-wip-us.apache.org/repos/asf/commons-lang.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/commons-lang.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/LANG</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-lang3</maven.artifactid>
+</properties>
+</extension>

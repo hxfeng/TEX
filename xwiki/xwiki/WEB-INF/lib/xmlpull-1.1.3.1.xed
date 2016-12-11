@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>xmlpull:xmlpull</id>
+<version>1.1.3.1</version>
+<type>jar</type>
+<name>XML Pull Parsing API</name>
+<website>http://www.xmlpull.org</website>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>xmlpull</maven.groupid>
+<maven.artifactid>xmlpull</maven.artifactid>
+</properties>
+</extension>

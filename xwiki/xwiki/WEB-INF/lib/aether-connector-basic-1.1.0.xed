@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.eclipse.aether:aether-connector-basic</id>
+<version>1.1.0</version>
+<type>jar</type>
+<name>Aether Connector Basic</name>
+<summary>A repository connector implementation for repositories using URI-based layouts.</summary>
+<website>http://www.eclipse.org/aether/aether-connector-basic/</website>
+<authors>
+<author>
+<name>Benjamin Bentmann</name>
+</author>
+<author>
+<name>Jason Van Zyl</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Eclipse Public License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git:https://github.com/jvanzyl/aether-core/aether-connector-basic</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jvanzyl/aether-core.git/aether-connector-basic</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jvanzyl/aether-core.git/aether-connector-basic</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>bugzilla</system>
+<url>https://bugs.eclipse.org/bugs/buglist.cgi?query_format=specific&amp;bug_status=__open__&amp;product=Aether</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.eclipse.aether:aether-api</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-spi</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-util</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.eclipse.aether:aether-api</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-spi</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-util</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-impl</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-connector-basic</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.aether:aether-test-util</id>
+<version>1.1.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hamcrest:hamcrest-core</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.hamcrest:hamcrest-library</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.inject:javax.inject</id>
+<version>1</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.sisu:org.eclipse.sisu.inject</id>
+<version>0.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.eclipse.sisu:org.eclipse.sisu.plexus</id>
+<version>0.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.sonatype.sisu:sisu-guice:no_aop</id>
+<version>3.1.6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.eclipse.aether</maven.groupid>
+<maven.artifactid>aether-connector-basic</maven.artifactid>
+</properties>
+</extension>

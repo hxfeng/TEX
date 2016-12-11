@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-vfs2</id>
+<version>2.0</version>
+<type>jar</type>
+<name>Commons VFS Core</name>
+<summary>VFS is a Virtual File System library.</summary>
+<website>http://commons.apache.org/vfs/commons-vfs2/</website>
+<authors>
+<author>
+<name>Adam Murdoch</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Mario Ivankovits</name>
+</author>
+<author>
+<name>Rahul Akolkar</name>
+</author>
+<author>
+<name>James Carman</name>
+</author>
+<author>
+<name>Ralph Goers</name>
+</author>
+<author>
+<name>Joerg Schaible</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/vfs/tags/commons-vfs2-project-2.0/commons-vfs2</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/vfs/tags/commons-vfs2-project-2.0/commons-vfs2</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/vfs/tags/commons-vfs2-project-2.0/commons-vfs2</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/VFS</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-api</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.scm:maven-scm-provider-svnexe</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.commons:commons-vfs2</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-vfs2</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-vfs-sandbox</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-vfs-examples</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-net:commons-net</id>
+<version>2.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-httpclient:commons-httpclient</id>
+<version>3.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.jackrabbit:jackrabbit-webdav</id>
+<version>1.5.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>ant:ant</id>
+<version>1.6.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jdom:jdom</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.jcraft:jsch</id>
+<version>0.1.42</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>jcifs:jcifs</id>
+<version>0.8.3</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>javax.mail:mail</id>
+<version>1.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.8.2</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-vfs2</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.fasterxml.jackson.core:jackson-annotations</id>
+<version>2.8.4</version>
+<type>jar</type>
+<name>Jackson-annotations</name>
+<summary>Core annotations used for value types, used by Jackson data binding package.</summary>
+<website>http://github.com/FasterXML/jackson</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+<author>
+<name>Christopher Currie</name>
+</author>
+<author>
+<name>Paul Brown</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/FasterXML/jackson-annotations</url>
+<connection>
+<system>git</system>
+<path>git@github.com:FasterXML/jackson-annotations.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:FasterXML/jackson-annotations.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issue Management</system>
+<url>https://github.com/FasterXML/jackson-annotations/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-annotations</id>
+<version>2.8.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.fasterxml.jackson.core</maven.groupid>
+<maven.artifactid>jackson-annotations</maven.artifactid>
+</properties>
+</extension>

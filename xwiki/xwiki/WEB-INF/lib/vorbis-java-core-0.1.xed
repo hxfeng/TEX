@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.gagravarr:vorbis-java-core</id>
+<version>0.1</version>
+<type>jar</type>
+<name>Ogg and Vorbis for Java, Core</name>
+<summary>Ogg and Vorbis toolkit and tools for Java</summary>
+<website>https://github.com/Gagravarr/VorbisJava</website>
+<authors>
+<author>
+<name>Nick Burch</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/Gagravarr/VorbisJava/vorbis-java-core</url>
+<connection>
+<system>git</system>
+<path>git://github.com/Gagravarr/VorbisJava.git/vorbis-java-core</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/Gagravarr/VorbisJava.git/vorbis-java-core</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.gagravarr</maven.groupid>
+<maven.artifactid>vorbis-java-core</maven.artifactid>
+</properties>
+</extension>

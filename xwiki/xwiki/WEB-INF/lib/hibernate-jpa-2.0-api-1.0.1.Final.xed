@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.hibernate.javax.persistence:hibernate-jpa-2.0-api</id>
+<version>1.0.1.Final</version>
+<type>jar</type>
+<name>JPA 2.0 API</name>
+<summary>Hibernate definition of the Java Persistence 2.0 (JSR 317) API.</summary>
+<website>http://hibernate.org</website>
+<authors>
+<author>
+<name>Emmanuel Bernard</name>
+<url>http://in.relation.to/Bloggers/Emmanuel</url>
+</author>
+<author>
+<name>Hardy Ferentschik</name>
+<url>http://in.relation.to/Bloggers/Hardy</url>
+</author>
+<author>
+<name>Steve Ebersole</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>noname</name>
+</license>
+</licenses>
+<scm>
+<url>http://fisheye.jboss.org/browse/Hibernate/jpa-api/tags/hibernate-jpa-2.0-api-1.0.1.Final</url>
+<connection>
+<system>svn</system>
+<path>https://svn.jboss.org/repos/hibernate/jpa-api/tags/hibernate-jpa-2.0-api-1.0.1.Final</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>org.hibernate.javax.persistence</maven.groupid>
+<maven.artifactid>hibernate-jpa-2.0-api</maven.artifactid>
+</properties>
+</extension>

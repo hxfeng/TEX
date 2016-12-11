@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.restlet.jee:org.restlet.ext.servlet</id>
+<version>2.0.14</version>
+<type>jar</type>
+<name>Restlet Extension - Servlet</name>
+<summary>Integration with Servlet API.</summary>
+<website>http://www.restlet.org/org.restlet.ext.servlet</website>
+<licenses>
+<license>
+<name>Apache 2.0 license</name>
+</license>
+<license>
+<name>LGPL 3.0 license</name>
+</license>
+<license>
+<name>LGPL 2.1 license</name>
+</license>
+<license>
+<name>CDDL 1.0 license</name>
+</license>
+<license>
+<name>EPL 1.0 license</name>
+</license>
+</licenses>
+<scm>
+<url>http://restlet.tigris.org/svn/restlet/modules/org.restlet.ext.servlet/</url>
+</scm>
+<dependencies>
+<dependency>
+<id>org.restlet.jee:org.restlet</id>
+<version>2.0.14</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.restlet.jee</maven.groupid>
+<maven.artifactid>org.restlet.ext.servlet</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-cli:commons-cli</id>
+<version>1.2</version>
+<type>jar</type>
+<name>Commons CLI</name>
+<summary>Commons CLI provides a simple API for presenting, processing and validating a command line interface.</summary>
+<website>http://commons.apache.org/cli/</website>
+<authors>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Bob McWhirter</name>
+</author>
+<author>
+<name>John Keyes</name>
+</author>
+<author>
+<name>Rob Oxspring</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/cli/branches/cli-1.x/</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/cli/branches/cli-1.x/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/cli/branches/cli-1.x/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CLI</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-cli</maven.groupid>
+<maven.artifactid>commons-cli</maven.artifactid>
+</properties>
+</extension>

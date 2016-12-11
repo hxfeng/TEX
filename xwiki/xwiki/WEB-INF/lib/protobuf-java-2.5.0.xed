@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.protobuf:protobuf-java</id>
+<version>2.5.0</version>
+<type>jar</type>
+<name>Protocol Buffer Java API</name>
+<summary>Protocol Buffers are a way of encoding structured data in an efficient yet
+    extensible format.</summary>
+<website>http://code.google.com/p/protobuf</website>
+<licenses>
+<license>
+<name>Revised BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://code.google.com/p/protobuf/source/browse</url>
+<connection>
+<system>svn</system>
+<path>http://protobuf.googlecode.com/svn/trunk/</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>com.google.protobuf</maven.groupid>
+<maven.artifactid>protobuf-java</maven.artifactid>
+</properties>
+</extension>

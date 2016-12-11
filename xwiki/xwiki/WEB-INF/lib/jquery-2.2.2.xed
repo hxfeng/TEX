@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:jquery</id>
+<version>2.2.2</version>
+<type>jar</type>
+<name>jquery</name>
+<summary>WebJar for jQuery</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/jquery</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/jquery.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/jquery.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>jquery</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.woodstox:woodstox-core-asl</id>
+<version>4.4.1</version>
+<type>jar</type>
+<name>Woodstox</name>
+<summary>Woodstox is a high-performance XML processor that
+implements Stax (JSR-173) and SAX2 APIs</summary>
+<website>http://woodstox.codehaus.org</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://xircles.codehaus.org/projects/woodstox/repos/primary/repo</url>
+</scm>
+<issuemanagement>
+<url>http://jira.codehaus.org/browse/WSTX</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.xml.stream:stax-api</id>
+<version>1.0-2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>3.1.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.codehaus.woodstox</maven.groupid>
+<maven.artifactid>woodstox-core-asl</maven.artifactid>
+</properties>
+</extension>

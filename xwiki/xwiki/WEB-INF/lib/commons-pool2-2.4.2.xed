@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-pool2</id>
+<version>2.4.2</version>
+<type>jar</type>
+<name>Apache Commons Pool</name>
+<summary>Apache Commons Object Pooling Library</summary>
+<website>http://commons.apache.org/proper/commons-pool/</website>
+<authors>
+<author>
+<name>Morgan Delagrange</name>
+</author>
+<author>
+<name>Geir Magnusson</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>David Weinrich</name>
+</author>
+<author>
+<name>Dirk Verbeeck</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Sandy McArthur</name>
+</author>
+<author>
+<name>Phil Steitz</name>
+</author>
+<author>
+<name>Simone Tripodi</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/pool/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/pool/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/pool/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/POOL</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-pool2</maven.artifactid>
+</properties>
+</extension>

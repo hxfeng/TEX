@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jsqlparser:jsqlparser</id>
+<version>0.9.6</version>
+<type>jar</type>
+<name>JSQLParser library</name>
+<summary>JSqlParser parses an SQL statement and translate it into a hierarchy of Java classes.
+        The generated hierarchy can be navigated using the Visitor Pattern.</summary>
+<website>https://github.com/JSQLParser/JSqlParser</website>
+<authors>
+<author>
+<name>Tobias Warneke</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/JSQLParser/JSqlParser.git</url>
+<connection>
+<system>git</system>
+<path>https://github.com/JSQLParser/JSqlParser.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com:JSQLParser/JSqlParser.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/JSQLParser/JSqlParser/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>com.github.jsqlparser</maven.groupid>
+<maven.artifactid>jsqlparser</maven.artifactid>
+</properties>
+</extension>

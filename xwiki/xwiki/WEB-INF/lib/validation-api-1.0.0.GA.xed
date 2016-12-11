@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.validation:validation-api</id>
+<version>1.0.0.GA</version>
+<type>jar</type>
+<name>Bean Validation API</name>
+<summary>Bean Validation (JSR-303) API.</summary>
+<authors>
+<author>
+<name>Emmanuel Bernard</name>
+<url>http://in.relation.to/Bloggers/Emmanuel</url>
+</author>
+<author>
+<name>Hardy Ferentschik</name>
+<url>http://in.relation.to/Bloggers/Hardy</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://fisheye.jboss.org/browse/Hibernate/beanvalidation/api/tags/v1_0_0_GA</url>
+<connection>
+<system>svn</system>
+<path>https://svn.jboss.org/repos/hibernate/beanvalidation/api/tags/v1_0_0_GA</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://opensource.atlassian.com/projects/hibernate/browse/BVAL</url>
+</issuemanagement>
+<properties>
+<maven.groupid>javax.validation</maven.groupid>
+<maven.artifactid>validation-api</maven.artifactid>
+</properties>
+</extension>

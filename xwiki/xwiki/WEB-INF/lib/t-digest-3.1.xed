@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.tdunning:t-digest</id>
+<version>3.1</version>
+<type>jar</type>
+<name>T-Digest</name>
+<summary>Data structure which allows accurate estimation of quantiles and related rank statistics</summary>
+<website>https://github.com/tdunning/t-digest</website>
+<authors>
+<author>
+<name>Ted</name>
+<url>https://github.com/tdunning/t-digest</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/tdunning/t-digest</url>
+<connection>
+<system>git</system>
+<path>https://github.com/tdunning/t-digest.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/tdunning/t-digest.git</path>
+</developerconnection>
+</scm>
+<manageddependencies>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>14.0.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.tdunning</maven.groupid>
+<maven.artifactid>t-digest</maven.artifactid>
+</properties>
+</extension>

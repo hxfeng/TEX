@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.octo.captcha:jcaptcha</id>
+<version>2.0-alpha-1-SNAPSHOT-500</version>
+<type>jar</type>
+<name>JCaptcha</name>
+<summary>&lt;b&gt;JCAPTCHA&lt;/b&gt;, for &lt;b&gt;J&lt;/b&gt;ava &lt;b&gt;C&lt;/b&gt;ompletely &lt;b&gt;A&lt;/b&gt;utomated &lt;b&gt;P&lt;/b&gt;ublic &lt;b&gt;T&lt;/b&gt;est to tell &lt;b&gt;C&lt;/b&gt;omputers and &lt;b&gt;H&lt;/b&gt;umans &lt;b&gt;A&lt;/b&gt;part
+&lt;br/&gt;The open source java framework for captcha definition and integration
+&lt;br/&gt;
+
+ A captcha is a simple captcha container that contains a question, a challenge, and a response validation routine.&lt;BR/&gt;
+ A captcha can only be built by a captcha factory that provides methods to build localized captchas.&lt;br/&gt;
+ This jar aims to provide interfaces and implementation of generic and typed captcha and captcha factories.&lt;BR/&gt;
+ It uses the word generator, types sub packages (image and sound) components (word to image, word to sound)
+ to build typed captchas captchas.</summary>
+<website>http://www.jcaptcha.net/jcaptcha/</website>
+<authors>
+<author>
+<name>Antoine Veret</name>
+</author>
+<author>
+<name>Marc-Antoine Garrigue</name>
+</author>
+<author>
+<name>Sebastien Brunot</name>
+</author>
+<author>
+<name>Mathieu Gandin</name>
+</author>
+<author>
+<name>Benoit Doumas</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>http://jcaptcha.svn.sourceforge.net/viewvc/jcaptcha/jcaptcha/</url>
+<connection>
+<system>svn</system>
+<path>https://jcaptcha.svn.sourceforge.net/svnroot/jcaptcha/trunk/jcaptcha</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>Jira</system>
+<url>http://forge.octo.com/jcaptcha/jira/browse/FWK</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.octo.captcha:jcaptcha-api</id>
+<version>2.0-alpha-1-SNAPSHOT-500</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.jhlabs:filters</id>
+<version>2.0.235</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.5.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.octo.captcha</maven.groupid>
+<maven.artifactid>jcaptcha</maven.artifactid>
+</properties>
+</extension>

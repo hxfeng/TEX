@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>joda-time:joda-time</id>
+<version>2.9.4</version>
+<type>jar</type>
+<name>Joda-Time</name>
+<summary>Date and time library to replace JDK date handling</summary>
+<website>http://www.joda.org/joda-time/</website>
+<authors>
+<author>
+<name>Stephen Colebourne</name>
+<url>https://github.com/jodastephen</url>
+</author>
+<author>
+<name>Brian S O'Neill</name>
+<url>https://github.com/broneill</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/JodaOrg/joda-time</url>
+<connection>
+<system>git</system>
+<path>https://github.com/JodaOrg/joda-time.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:JodaOrg/joda-time.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub</system>
+<url>https://github.com/JodaOrg/joda-time/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>joda-time</maven.groupid>
+<maven.artifactid>joda-time</maven.artifactid>
+</properties>
+</extension>

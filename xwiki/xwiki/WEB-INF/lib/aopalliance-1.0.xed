@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>aopalliance:aopalliance</id>
+<version>1.0</version>
+<type>jar</type>
+<name>AOP alliance</name>
+<summary>AOP Alliance</summary>
+<website>http://aopalliance.sourceforge.net</website>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>aopalliance</maven.groupid>
+<maven.artifactid>aopalliance</maven.artifactid>
+</properties>
+</extension>

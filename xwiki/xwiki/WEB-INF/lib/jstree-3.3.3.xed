@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:jstree</id>
+<version>3.3.3</version>
+<type>jar</type>
+<name>jstree</name>
+<summary>WebJar for jstree</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+<license>
+<name>GNU General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/jstree</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/jstree.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/jstree.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:jquery</id>
+<version>1.11.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>jstree</maven.artifactid>
+</properties>
+</extension>

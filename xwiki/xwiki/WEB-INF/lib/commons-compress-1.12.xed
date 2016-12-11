@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-compress</id>
+<version>1.12</version>
+<type>jar</type>
+<name>Apache Commons Compress</name>
+<summary>Apache Commons Compress software defines an API for working with
+compression and archive formats.  These include: bzip2, gzip, pack200,
+lzma, xz, Snappy, traditional Unix Compress, DEFLATE and ar, cpio,
+jar, tar, zip, dump, 7z, arj.</summary>
+<website>http://commons.apache.org/proper/commons-compress/</website>
+<authors>
+<author>
+<name>Torsten Curdt</name>
+</author>
+<author>
+<name>Stefan Bodewig</name>
+</author>
+<author>
+<name>Sebastian Bazley</name>
+</author>
+<author>
+<name>Christian Grobmeier</name>
+</author>
+<author>
+<name>Julius Davies</name>
+</author>
+<author>
+<name>Damjan Jovanovic</name>
+</author>
+<author>
+<name>Emmanuel Bourg</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git-wip-us.apache.org/repos/asf?p=commons-compress.git</url>
+<connection>
+<system>git</system>
+<path>http://git-wip-us.apache.org/repos/asf/commons-compress.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/commons-compress.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/COMPRESS</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-compress</maven.artifactid>
+</properties>
+</extension>

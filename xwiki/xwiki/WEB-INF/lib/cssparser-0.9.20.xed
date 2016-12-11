@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sourceforge.cssparser:cssparser</id>
+<version>0.9.20</version>
+<type>jar</type>
+<name>CSS Parser</name>
+<summary>A CSS parser which implements SAC (the Simple API for CSS).</summary>
+<website>http://cssparser.sourceforge.net/</website>
+<authors>
+<author>
+<name>David Schweinsberg</name>
+</author>
+<author>
+<name>Alan Krueger</name>
+</author>
+<author>
+<name>Daniel Gredler</name>
+<url>http://daniel.gredler.net/</url>
+</author>
+<author>
+<name>Johannes Koch</name>
+</author>
+<author>
+<name>Ronald Brill</name>
+<url>http://www.wetator.org/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.code.sf.net/p/cssparser/code/trunk/cssparser</url>
+<connection>
+<system>svn</system>
+<path>svn://svn.code.sf.net/p/cssparser/code/trunk/cssparser</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>svn+ssh://svn.code.sf.net/p/cssparser/code/trunk/cssparser</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>SourceForge2</system>
+<url>http://sourceforge.net/p/cssparser/bugs/</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.w3c.css:sac</id>
+<version>1.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.sourceforge.cssparser</maven.groupid>
+<maven.artifactid>cssparser</maven.artifactid>
+</properties>
+</extension>

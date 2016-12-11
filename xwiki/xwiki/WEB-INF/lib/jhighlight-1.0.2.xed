@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codelibs:jhighlight</id>
+<version>1.0.2</version>
+<type>jar</type>
+<name>JHighlight</name>
+<summary>JHighlight is an embeddable pure Java syntax highlighting
+    library that supports Java, HTML, XHTML, XML and LZX
+    languages and outputs to XHTML.
+    
+    It also supports RIFE templates tags and highlights them
+    clearly so that you can easily identify the difference
+    between your RIFE markup and the actual marked up source.</summary>
+<website>https://github.com/codelibs/jhighlight</website>
+<licenses>
+<license>
+<name>Common Development and Distribution License (CDDL) v1.0</name>
+</license>
+<license>
+<name>GNU Lesser General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:codelibs/jhighlight.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:codelibs/jhighlight.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:codelibs/jhighlight.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.codelibs</maven.groupid>
+<maven.artifactid>jhighlight</maven.artifactid>
+</properties>
+</extension>

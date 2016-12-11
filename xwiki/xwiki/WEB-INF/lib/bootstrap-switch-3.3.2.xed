@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:bootstrap-switch</id>
+<version>3.3.2</version>
+<type>jar</type>
+<name>Bootstrap-switch</name>
+<summary>WebJar for Bootstrap-switch</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/bootstrap-switch</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-switch.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-switch.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:jquery</id>
+<version>2.1.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:bootstrap</id>
+<version>3.3.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>bootstrap-switch</maven.artifactid>
+</properties>
+</extension>

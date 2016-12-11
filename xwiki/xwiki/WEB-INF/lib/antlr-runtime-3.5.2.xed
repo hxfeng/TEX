@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.antlr:antlr-runtime</id>
+<version>3.5.2</version>
+<type>jar</type>
+<name>ANTLR 3 Runtime</name>
+<summary>A framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions.</summary>
+<website>http://www.antlr.org</website>
+<authors>
+<author>
+<name>Terence Parr</name>
+</author>
+<author>
+<name>Jim Idle</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD licence</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/antlr/antlr3/tree/master/antlr-runtime</url>
+<connection>
+<system>git</system>
+<path>git://github.com/antlr/antlr3.git/antlr-runtime</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:antlr/antlr3.git/antlr-runtime</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/antlr/antlr3/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.10</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>antlr:antlr</id>
+<version>2.7.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.antlr:stringtemplate</id>
+<version>3.2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.antlr:ST4</id>
+<version>4.0.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.antlr</maven.groupid>
+<maven.artifactid>antlr-runtime</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>edu.emory.mathcs.util:emory-util-classloader</id>
+<version>2.1</version>
+<type>jar</type>
+<summary>Collection of Java 1.4-compatible utility classes for advanced systems and applications.</summary>
+<website>http://dcl.mathcs.emory.edu/util/emory-util-classloader/</website>
+<authors>
+<author>
+<name>Distributed Computing Laboratory, Dept. of Math and Computer Science, Emory University</name>
+<url>http://www.mathcs.emory.edu/research.php</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<scm>
+<url>http://dcl.mathcs.emory.edu/bin/viewvc/software/harness2/trunk/emory-util-classloader</url>
+<connection>
+<system>svn</system>
+<path>svn://dcl.mathcs.emory.edu/software/harness2/trunk/emory-util-classloader</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>svn://dcl.mathcs.emory.edu/software/harness2/trunk/emory-util-classloader</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>edu.emory.mathcs.util:emory-util-io</id>
+<version>2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>edu.emory.mathcs.util:emory-util-security</id>
+<version>2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>edu.emory.mathcs.util</maven.groupid>
+<maven.artifactid>emory-util-classloader</maven.artifactid>
+</properties>
+</extension>

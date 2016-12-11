@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.maven.doxia:doxia-module-twiki</id>
+<version>1.7</version>
+<type>jar</type>
+<name>Doxia :: TWiki Module</name>
+<summary>A Doxia module for Twiki source documents.
+    Twiki format is supported both as source and target formats.</summary>
+<website>http://maven.apache.org/doxia/doxia/doxia-modules/doxia-module-twiki/</website>
+<authors>
+<author>
+<name>Juan F. Codagnone</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.7/doxia-modules/doxia-module-twiki</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.7/doxia-modules/doxia-module-twiki</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.7/doxia-modules/doxia-module-twiki</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/DOXIA</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.22</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-core</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-sink-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven.doxia:doxia-sink-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-logging-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-test-docs</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-core</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-core</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-apt</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-confluence</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-docbook-simple</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-fml</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-fo</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-latex</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-itext</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-rtf</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-twiki</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-xdoc</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-xhtml</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>1.0-alpha-30</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.22</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.plugin-tools:maven-plugin-annotations</id>
+<version>3.4</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.maven.doxia</maven.groupid>
+<maven.artifactid>doxia-module-twiki</maven.artifactid>
+</properties>
+</extension>

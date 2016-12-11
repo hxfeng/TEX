@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:bootstrap-select</id>
+<version>1.12.0</version>
+<type>jar</type>
+<name>bootstrap-select</name>
+<summary>WebJar for bootstrap-select</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/bootstrap-select</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-select.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-select.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:bootstrap</id>
+<version>3.0.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>bootstrap-select</maven.artifactid>
+</properties>
+</extension>

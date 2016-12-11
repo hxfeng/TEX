@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.sommeri:less4j</id>
+<version>1.17.2</version>
+<type>jar</type>
+<name>less4j</name>
+<summary>Less language is an extension of css and less4j compiles it into regular css. It adds several dynamic features into css: variables, expressions, nested rules. 
+
+Less4j is a port. The original compiler was written in JavaScript and is called less.js. The less language is mostly defined in less.js documentation/issues and by what less.js actually do. Links to less.js:
+* home page: http://lesscss.org/
+* source code &amp; issues: https://github.com/cloudhead/less.js</summary>
+<website>https://github.com/SomMeri/less4j</website>
+<authors>
+<author>
+<name>Maria Jurcovicova</name>
+<url>http://meri-stuff.blogspot.com/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+<license>
+<name>Eclipse Public License - v 1.0</name>
+</license>
+<license>
+<name>GNU General Public License 3</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/SomMeri/less4j</url>
+<connection>
+<system>git</system>
+<path>https://github.com/SomMeri/less4j.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/SomMeri/less4j.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Github</system>
+<url>https://github.com/SomMeri/less4j/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.antlr:antlr-runtime</id>
+<version>3.5.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.8.3</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.code.gson:gson</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.protobuf:protobuf-java</id>
+<version>2.5.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.sommeri</maven.groupid>
+<maven.artifactid>less4j</maven.artifactid>
+</properties>
+</extension>

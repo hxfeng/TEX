@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.0.4</version>
+<type>jar</type>
+<name>ASM Commons</name>
+<summary>A very small and fast Java bytecode manipulation framework</summary>
+<website>http://asm.objectweb.org/asm-commons/</website>
+<authors>
+<author>
+<name>Eric Bruneton</name>
+</author>
+<author>
+<name>Eugene Kuleshov</name>
+</author>
+<author>
+<name>Remi Forax</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm-commons/</url>
+<connection>
+<system>svn</system>
+<path>svn://svn.forge.objectweb.org/svnroot/asm/trunk/asm-commons</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>svn+ssh://${maven.username}@svn.forge.objectweb.org/svnroot/asm/trunk/asm-commons</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://forge.objectweb.org/tracker/?group_id=23</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-analysis</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-util</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-xml</id>
+<version>5.0.4</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.ow2.asm</maven.groupid>
+<maven.artifactid>asm-commons</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.xmlgraphics:batik-codec</id>
+<version>1.8</version>
+<type>jar</type>
+<name>Batik image codecs</name>
+<website>http://xmlgraphics.apache.org/batik/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/xmlgraphics/batik/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.apache.xmlgraphics:batik-awt-util</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-bridge</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-transcoder</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.xmlgraphics:batik-util</id>
+<version>1.8</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.xmlgraphics</maven.groupid>
+<maven.artifactid>batik-codec</maven.artifactid>
+</properties>
+</extension>

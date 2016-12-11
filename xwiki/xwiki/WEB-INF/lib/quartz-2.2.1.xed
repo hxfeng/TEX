@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.quartz-scheduler:quartz</id>
+<version>2.2.1</version>
+<type>jar</type>
+<name>quartz</name>
+<summary>Enterprise Job Scheduler</summary>
+<website>http://www.quartz-scheduler.org/quartz</website>
+<authors>
+<author>
+<name>James House</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.terracotta.org/svn/quartz/quartz</url>
+<connection>
+<system>svn</system>
+<path>http://svn.terracotta.org/svn/quartz/quartz</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.terracotta.org/repo/quartz/quartz</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Terracotta's JIRA</system>
+<url>http://jira.terracotta.org/jira/browse/QTZ</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>c3p0:c3p0</id>
+<version>0.9.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.6.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.quartz-scheduler</maven.groupid>
+<maven.artifactid>quartz</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sourceforge.jmatio:jmatio</id>
+<version>1.0</version>
+<type>jar</type>
+<name>jmatio</name>
+<summary>Matlab's MAT-file I/O API in JAVA. Supports Matlab 5 MAT-flie format reading and writing. Written in pure JAVA.</summary>
+<website>http://sourceforge.net/projects/jmatio/</website>
+<authors>
+<author>
+<name>Craig Watcham</name>
+<url>http://sourceforge.net/users/cbwatcham/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/codemercenary/jmatio.git</url>
+<connection>
+<system>git</system>
+<path>https://github.com/codemercenary/jmatio.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/codemercenary/jmatio.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>net.sourceforge.jmatio</maven.groupid>
+<maven.artifactid>jmatio</maven.artifactid>
+</properties>
+</extension>

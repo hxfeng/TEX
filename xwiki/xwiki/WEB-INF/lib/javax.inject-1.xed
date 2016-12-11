@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.inject:javax.inject</id>
+<version>1</version>
+<type>jar</type>
+<name>javax.inject</name>
+<summary>The javax.inject API</summary>
+<website>http://code.google.com/p/atinject/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://code.google.com/p/atinject/source/checkout</url>
+</scm>
+<properties>
+<maven.groupid>javax.inject</maven.groupid>
+<maven.artifactid>javax.inject</maven.artifactid>
+</properties>
+</extension>

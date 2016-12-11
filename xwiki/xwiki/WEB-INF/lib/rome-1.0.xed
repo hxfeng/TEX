@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>rome:rome</id>
+<version>1.0</version>
+<type>jar</type>
+<name>ROME, RSS and atOM utilitiEs for Java</name>
+<summary>All Roads Lead to ROME. ROME is a set of Atom/RSS Java utilities that make it
+		easy to work in Java with most syndication formats. Today it accepts all flavors of RSS
+		(0.90, 0.91, 0.92, 0.93, 0.94, 1.0 and 2.0), Atom 0.3 and Atom 1.0 feeds. Rome includes
+		a set of parsers and generators for the various flavors of feeds, as well as converters
+		to convert from one format to another. The parsers can give you back Java objects that
+		are either specific for the format you want to work with, or a generic normalized
+		SyndFeed object that lets you work on with the data without bothering about the
+		underlying format.</summary>
+<website>https://rome.dev.java.net/</website>
+<authors>
+<author>
+<name>Alejandro Abdelnur</name>
+<url>http://blog.sun.com/roller/page/tucu/</url>
+</author>
+<author>
+<name>Elaine Chien</name>
+</author>
+<author>
+<name>Patrick Chanezon</name>
+<url>http://www.chanezon.com/pat/weblog/</url>
+</author>
+</authors>
+<scm>
+<url>https://rome.dev.java.net/source/browse/rome/</url>
+<connection>
+<system>cvs</system>
+<path>pserver:guest@cvs.dev.java.net:/cvs:rome</path>
+</connection>
+</scm>
+<issuemanagement>
+<url>https://rome.dev.java.net/servlets/ProjectIssues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>jdom:jdom</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>rome</maven.groupid>
+<maven.artifactid>rome</maven.artifactid>
+</properties>
+</extension>

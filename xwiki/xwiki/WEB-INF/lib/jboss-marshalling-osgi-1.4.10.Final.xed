@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jboss.marshalling:jboss-marshalling-osgi</id>
+<version>1.4.10.Final</version>
+<type>jar</type>
+<name>JBoss Marshalling OSGi Bundle</name>
+<summary>JBoss Marshalling OSGi Bundle with API and implementations</summary>
+<website>http://www.jboss.org/jboss-marshalling-parent/jboss-marshalling-osgi</website>
+<authors>
+<author>
+<name>JBoss.org Community</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Public Domain</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/jboss/jboss-parent-pom/jboss-marshalling-parent/jboss-marshalling-osgi</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jboss/jboss-parent-pom.git/jboss-marshalling-parent/jboss-marshalling-osgi</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jboss/jboss-parent-pom.git/jboss-marshalling-parent/jboss-marshalling-osgi</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.jboss.org/</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling-river</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.marshalling:jboss-marshalling-serial</id>
+<version>1.4.10.Final</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.jboss.modules:jboss-modules</id>
+<version>1.1.0.Beta1</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.testng:testng</id>
+<version>6.8.8</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.sun:tools</id>
+<version>1.6</version>
+<properties>
+<maven.dependency.scope>system</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.jboss.marshalling</maven.groupid>
+<maven.artifactid>jboss-marshalling-osgi</maven.artifactid>
+</properties>
+</extension>

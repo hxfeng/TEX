@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.googlecode.juniversalchardet:juniversalchardet</id>
+<version>1.0.3</version>
+<type>jar</type>
+<name>juniversalchardet</name>
+<summary>Java port of universalchardet</summary>
+<website>http://juniversalchardet.googlecode.com/</website>
+<authors>
+<author>
+<name>takscape</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Mozilla Public License 1.1</name>
+</license>
+</licenses>
+<scm>
+<url>http://code.google.com/p/juniversalchardet/source/browse/</url>
+<connection>
+<system>svn</system>
+<path>http://juniversalchardet.googlecode.com/svn/trunk/</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>com.googlecode.juniversalchardet</maven.groupid>
+<maven.artifactid>juniversalchardet</maven.artifactid>
+</properties>
+</extension>

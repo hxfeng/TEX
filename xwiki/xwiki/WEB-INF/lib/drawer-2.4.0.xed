@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:drawer</id>
+<version>2.4.0</version>
+<type>jar</type>
+<name>Drawer</name>
+<summary>WebJar for Drawer</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>Guillaume Delhumeau</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/drawer</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/drawer.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/drawer.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>drawer</maven.artifactid>
+</properties>
+</extension>

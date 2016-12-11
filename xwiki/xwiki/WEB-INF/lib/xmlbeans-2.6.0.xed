@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.xmlbeans:xmlbeans</id>
+<version>2.6.0</version>
+<type>jar</type>
+<name>XmlBeans</name>
+<summary>XmlBeans main jar</summary>
+<website>http://xmlbeans.apache.org</website>
+<authors>
+<author>
+<name>Cezar Andrei</name>
+</author>
+<author>
+<name>Radu Preotiuc</name>
+</author>
+<author>
+<name>Radu Preotiuc</name>
+</author>
+<author>
+<name>Wing Yew Poon</name>
+</author>
+<author>
+<name>Jacob Danner</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/repos/asf/xmlbeans/</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/xmlbeans/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://${maven.username}@svn.apache.org/repos/asf/xmlbeans/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10436</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>stax:stax-api</id>
+<version>1.0.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.xmlbeans</maven.groupid>
+<maven.artifactid>xmlbeans</maven.artifactid>
+</properties>
+</extension>

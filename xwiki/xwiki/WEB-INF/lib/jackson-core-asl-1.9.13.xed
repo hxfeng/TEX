@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.jackson:jackson-core-asl</id>
+<version>1.9.13</version>
+<type>jar</type>
+<name>Jackson</name>
+<summary>Jackson is a high-performance JSON processor (parser, generator)</summary>
+<website>http://jackson.codehaus.org</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://xircles.codehaus.org/projects/jackson/repos/primary/repo</url>
+</scm>
+<issuemanagement>
+<url>http://jira.codehaus.org/browse/JACKSON</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.codehaus.jackson</maven.groupid>
+<maven.artifactid>jackson-core-asl</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.googlecode.mp4parser:isoparser</id>
+<version>1.1.18</version>
+<type>jar</type>
+<name>ISO Parser</name>
+<summary>A generic parser and writer for all ISO 14496 based files (MP4, Quicktime, DCF, PDCF, ...)</summary>
+<website>http://code.google.com/p/mp4parser/</website>
+<authors>
+<author>
+<name>sannies</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/sannies/mp4parser</url>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>https://github.com/sannies/mp4parser/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>com.googlecode.mp4parser</maven.groupid>
+<maven.artifactid>isoparser</maven.artifactid>
+</properties>
+</extension>

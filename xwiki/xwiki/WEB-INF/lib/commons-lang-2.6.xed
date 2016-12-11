@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-lang:commons-lang</id>
+<version>2.6</version>
+<type>jar</type>
+<name>Commons Lang</name>
+<summary>Commons Lang, a package of Java utility classes for the
+        classes that are in java.lang's hierarchy, or are considered to be so
+        standard as to justify existence in java.lang.</summary>
+<website>http://commons.apache.org/lang/</website>
+<authors>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Stephen Colebourne</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Steven Caswell</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Gary D. Gregory</name>
+</author>
+<author>
+<name>Phil Steitz</name>
+</author>
+<author>
+<name>Fredrik Westermarck</name>
+</author>
+<author>
+<name>James Carman</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+<author>
+<name>Matt Benson</name>
+</author>
+<author>
+<name>Joerg Schaible</name>
+</author>
+<author>
+<name>Oliver Heger</name>
+</author>
+<author>
+<name>Paul Benedict</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/lang/branches/LANG_2_X</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/lang/branches/LANG_2_X</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/LANG</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-lang</maven.groupid>
+<maven.artifactid>commons-lang</maven.artifactid>
+</properties>
+</extension>

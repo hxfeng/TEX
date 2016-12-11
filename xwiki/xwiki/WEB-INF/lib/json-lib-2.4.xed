@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.json-lib:json-lib</id>
+<version>2.4</version>
+<type>jar</type>
+<name>json-lib</name>
+<summary>Java library for transforming beans, maps, collections, java
+      arrays and XML to JSON.</summary>
+<website>http://json-lib.sourceforge.net</website>
+<authors>
+<author>
+<name>Douglas Crockford</name>
+</author>
+<author>
+<name>Andres Almiray</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git://github.com/aalmiray/Json-lib.git</url>
+<connection>
+<system>git</system>
+<path>//github.com/aalmiray/Json-lib.git</path>
+</connection>
+<developerconnection>
+<system>git@github.com</system>
+<path>aalmiray/Json-lib.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>SourceForge</system>
+<url>https://sourceforge.net/tracker/?group_id=171425</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.8.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>net.sf.ezmorph:ezmorph</id>
+<version>1.0.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.sf.json-lib</maven.groupid>
+<maven.artifactid>json-lib</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.transaction:jta</id>
+<version>1.1</version>
+<type>jar</type>
+<name>Java Transaction API</name>
+<summary>The javax.transaction package. It is appropriate for inclusion in a classpath, and may be added to a Java 2 installation.</summary>
+<website>http://java.sun.com/products/jta</website>
+<properties>
+<maven.groupid>javax.transaction</maven.groupid>
+<maven.artifactid>jta</maven.artifactid>
+</properties>
+</extension>

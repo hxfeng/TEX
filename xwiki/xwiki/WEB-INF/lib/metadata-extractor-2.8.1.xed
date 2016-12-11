@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.drewnoakes:metadata-extractor</id>
+<version>2.8.1</version>
+<type>jar</type>
+<name>com.drewnoakes:metadata-extractor</name>
+<summary>Java library for extracting EXIF, IPTC, XMP, ICC and other metadata from image files.</summary>
+<website>https://drewnoakes.com/code/exif/</website>
+<authors>
+<author>
+<name>Drew Noakes</name>
+<url>https://drewnoakes.com</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/drewnoakes/metadata-extractor</url>
+<connection>
+<system>git</system>
+<path>git://github.com/drewnoakes/metadata-extractor.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:drewnoakes/metadata-extractor.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/drewnoakes/metadata-extractor/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.adobe.xmp:xmpcore</id>
+<version>5.1.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.drewnoakes</maven.groupid>
+<maven.artifactid>metadata-extractor</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>xalan:serializer</id>
+<version>2.7.2</version>
+<type>jar</type>
+<name>Xalan Java Serializer</name>
+<summary>Serializer to write out XML, HTML etc. as a stream of characters from an input DOM or from input
+    SAX events.</summary>
+<website>http://xml.apache.org/xalan-j/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/serializer</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/pom/tags/apache-4/serializer</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/pom/tags/apache-4/serializer</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>xml-apis:xml-apis</id>
+<version>1.3.04</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>xalan</maven.groupid>
+<maven.artifactid>serializer</maven.artifactid>
+</properties>
+</extension>

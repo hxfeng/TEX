@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.jhlabs:filters</id>
+<version>2.0.235</version>
+<type>jar</type>
+<name>JHLabs Image Processing Filters</name>
+<summary>A collection of image processing filters.</summary>
+<website>http://www.jhlabs.com/ip/index.html</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>com.jhlabs</maven.groupid>
+<maven.artifactid>filters</maven.artifactid>
+</properties>
+</extension>

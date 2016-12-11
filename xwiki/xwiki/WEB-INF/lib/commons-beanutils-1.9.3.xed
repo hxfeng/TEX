@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.9.3</version>
+<type>jar</type>
+<name>Apache Commons BeanUtils</name>
+<summary>Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.</summary>
+<website>https://commons.apache.org/proper/commons-beanutils/</website>
+<authors>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Dion Gillard</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Geir Magnusson Jr.</name>
+</author>
+<author>
+<name>Scott Sanders</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>Martin van den Bemt</name>
+</author>
+<author>
+<name>Yoav Shapira</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+<author>
+<name>Simon Kitching</name>
+</author>
+<author>
+<name>James Carman</name>
+</author>
+<author>
+<name>Benedikt Ritter</name>
+</author>
+<author>
+<name>Tim O'Brien</name>
+</author>
+<author>
+<name>David Eric Pugh</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>Morgan James Delagrange</name>
+</author>
+<author>
+<name>John E. Conlon</name>
+</author>
+<author>
+<name>Stephen Colebourne</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+<author>
+<name>Stian Soiland-Reyes</name>
+<url>http://orcid.org/0000-0001-9842-9718</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/BEANUTILS</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-beanutils</maven.groupid>
+<maven.artifactid>commons-beanutils</maven.artifactid>
+</properties>
+</extension>

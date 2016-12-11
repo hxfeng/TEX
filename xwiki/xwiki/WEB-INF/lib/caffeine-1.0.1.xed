@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.ben-manes.caffeine:caffeine</id>
+<version>1.0.1</version>
+<type>jar</type>
+<name>Caffeine cache</name>
+<summary>Concurrent data-structures for Java</summary>
+<website>https://github.com/ben-manes/caffeine</website>
+<authors>
+<author>
+<name>Ben Manes</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/ben-manes/caffeine</url>
+<connection>
+<system>https</system>
+<path>//ben-manes@github.com/ben-manes/caffeine.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>//github.com/ben-manes/caffeine.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.github.ben-manes.caffeine:tracing-api</id>
+<version>1.0.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.code.findbugs:jsr305</id>
+<version>3.0.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.ben-manes.caffeine</maven.groupid>
+<maven.artifactid>caffeine</maven.artifactid>
+</properties>
+</extension>

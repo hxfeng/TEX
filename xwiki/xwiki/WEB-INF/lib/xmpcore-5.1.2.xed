@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.adobe.xmp:xmpcore</id>
+<version>5.1.2</version>
+<type>jar</type>
+<name>XMP Library for Java</name>
+<summary>The XMP Library for Java is based on the C++ XMPCore library
+    and the API is similar.</summary>
+<website>http://www.adobe.com/devnet/xmp.html</website>
+<authors>
+<author/>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://www.adobe.com/devnet/xmp.html</url>
+<connection>
+<system>local</system>
+<path>/src/xmp:xmpcore</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>com.adobe.xmp</maven.groupid>
+<maven.artifactid>xmpcore</maven.artifactid>
+</properties>
+</extension>

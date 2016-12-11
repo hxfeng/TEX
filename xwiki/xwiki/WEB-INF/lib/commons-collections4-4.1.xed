@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-collections4</id>
+<version>4.1</version>
+<type>jar</type>
+<name>Apache Commons Collections</name>
+<summary>The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.</summary>
+<website>http://commons.apache.org/proper/commons-collections/</website>
+<authors>
+<author>
+<name>Matt Benson</name>
+</author>
+<author>
+<name>James Carman</name>
+</author>
+<author>
+<name>Stephen Colebourne</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Morgan Delagrange</name>
+</author>
+<author>
+<name>Gary D. Gregory</name>
+</author>
+<author>
+<name>Matthew Hawthorne</name>
+</author>
+<author>
+<name>Dipanjan Laha</name>
+</author>
+<author>
+<name>Geir Magnusson</name>
+</author>
+<author>
+<name>Luc Maisonobe</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Thomas Neidhart</name>
+</author>
+<author>
+<name>Adrian Nistor</name>
+</author>
+<author>
+<name>Phil Steitz</name>
+</author>
+<author>
+<name>Arun M. Thomas</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/collections/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/collections/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/COLLECTIONS</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-collections4</maven.artifactid>
+</properties>
+</extension>

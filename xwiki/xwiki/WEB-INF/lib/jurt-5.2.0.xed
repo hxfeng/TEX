@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.libreoffice:jurt</id>
+<version>5.2.0</version>
+<type>jar</type>
+<name>LibreOffice - Java Uno Runtime</name>
+<summary>Java Uno Runtime</summary>
+<website>https://www.libreoffice.org</website>
+<authors>
+<author>
+<name>The Document Foundation</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Mozilla Public License, Version 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://cgit.freedesktop.org/libreoffice/core</url>
+<connection>
+<system>https</system>
+<path>//gerrit.libreoffice.org/#/admin/projects/core</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>LibreOffice Issue Tracker</system>
+<url>https://bugs.documentfoundation.org</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.libreoffice</maven.groupid>
+<maven.artifactid>jurt</maven.artifactid>
+</properties>
+</extension>

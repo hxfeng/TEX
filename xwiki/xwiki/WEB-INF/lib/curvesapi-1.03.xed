@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.virtuald:curvesapi</id>
+<version>1.03</version>
+<type>jar</type>
+<name>curvesapi</name>
+<summary>Implementation of various mathematical curves that define themselves over a set of control points. The API is written in Java. The curves supported are: Bezier, B-Spline, Cardinal Spline, Catmull-Rom Spline, Lagrange, Natural Cubic Spline, and NURBS.</summary>
+<website>https://github.com/virtuald/curvesapi</website>
+<authors>
+<author>
+<name>stormdollar</name>
+<url>http://sourceforge.net/u/stormdollar/profile/</url>
+</author>
+<author>
+<name>Dustin Spicuzza</name>
+<url>https://github.com/virtuald</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/virtuald/curvesapi</url>
+<connection>
+<system>git</system>
+<path>git://github.com/virtuald/curvesapi.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com/virtuald/curvesapi.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.github.virtuald</maven.groupid>
+<maven.artifactid>curvesapi</maven.artifactid>
+</properties>
+</extension>

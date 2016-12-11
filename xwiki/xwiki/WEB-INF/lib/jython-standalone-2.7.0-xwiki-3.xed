@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.python:jython-standalone</id>
+<version>2.7.0-xwiki-3</version>
+<type>jar</type>
+<name>Jython</name>
+<summary>Jython is an implementation of the high-level, dynamic, object-oriented
+        language Python written in 100% Pure Java, and seamlessly integrated with
+        the Java platform. It thus allows you to run Python on any Java platform.
+
+        XWiki: cleaned the jar from useless files creating conflicts</summary>
+<website>http://www.jython.org/</website>
+<extensionfeatures>
+<feature>
+<feature>org.python:jython</feature>
+<version>2.7.0-xwiki-3</version>
+</feature>
+<feature>
+<feature>com.github.jnr:jffi</feature>
+<version>1.2.7</version>
+</feature>
+<feature>
+<feature>com.github.jnr:jnr-constants</feature>
+<version>0.8.6</version>
+</feature>
+<feature>
+<feature>com.github.jnr:jnr-ffi</feature>
+<version>2.0.1</version>
+</feature>
+<feature>
+<feature>com.github.jnr:jnr-netdb</feature>
+<version>1.1.4</version>
+</feature>
+<feature>
+<feature>com.github.jnr:jnr-posix</feature>
+<version>3.0.9</version>
+</feature>
+</extensionfeatures>
+<features>
+<feature>org.python:jython</feature>
+<feature>com.github.jnr:jffi</feature>
+<feature>com.github.jnr:jnr-constants</feature>
+<feature>com.github.jnr:jnr-ffi</feature>
+<feature>com.github.jnr:jnr-netdb</feature>
+<feature>com.github.jnr:jnr-posix</feature>
+</features>
+<authors>
+<author>
+<name>Frank Wierzbicki</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Jython Software License</name>
+</license>
+</licenses>
+<scm>
+<url>http://hg.python.org/jython</url>
+<connection>
+<system>hg</system>
+<path>http://hg.python.org/jython</path>
+</connection>
+<developerconnection>
+<system>hg</system>
+<path>ssh://hg@hg.python.org/jython</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.python</maven.groupid>
+<maven.artifactid>jython-standalone</maven.artifactid>
+</properties>
+</extension>

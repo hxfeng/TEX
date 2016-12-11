@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>ecs:ecs</id>
+<version>1.4.2</version>
+<type>jar</type>
+<properties>
+<maven.groupid>ecs</maven.groupid>
+<maven.artifactid>ecs</maven.artifactid>
+</properties>
+</extension>

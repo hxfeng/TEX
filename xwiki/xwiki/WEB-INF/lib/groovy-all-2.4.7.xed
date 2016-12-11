@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.groovy:groovy-all</id>
+<version>2.4.7</version>
+<type>jar</type>
+<name>Apache Groovy</name>
+<summary>Groovy: A powerful, dynamic language for the JVM</summary>
+<website>http://groovy-lang.org</website>
+<authors>
+<author>
+<name>Guillaume Laforge</name>
+</author>
+<author>
+<name>bob mcwhirter</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Joe Walnes</name>
+</author>
+<author>
+<name>Chris Stevenson</name>
+</author>
+<author>
+<name>Jamie McCrindle</name>
+</author>
+<author>
+<name>Matt Foemmel</name>
+</author>
+<author>
+<name>Alex Tkachman</name>
+</author>
+<author>
+<name>Roshan Dawrani</name>
+</author>
+<author>
+<name>Sam Pullara</name>
+</author>
+<author>
+<name>Kasper Nielsen</name>
+</author>
+<author>
+<name>Travis Kay</name>
+</author>
+<author>
+<name>Zohar Melamed</name>
+</author>
+<author>
+<name>John Wilson</name>
+</author>
+<author>
+<name>Chris Poirier</name>
+</author>
+<author>
+<name>Christiaan ten Klooster</name>
+</author>
+<author>
+<name>Steve Goetze</name>
+</author>
+<author>
+<name>Bing Ran</name>
+</author>
+<author>
+<name>Jeremy Rayner</name>
+</author>
+<author>
+<name>John Stump</name>
+</author>
+<author>
+<name>Jochen Theodorou</name>
+</author>
+<author>
+<name>Russel Winder</name>
+</author>
+<author>
+<name>Pilho Kim</name>
+</author>
+<author>
+<name>Christian Stein</name>
+</author>
+<author>
+<name>Dierk Koenig</name>
+</author>
+<author>
+<name>Paul King</name>
+</author>
+<author>
+<name>Guillaume Alleon</name>
+</author>
+<author>
+<name>Jason Dillon</name>
+</author>
+<author>
+<name>Danno Ferrin</name>
+</author>
+<author>
+<name>James Williams</name>
+</author>
+<author>
+<name>Tim Yates</name>
+</author>
+<author>
+<name>Andres Almiray</name>
+</author>
+<author>
+<name>Marc Guillemot</name>
+</author>
+<author>
+<name>Jim White</name>
+</author>
+<author>
+<name>Peter Niederwieser</name>
+</author>
+<author>
+<name>Andre Steingress</name>
+</author>
+<author>
+<name>Hamlet D'Arcy</name>
+</author>
+<author>
+<name>Cedric Champeau</name>
+</author>
+<author>
+<name>Pascal Schumacher</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/apache/groovy.git</url>
+<connection>
+<system>git</system>
+<path>https://github.com/apache/groovy.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/apache/groovy.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/GROOVY</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.codehaus.groovy</maven.groupid>
+<maven.artifactid>groovy-all</maven.artifactid>
+</properties>
+</extension>

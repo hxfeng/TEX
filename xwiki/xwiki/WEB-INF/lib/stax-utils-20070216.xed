@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.java.dev.stax-utils:stax-utils</id>
+<version>20070216</version>
+<type>jar</type>
+<name>StAX Utilities Project</name>
+<summary>Provides a set of utility classes to integrate StAX into existing XML processing applications.</summary>
+<website>http://java.net/projects/stax-utils/</website>
+<authors>
+<author>
+<name>neerajbj</name>
+</author>
+<author>
+<name>Ryan Shoemaker</name>
+</author>
+<author>
+<name>Kohsuke Kawaguchi</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.java.net/svn/stax-utils~svn/trunk/</url>
+<connection>
+<system>svn</system>
+<path>https://svn.java.net/svn/stax-utils~svn/trunk/</path>
+</connection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.bea.xml:jsr173-ri</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.java.dev.stax-utils</maven.groupid>
+<maven.artifactid>stax-utils</maven.artifactid>
+</properties>
+</extension>

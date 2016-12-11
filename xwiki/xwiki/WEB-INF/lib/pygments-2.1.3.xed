@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.pygments:pygments</id>
+<version>2.1.3</version>
+<type>jar</type>
+<name>Pygments</name>
+<summary>Pygments</summary>
+<website>http://www.pygments.org</website>
+<authors>
+<author>
+<name>Pocoo team</name>
+<url>http://www.pocoo.org/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Simplified BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://bitbucket.org/birkenfeld/pygments-main</url>
+<connection>
+<system>hg</system>
+<path>http://bitbucket.org/birkenfeld/pygments-main</path>
+</connection>
+<developerconnection>
+<system>hg</system>
+<path>https://bitbucket.org/birkenfeld/pygments-main</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>bitbucket</system>
+<url>https://bitbucket.org/birkenfeld/pygments-main/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.pygments</maven.groupid>
+<maven.artifactid>pygments</maven.artifactid>
+</properties>
+</extension>

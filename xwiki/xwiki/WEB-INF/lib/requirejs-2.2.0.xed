@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:requirejs</id>
+<version>2.2.0</version>
+<type>jar</type>
+<name>RequireJS</name>
+<summary>WebJar for RequireJS</summary>
+<website>http://webjars.org/requirejs</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+<author>
+<name>James Roper</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>New BSD</name>
+</license>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/requirejs/requirejs</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/requirejs.git/requirejs</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/requirejs.git/requirejs</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>requirejs</maven.artifactid>
+</properties>
+</extension>

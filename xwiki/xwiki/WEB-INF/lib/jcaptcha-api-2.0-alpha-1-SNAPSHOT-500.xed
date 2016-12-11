@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.octo.captcha:jcaptcha-api</id>
+<version>2.0-alpha-1-SNAPSHOT-500</version>
+<type>jar</type>
+<name>API</name>
+<website>http://www.jcaptcha.net/jcaptcha-api/</website>
+<authors>
+<author>
+<name>Antoine Veret</name>
+</author>
+<author>
+<name>Marc-Antoine Garrigue</name>
+</author>
+<author>
+<name>Sebastien Brunot</name>
+</author>
+<author>
+<name>Mathieu Gandin</name>
+</author>
+<author>
+<name>Benoit Doumas</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>http://jcaptcha.svn.sourceforge.net/viewvc/jcaptcha/jcaptcha-api/</url>
+<connection>
+<system>svn</system>
+<path>https://jcaptcha.svn.sourceforge.net/svnroot/jcaptcha/trunk/jcaptcha-api</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>Jira</system>
+<url>http://forge.octo.com/jcaptcha/jira</url>
+</issuemanagement>
+<properties>
+<maven.groupid>com.octo.captcha</maven.groupid>
+<maven.artifactid>jcaptcha-api</maven.artifactid>
+</properties>
+</extension>

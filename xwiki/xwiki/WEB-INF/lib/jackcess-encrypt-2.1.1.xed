@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.healthmarketscience.jackcess:jackcess-encrypt</id>
+<version>2.1.1</version>
+<type>jar</type>
+<name>Jackcess Encrypt</name>
+<summary>An add-on to the Jackcess library for handling encryption in MS Access files.</summary>
+<website>http://jackcessencrypt.sf.net</website>
+<authors>
+<author>
+<name>James Ahlborn</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.code.sf.net/p/jackcessencrypt/code/tags/jackcess-encrypt-2.1.1</url>
+<connection>
+<system>svn</system>
+<path>svn://svn.code.sf.net/p/jackcessencrypt/code/tags/jackcess-encrypt-2.1.1</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>svn+ssh://svn.code.sf.net/p/jackcessencrypt/code/tags/jackcess-encrypt-2.1.1</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>SourceForge2</system>
+<url>https://sourceforge.net/p/jackcessencrypt/bugs/</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.healthmarketscience.jackcess:jackcess</id>
+<version>2.1.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.52</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.healthmarketscience.jackcess</maven.groupid>
+<maven.artifactid>jackcess-encrypt</maven.artifactid>
+</properties>
+</extension>

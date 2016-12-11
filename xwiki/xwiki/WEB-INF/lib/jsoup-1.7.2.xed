@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jsoup:jsoup</id>
+<version>1.7.2</version>
+<type>jar</type>
+<name>jsoup</name>
+<summary>jsoup HTML parser</summary>
+<website>http://jsoup.org/</website>
+<authors>
+<author>
+<name>Jonathan Hedley</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/jhy/jsoup</url>
+<connection>
+<system>git</system>
+<path>http://github.com/jhy/jsoup.git</path>
+</connection>
+</scm>
+<issuemanagement>
+<system>GitHub</system>
+<url>http://github.com/jhy/jsoup/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.jsoup</maven.groupid>
+<maven.artifactid>jsoup</maven.artifactid>
+</properties>
+</extension>

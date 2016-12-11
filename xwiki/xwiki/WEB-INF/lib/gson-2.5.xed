@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.code.gson:gson</id>
+<version>2.5</version>
+<type>jar</type>
+<name>Gson</name>
+<summary>Google Gson library</summary>
+<website>https://github.com/google/gson</website>
+<authors>
+<author>
+<name>Inderjeet Singh</name>
+</author>
+<author>
+<name>Joel Leitch</name>
+</author>
+<author>
+<name>Jesse Wilson</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/google/gson</url>
+<connection>
+<system>git</system>
+<path>https://github.com/google/gson.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/google/gson.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Github Issue Tracking</system>
+<url>https://github.com/google/gson/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>com.google.code.gson</maven.groupid>
+<maven.artifactid>gson</maven.artifactid>
+</properties>
+</extension>

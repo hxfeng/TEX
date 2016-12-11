@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<type>jar</type>
+<name>dom4j</name>
+<summary>dom4j: the flexible XML framework for Java</summary>
+<website>http://dom4j.org</website>
+<authors>
+<author>
+<name>Curt Arnold</name>
+</author>
+<author>
+<name>David Lucas</name>
+</author>
+<author>
+<name>David White</name>
+</author>
+<author>
+<name>Jakob Jenkov</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Laramie Crocker</name>
+</author>
+<author>
+<name>Maarten Coene</name>
+</author>
+<author>
+<name>Michael Skells</name>
+</author>
+<author>
+<name>Nick Sanderson</name>
+</author>
+<author>
+<name>Steen Lehmann</name>
+</author>
+<author>
+<name>Tobias Rademacher</name>
+</author>
+<author>
+<name>Bob McWhirter</name>
+</author>
+<author>
+<name>Todd Wolff</name>
+</author>
+<author>
+<name>OuYang Chen</name>
+</author>
+<author>
+<name>Yuxin Ruan</name>
+</author>
+</authors>
+<scm>
+<url>http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dom4j/dom4j/</url>
+<connection>
+<system>cvs</system>
+<path>pserver:anonymous@cvs.sourceforge.net:/cvsroot/dom4j:dom4j</path>
+</connection>
+<developerconnection>
+<system>cvs</system>
+<path>ext:${maven.username}@cvs.sourceforge.net:/cvsroot/dom4j:dom4j</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://sourceforge.net/tracker/?group_id=16035</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>xml-apis:xml-apis</id>
+<version>1.0.b2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>dom4j</maven.groupid>
+<maven.artifactid>dom4j</maven.artifactid>
+</properties>
+</extension>

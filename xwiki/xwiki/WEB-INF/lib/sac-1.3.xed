@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.w3c.css:sac</id>
+<version>1.3</version>
+<type>jar</type>
+<name>Simple API for CSS</name>
+<summary>SAC is a standard interface for CSS parsers.</summary>
+<website>http://www.w3.org/Style/CSS/SAC/</website>
+<licenses>
+<license>
+<name>W3C Software Notice and License</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>org.w3c.css</maven.groupid>
+<maven.artifactid>sac</maven.artifactid>
+</properties>
+</extension>

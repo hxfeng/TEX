@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:less</id>
+<version>2.5.3</version>
+<type>jar</type>
+<name>LESS</name>
+<summary>WebJar for LESS</summary>
+<website>http://webjars.org/less</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+<author>
+<name>James Roper</name>
+</author>
+<author>
+<name>Christopher Hunt</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache v2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/less/less</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/less.git/less</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/less.git/less</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>less</maven.artifactid>
+</properties>
+</extension>

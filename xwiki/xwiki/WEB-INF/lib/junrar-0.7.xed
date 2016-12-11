@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.junrar:junrar</id>
+<version>0.7</version>
+<type>jar</type>
+<name>Java UnRar</name>
+<summary>rar decompression library in plain java</summary>
+<website>https://github.com/junrar/junrar</website>
+<authors>
+<author>
+<name>Edmund Wagner</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>UnRar License</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:junrar/junrar.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:junrar/junrar.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:junrar/junrar.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>commons-logging:commons-logging-api</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-vfs2</id>
+<version>2.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.junrar</maven.groupid>
+<maven.artifactid>junrar</maven.artifactid>
+</properties>
+</extension>

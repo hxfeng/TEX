@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.ooxi:jdatauri</id>
+<version>1.0</version>
+<type>jar</type>
+<name>jdatauri</name>
+<summary>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</summary>
+<website>https://github.com/ooxi/jdatauri</website>
+<scm>
+<url>http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/jdatauri</url>
+<connection>
+<system>svn</system>
+<path>http://svn.sonatype.org/spice/trunk/oss/oss-parenti-9/jdatauri</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.sonatype.org/spice/trunk/oss/oss-parent-9/jdatauri</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.10</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.ooxi</maven.groupid>
+<maven.artifactid>jdatauri</maven.artifactid>
+</properties>
+</extension>

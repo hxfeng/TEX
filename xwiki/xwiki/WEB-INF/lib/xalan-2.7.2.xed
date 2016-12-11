@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>xalan:xalan</id>
+<version>2.7.2</version>
+<type>jar</type>
+<name>Xalan Java</name>
+<summary>Xalan-Java is an XSLT processor for transforming XML documents into HTML,
+    text, or other XML document types. It implements XSL Transformations (XSLT)
+    Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from
+    the command line, in an applet or a servlet, or as a module in other program.</summary>
+<website>http://xml.apache.org/xalan-j/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/xalan</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/pom/tags/apache-4/xalan</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/pom/tags/apache-4/xalan</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>xalan:serializer</id>
+<version>2.7.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>xalan</maven.groupid>
+<maven.artifactid>xalan</maven.artifactid>
+</properties>
+</extension>

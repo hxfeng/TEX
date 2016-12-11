@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.maven.wagon:wagon-provider-api</id>
+<version>1.0</version>
+<type>jar</type>
+<name>Maven Wagon API</name>
+<summary>Maven Wagon API that defines the contract between different Wagon implementations</summary>
+<website>http://maven.apache.org/wagon/wagon-provider-api</website>
+<authors>
+<author>
+<name>Michal Maczka</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0/wagon-provider-api</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/wagon/tags/wagon-1.0/wagon-provider-api</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/wagon/tags/wagon-1.0/wagon-provider-api</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://jira.codehaus.org/browse/WAGON</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.4.2</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven.wagon:wagon-provider-api</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.wagon:wagon-provider-test</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.wagon:wagon-ssh-common-test</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.wagon:wagon-ssh-common</id>
+<version>1.0</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>3.8.1</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-interactivity-api</id>
+<version>1.0-alpha-6</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>1.0-alpha-9</version>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.4.2</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.maven.wagon</maven.groupid>
+<maven.artifactid>wagon-provider-api</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.avalon.framework:avalon-framework-impl</id>
+<version>4.3.1</version>
+<type>jar</type>
+<name>Avalon Framework Implementation</name>
+<summary>Avalon Framework Implementation</summary>
+<website>http://www.apache.org/excalibur/avalon-framework/avalon-framework-impl/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/excalibur/tags/excalibur-first-maven2-release</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.apache.avalon.framework:avalon-framework-api</id>
+<version>4.3.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.avalon.framework</maven.groupid>
+<maven.artifactid>avalon-framework-impl</maven.artifactid>
+</properties>
+</extension>

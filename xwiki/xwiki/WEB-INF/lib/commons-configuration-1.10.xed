@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-configuration:commons-configuration</id>
+<version>1.10</version>
+<type>jar</type>
+<name>Apache Commons Configuration</name>
+<summary>Tools to assist in the reading of configuration/preferences files in various formats.</summary>
+<website>http://commons.apache.org/configuration/</website>
+<authors>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Martin Poeschl</name>
+</author>
+<author>
+<name>dIon Gillard</name>
+</author>
+<author>
+<name>Henning P. Schmiedehausen</name>
+</author>
+<author>
+<name>Eric Pugh</name>
+</author>
+<author>
+<name>Brian E. Dunbar</name>
+</author>
+<author>
+<name>Emmanuel Bourg</name>
+</author>
+<author>
+<name>Oliver Heger</name>
+</author>
+<author>
+<name>Jörg Schaible</name>
+</author>
+<author>
+<name>Ralph Goers</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/configuration/tags/CONFIGURATION_1_10RC2</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/configuration/tags/CONFIGURATION_1_10RC2</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/configuration/tags/CONFIGURATION_1_10RC2</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CONFIGURATION</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.6</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-configuration</maven.groupid>
+<maven.artifactid>commons-configuration</maven.artifactid>
+</properties>
+</extension>

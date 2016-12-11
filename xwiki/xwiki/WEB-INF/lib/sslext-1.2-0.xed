@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>sslext:sslext</id>
+<version>1.2-0</version>
+<type>jar</type>
+<name>sslext</name>
+<licenses>
+<license>
+<name>Apache Software License, Version 1.1</name>
+</license>
+</licenses>
+<dependencies>
+<dependency>
+<id>struts:struts</id>
+<version>1.2.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>sslext</maven.groupid>
+<maven.artifactid>sslext</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-digester:commons-digester</id>
+<version>1.8</version>
+<type>jar</type>
+<name>Digester</name>
+<summary>The Digester package lets you configure an XML-&gt;Java object mapping module
+    which triggers certain actions called rules whenever a particular 
+    pattern of nested XML elements is recognized.</summary>
+<website>http://jakarta.apache.org/commons/digester/</website>
+<authors>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Scott Sanders</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Tim OBrien</name>
+</author>
+<author>
+<name>Jean-Francois Arcand</name>
+</author>
+<author>
+<name>Simon Kitching</name>
+</author>
+<author>
+<name>Rahul Akolkar</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/repos/asf/jakarta/commons/proper/digester/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/jakarta/commons/proper/digester/trunk</path>
+</connection>
+</scm>
+<issuemanagement>
+<url>http://issues.apache.org/jira/</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.7.0</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-digester</maven.groupid>
+<maven.artifactid>commons-digester</maven.artifactid>
+</properties>
+</extension>

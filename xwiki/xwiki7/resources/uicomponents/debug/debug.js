@@ -1,0 +1,1 @@
+require(["jquery","$!services.webjars.url('jstree', 'jstree.js')"],function(a){a("#debug_performance_tree").jstree().on("ready.jstree",function(){a("#debug_performance_tree").jstree("open_all")})});

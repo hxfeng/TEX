@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-csv</id>
+<version>1.0</version>
+<type>jar</type>
+<name>Apache Commons CSV</name>
+<summary>The Apache Commons CSV library provides a simple interface for reading and writing
+CSV files of various types.</summary>
+<website>http://commons.apache.org/proper/commons-csv/</website>
+<authors>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Martin van den Bemt</name>
+</author>
+<author>
+<name>Yonik Seeley</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+<author>
+<name>Benedikt Ritter</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/csv/tags/CSV_1.0</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/csv/tags/CSV_1.0</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/csv/tags/CSV_1.0</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CSV</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-csv</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.maven.doxia:doxia-sink-api</id>
+<version>1.7</version>
+<type>jar</type>
+<name>Doxia :: Sink API</name>
+<summary>Doxia Sink API.</summary>
+<website>http://maven.apache.org/doxia/doxia/doxia-sink-api/</website>
+<authors>
+<author>
+<name>Hervé Boutemy</name>
+</author>
+<author>
+<name>Arnaud Héritier</name>
+</author>
+<author>
+<name>Barrie Treloar</name>
+</author>
+<author>
+<name>Benson Margulies</name>
+</author>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>Brian Fox</name>
+</author>
+<author>
+<name>Carlos Sanchez</name>
+</author>
+<author>
+<name>Tamas Cservenak</name>
+</author>
+<author>
+<name>Dennis Lundberg</name>
+</author>
+<author>
+<name>Daniel Kulp</name>
+</author>
+<author>
+<name>Emmanuel Venisse</name>
+</author>
+<author>
+<name>John Casey</name>
+</author>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Karl Heinz Marbaise</name>
+</author>
+<author>
+<name>Kristian Rosenvold</name>
+</author>
+<author>
+<name>Mark Hobson</name>
+</author>
+<author>
+<name>Milos Kleint</name>
+</author>
+<author>
+<name>Maria Odea B. Ching</name>
+</author>
+<author>
+<name>Olivier Lamy</name>
+</author>
+<author>
+<name>Robert Scholte</name>
+</author>
+<author>
+<name>Ralph Goers</name>
+</author>
+<author>
+<name>Stephane Nicoll</name>
+</author>
+<author>
+<name>Stephen Connolly</name>
+</author>
+<author>
+<name>Vincent Siveton</name>
+</author>
+<author>
+<name>Wayne Fay</name>
+</author>
+<author>
+<name>Andreas Gudian</name>
+</author>
+<author>
+<name>Anders Hammar</name>
+</author>
+<author>
+<name>Brian Demers</name>
+</author>
+<author>
+<name>Fabrice Bellingard</name>
+</author>
+<author>
+<name>Benjamin Bentmann</name>
+</author>
+<author>
+<name>Chris Graham</name>
+</author>
+<author>
+<name>Dan Tran</name>
+</author>
+<author>
+<name>Damian Bradicich</name>
+</author>
+<author>
+<name>Daniel Fabulich</name>
+</author>
+<author>
+<name>Fabrizio Giustina</name>
+</author>
+<author>
+<name>Evgeny Mandrikov</name>
+</author>
+<author>
+<name>Andrew Williams</name>
+</author>
+<author>
+<name>Igor Fedorenko</name>
+</author>
+<author>
+<name>Dominik Bartholdi</name>
+</author>
+<author>
+<name>Jeff Jensen</name>
+</author>
+<author>
+<name>Lukas Theussl</name>
+</author>
+<author>
+<name>Mauro Talevi</name>
+</author>
+<author>
+<name>Mirko Friedenhagen</name>
+</author>
+<author>
+<name>Michael Osipov</name>
+</author>
+<author>
+<name>Manfred Moser</name>
+</author>
+<author>
+<name>Nicolas de Loof</name>
+</author>
+<author>
+<name>Paul Gier</name>
+</author>
+<author>
+<name>Petar Tahchiev</name>
+</author>
+<author>
+<name>Raphaël Piéroni</name>
+</author>
+<author>
+<name>Simone Tripodi</name>
+</author>
+<author>
+<name>Mark Struberg</name>
+</author>
+<author>
+<name>Tony Chemit</name>
+</author>
+<author>
+<name>Tibor Digaňa</name>
+</author>
+<author>
+<name>Vincent Massol</name>
+</author>
+<author>
+<name>Allan Q. Ramirez</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Chris Stevenson</name>
+</author>
+<author>
+<name>David Blevins</name>
+</author>
+<author>
+<name>Daniel Rall</name>
+</author>
+<author>
+<name>Edwin Punzalan</name>
+</author>
+<author>
+<name>Felipe Leme</name>
+</author>
+<author>
+<name>Jesse McConnell</name>
+</author>
+<author>
+<name>Joakim Erdfelt</name>
+</author>
+<author>
+<name>Johnny Ruiz III</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>Ernesto Tolentino Jr.</name>
+</author>
+<author>
+<name>Kenney Westerhof</name>
+</author>
+<author>
+<name>Mike Perham</name>
+</author>
+<author>
+<name>Oleg Gusakov</name>
+</author>
+<author>
+<name>Patrick Schneider</name>
+</author>
+<author>
+<name>Rahul Thakur</name>
+</author>
+<author>
+<name>Shinobu Kuwai</name>
+</author>
+<author>
+<name>Torbjorn Eikli Smorgrav</name>
+</author>
+<author>
+<name>Trygve Laugstol</name>
+</author>
+<author>
+<name>Wendy Smoak</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.7/doxia-sink-api</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.7/doxia-sink-api</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.7/doxia-sink-api</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/DOXIA</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.maven.doxia:doxia-logging-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven.doxia:doxia-sink-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-logging-api</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-test-docs</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-core</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-core</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-apt</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-confluence</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-docbook-simple</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-fml</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-fo</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-latex</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-itext</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-rtf</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-twiki</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-xdoc</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.doxia:doxia-module-xhtml</id>
+<version>1.7</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>1.0-alpha-30</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.0.22</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.5.5</version>
+<properties>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.maven.plugin-tools:maven-plugin-annotations</id>
+<version>3.4</version>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.maven.doxia</maven.groupid>
+<maven.artifactid>doxia-sink-api</maven.artifactid>
+</properties>
+</extension>
